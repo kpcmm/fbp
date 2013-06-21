@@ -1,0 +1,16 @@
+rails generate model Season year:integer
+rails generate model Week week_num:integer num_games:integer season_id:integer tiebreak_game_id:integer
+rails generate model Team name:string nickname:string code:string image_file_name:string
+rails generate model Game week_id:integer home_team_id:integer away_team_id:integer home_points:integer away_points:integer start:datetime
+rails generate model Entry tiebreak:integer status:string user_id:integer 
+rails generate model Pick entry_id:integer pick:string points:integer
+
+
+# string usage
+# Team name - City Name, eg Miami, St Louis, NY Jets, NY Giants
+# Team nickname - per the schedule screen scrape, eg Vikings, Lions, Bills
+# Team code - short upper case mnemonic, eg NYJ, SF, DAL (where do we get these?)
+# Team image_file_name - just the filename (probably <team_code>.jpg)
+
+# Entry status - NEW, INCOMPLETE, COMPLETE, LOCKED
+# Pick pick - HOME, AWAY (only)
