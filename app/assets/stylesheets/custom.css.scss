@@ -70,7 +70,7 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: white;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
@@ -217,4 +217,17 @@ aside {
     height: 100px;
     margin-bottom: 5px;
   }
+}
+
+/* entries */
+.entrylist {
+  background: khaki;
+  border-radius: 15px;
+  padding: 10px
+}
+.oddcolmarker {
+  background: red;
+}
+.evencolmarker {
+  background: yellow;
 }

@@ -1,0 +1,30 @@
+<% if @gdate != @pdate %>
+  <div class="row">
+    <div class="span6" style="background: white">
+      <p>
+    </div>
+    <div class="span6" style="background: gold">
+      <%= @gdate %> marker2
+    </div>
+  </div>
+<% elsif @gtime != @ptime %>
+  <div class="row">
+    <div class="span6" style="background: gold; text-align: left">
+      <%= @gtime %>
+    </div>
+  </div>
+<% end %>
+
+
+
+
+  <div class="row">
+    <div class="span6" style="background: green">
+      gdate: <%= @gdate %>
+    </div>
+    <div class="span6" style="background: yellow">
+      gtime: <%= @gtime %>
+    </div>
+  </div>
+
+

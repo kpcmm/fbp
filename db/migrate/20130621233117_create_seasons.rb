@@ -5,5 +5,6 @@ class CreateSeasons < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :seasons, :year, unique: true
   end
 end

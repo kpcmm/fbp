@@ -1,0 +1,10 @@
+ <div class="row">
+  <div class="span6" style="background: goldenrod">
+  	<div class="row">
+		<div class="span2" style="text-align: right"><%= label_tag(:q, game.away_team.city) %></div>
+		<div class="span1"><%= text_field_tag 'away', '42', size: 3 %></div>
+		<div class="span1"><%= text_field_tag 'home', '42', size: 3 %></div>
+		<div class="span2"><%= label_tag(:q, game.home_team.city) %></div>
+	</div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+<% provide(:title, 'Entry') %>
+<h1>Entry for week <%= @week.week_num%></h1>
+
+<div class="row">
+  <div class="span10 offset1" style="background: khaki; border-radius: 15px">
+    <p>
+  <div class="span6 offset2">
+    <%= render 'shared/error_messages', object: @entry %>
+    <%= form_tag("/users/#{@user.id}/entries/#{@entry.id}", action: "update", method: "put", xyz: 'just') do%>
+      <% @pdate = "xxx" %>      
+      <% @ptime = "xxx" %>      
+      <%= render partial: "one_pick", collection: @picks, as: :pick %>
+      <div class="span6" style="background: khaki">
+        <p>
+      </div>
+      <div class="row">
+        <div class="span2">
+          <%= label_tag(:q, "Tiebreak:", style: 'text-align: right') %>
+        </div>
+        <div class="span1">
+          <%= text_field_tag(:tiebreak, @entry.tiebreak.to_i > 0? @entry.tiebreak : '') %>
+        </div>
+        <div class="span3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="span1 offset4">
+          <%= submit_tag("Submit Entry", class: "btn btn-large btn-primary") %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+</div>

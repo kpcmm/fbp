@@ -13,4 +13,9 @@ FactoryGirl.define do
     content "Lorem ipsum"
     user
   end
+
+  factory :season do
+    #year 2013
+    sequence(:year)  { |n| 2012 + n }
+  end
 end

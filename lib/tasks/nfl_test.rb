@@ -9,6 +9,13 @@ count = 0
 games = 0
 team = {}
 Net::HTTP.get(host, path).lines do |line|
+  if line =~ /<span class=\"\"><span>([A-Z][a-z]+day), ([A-Z][a-z]+) (\d+)<\/span><sup>nd<\/sup><\/span>/
+    data = Regexp.last_match
+    day_ = data[1]
+    month_ = data[2]
+    date_ = data[3]
+    puts "-------------------------------------- date: #{day_}, home: #{month_}, away: #{date_}"
+  end
   if line =~ /<span class=\"time\">(.+)<\/span>/
     data = Regexp.last_match
     game_time = data[1]

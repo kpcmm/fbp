@@ -3,9 +3,18 @@ Fbp::Application.routes.draw do
     member do
       get :following, :followers
     end
+    resources :entries
   end
   resources :sessions, only: [:new, :create, :destroy]
   resources :microposts, only: [:create, :destroy]
+  resources :seasons
+  
+  resources :weeks do
+    member do
+      get 'result'
+      get 'what_if'
+    end
+  end
 
   root to: 'static_pages#home'
 

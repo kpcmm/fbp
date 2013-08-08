@@ -1,0 +1,68 @@
+<% provide(:title, 'Valid Entry') %>
+<h1>Entry for week <%= @week.week_num%></h1>
+
+
+
+
+<div class="row">
+	<div class="span12">
+		<div class="row-fluid">
+			<div class="span2">
+				<ul>
+					<% @week.season.weeks.each do |w| %>
+						<li>
+				      		<%= link_to "Week #{w.week_num}",   week_path(w) %>
+						</li>
+					<% end %>
+				</ul>
+			</div> 
+			<div class="span10 entrylist">
+				<div class="row">
+					<div class="span7 offset2"
+					    <ul>
+					      	<% action = false %>
+					      	<% @picks.each do |pick| %>
+					      		<% if pick.pick != 'NONE' %>
+						      		<li>
+							      		<%= pick.points %> on
+							      		<%= pick.pick == 'HOME'? pick.game.home_team.name : pick.game.away_team.name %>
+							      		to beat 
+							      		<%= pick.pick == 'HOME'? pick.game.away_team.name : pick.game.home_team.name %>
+							      		<%= pick.pick == 'HOME'? " at home" : "away" %>
+							      		<% if pick.game.tiebreak %> (tiebreak game) <% end %>
+						      		</li>
+						      		<% action = true %>
+					      		<% end %>	
+					      	<% end %>
+					    </ul>
+					</div>
+				</div>
+
+				<div class="row">
+			      	<div class="span4 offset2">
+			        	<% if @entry.tiebreak.to_i > 0 %>
+			        		Tiebreak: <%= @entry.tiebreak.to_i %>
+			    		<% action = true; end %>
+			    		<% if !action %>
+			    			(entry has not been started)
+			    		<% end %>
+			      	</div>
+				</div>
+
+				<div class="row">
+				  	<div class="row">
+				      <div class="span10 offset5">
+				      	<%= link_to "Edit Entry",   edit_user_entry_path %>
+				      </div>
+				  	</div>
+				  	<div class="row">
+				      <div class="span10 offset5">
+				      	<%= link_to "Week #{@week.week_num} Summary",   week_path(@week) %>
+				      </div>
+				  	</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>

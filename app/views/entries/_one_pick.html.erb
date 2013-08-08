@@ -1,0 +1,42 @@
+<%
+	@gdate = pick.game.start.in_time_zone.strftime("%A, %B %e")
+	@gtime = pick.game.start.in_time_zone.strftime("%l:%M %p")
+%>
+
+<% if @gdate != @pdate %>
+  <div class="row">
+    <div class="span6" style="background: khaki">
+      <p>
+    </div>
+    <div class="span6" style="background: gold; text-align: center">
+      <%= @gdate %>
+    </div>
+    <div class="span6" style="background: gold; text-align: left">
+      <%= @gtime %>
+    </div>
+  </div>
+<% elsif @gtime != @ptime %>
+  <div class="row">
+    <div class="span6" style="background: gold; text-align: left">
+      <%= @gtime %>
+    </div>
+  </div>
+<% end %>
+
+<%
+	@pdate = @gdate
+	@ptime = @gtime
+%>
+
+
+
+<div class="row">
+  <div class="span6" style="background: gold">
+  	<div class="row">
+		<div class="span2" style="text-align: right"><%= label_tag(:q, pick.game.away_team.city) %></div>
+		<div class="span1"><%= text_field_tag pick.game.away_team.code, pick.pick == 'AWAY'? pick.points : '', size: 3 %></div>
+		<div class="span1"><%= text_field_tag pick.game.home_team.code, pick.pick == 'HOME'? pick.points : '', size: 3 %></div>
+		<div class="span2"><%= label_tag(:q, pick.game.home_team.city) %></div>
+	</div>
+  </div>
+</div>

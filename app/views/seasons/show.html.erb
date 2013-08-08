@@ -1,0 +1,18 @@
+<% provide(:title, "FBP Season #{@season.year}") %>
+<div class="row">
+  <aside class="span4">
+    <section>
+      <h1>
+        <%= @season.year %>
+      </h1>
+    </section>
+  </aside>
+  <div class="span8">
+    <% if @season.weeks.any? %>
+      <h3>Weeks (<%= @season.weeks.count %>)</h3>
+      <ul class="weeks">
+        <%= render @weeks %>
+      </ul>
+    <% end %>
+  </div>
+</div>
