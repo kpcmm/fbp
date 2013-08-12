@@ -1,5 +1,5 @@
 <li>
-  game: <%= game.start %>
+  <%= game.start.in_time_zone.strftime("%A, %B %e  %l:%M %p") %>
    <%= game.away_team.city %> at <%= game.home_team.city %>
    <%= " (tiebreak game)" if game.tiebreak %>
 </li>

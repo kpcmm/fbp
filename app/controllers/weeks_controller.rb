@@ -2,6 +2,7 @@ class WeeksController < ApplicationController
   before_filter :signed_in_user
 
 	def show
+		Time.zone= "Eastern Time (US & Canada)"
 		@user = current_user
 		@week = Week.find(params[:id])
 		@games = @week.games

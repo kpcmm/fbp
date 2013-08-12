@@ -1,4 +1,4 @@
 <li>
-  week: <%= week.week_num %>
-  <%= link_to week.week_num, week %>
+  <%= link_to "Week #{week.week_num}", week %>
+  cutoff: <%= @cutoff[week.week_num].strftime("%A, %B %e  %l:%M %p") %>
 </li>
