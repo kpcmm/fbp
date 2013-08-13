@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130621233130) do
+ActiveRecord::Schema.define(:version => 20130813031942) do
 
   create_table "entries", :force => true do |t|
     t.integer  "tiebreak"
@@ -112,6 +112,7 @@ ActiveRecord::Schema.define(:version => 20130621233130) do
     t.integer  "season_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "status"
   end
 
   add_index "weeks", ["season_id", "week_num"], :name => "index_weeks_on_season_id_and_week_num", :unique => true

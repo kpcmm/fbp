@@ -4,6 +4,18 @@ namespace :nfl do
     make_teams
     make_games
   end
+  task clean: :environment do
+    make_clean
+  end
+end
+
+def make_clean
+  Season.all.each do |s|
+    s.destroy
+  end
+  Team.all.each do |t|
+    t.destroy
+  end
 end
 
 def make_teams
@@ -71,7 +83,7 @@ def make_games
         last_date = nil
         week = Week.find_by_season_id_and_week_num(season.id, week_num)
         if !week
-          week = season.weeks.create(week_num: week_num)
+          week = season.weeks.create(week_num: week_num, status: "NOT_STARTED")
         end
       end
 
