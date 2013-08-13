@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130813031942) do
+ActiveRecord::Schema.define(:version => 20130813142040) do
 
   create_table "entries", :force => true do |t|
     t.integer  "tiebreak"
@@ -88,6 +88,7 @@ ActiveRecord::Schema.define(:version => 20130813031942) do
     t.string   "image_file_name"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+    t.string   "display_name"
   end
 
   add_index "teams", ["code"], :name => "index_teams_on_code", :unique => true

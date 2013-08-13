@@ -26,12 +26,15 @@ def make_teams
         data = Regexp.last_match
         code = data[1]
         city = data[4]
+        display_name = city
+        display_name = 'N.Y. Giants' if code == 'NYG'
+        display_name = 'N.Y. Jets' if code == 'NYJ'
         nickname = data[5]
         team = Team.find_by_code(code)
         if !team
           #puts "team: #{code} #{city} #{nickname}"
           count += 1
-          Team.create(code: code, nickname: nickname, city: city, name: "#{city} #{nickname}" )
+          Team.create(code: code, nickname: nickname, city: city, name: "#{city} #{nickname}", display_name: display_name )
           #puts "count #{count}"
         end
       end

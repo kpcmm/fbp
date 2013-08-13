@@ -1,5 +1,5 @@
 class Team < ActiveRecord::Base
-  attr_accessible :code, :image_file_name, :name, :nickname, :city
+  attr_accessible :code, :image_file_name, :name, :nickname, :city, :display_name
 
   validates :code, presence: true, uniqueness: { case_sensitive: false }, length: { maximum: 3 }
   validates :name, presence: true, uniqueness: { case_sensitive: false }, length: { maximum: 30 }
