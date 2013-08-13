@@ -25,9 +25,9 @@
 					      		<% if pick.pick != 'NONE' %>
 						      		<li>
 							      		<%= pick.points %> on
-							      		<%= pick.pick == 'HOME'? pick.game.home_team.name : pick.game.away_team.name %>
+							      		<%= pick.pick == 'HOME'? pick.game.home_team.display_name : pick.game.away_team.display_name %>
 							      		to beat 
-							      		<%= pick.pick == 'HOME'? pick.game.away_team.name : pick.game.home_team.name %>
+							      		<%= pick.pick == 'HOME'? pick.game.away_team.display_name : pick.game.home_team.display_name %>
 							      		<%= pick.pick == 'HOME'? " at home" : "away" %>
 							      		<% if pick.game.tiebreak %> (tiebreak game) <% end %>
 						      		</li>

@@ -1,7 +1,7 @@
 <% provide(:title, "FBP Season #{@season.year}") %>
 <div class="row">
    <div class="span8 offset2">
-    <h3>FBP<sub>hq</sub>  (<%= "#{@season.year}" %>) Season</h3>
+    <h3>FBP<sub>hq</sub>  <%= "#{@season.year}" %> Season</h3>
     <% if @season.weeks.any? %>
       <p>
       <ul class="weeks">

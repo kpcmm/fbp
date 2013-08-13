@@ -6,7 +6,7 @@ class SeasonsController < ApplicationController
 	def show
 		Time.zone= "Eastern Time (US & Canada)"
 	    @season = Season.find(params[:id])
-	    @weeks = @season.weeks
+	    @weeks = @season.weeks. sort { |a,b| a.week_num <=> b.week_num }
 	    @cutoff = []
 	    @weeks.each do |w|
 	    	games = w.games.sort { |a,b| a.start <=> b.start }

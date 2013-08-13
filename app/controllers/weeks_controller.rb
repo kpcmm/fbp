@@ -5,7 +5,7 @@ class WeeksController < ApplicationController
 		Time.zone= "Eastern Time (US & Canada)"
 		@user = current_user
 		@week = Week.find(params[:id])
-		@games = @week.games
+		@games = @week.games.sort { |a,b| a.start <=> b.start }
 		@entries = @week.entries
 		@entry = Entry.find_by_user_id_and_week_id(current_user.id, @week.id)
 		if !@entry

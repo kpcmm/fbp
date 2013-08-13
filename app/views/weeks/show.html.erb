@@ -1,15 +1,8 @@
 <% provide(:title, "week #{@week.week_num}") %>
 <div class="row">
-  <aside class="span4">
-    <section>
-      <h1>
-        week <%= @week.week_num %>
-      </h1>
-    </section>
-  </aside>
-  <div class="span8">
+  <div class="span8 offset3">
     <% if @games.any? %>
-      <h3>Games (<%= @games.count %>)</h3>
+      <h3>Week <%= @week.week_num %> Games (<%= @games.count %>)</h3>
       <ol class="games">
         <%= render @games %>
       </ol>
@@ -18,8 +11,8 @@
 </div>
 <div class="row">
   <div class="span6 offset5">
-    <p><%= link_to "Entry", user_entry_path(@user, @entry) %>
-    <p><%= link_to "Results", result_week_path %>
+    <p><%= link_to "Entry...", user_entry_path(@user, @entry) %>
     <p><%= link_to "What if...", what_if_week_path %>
+    <p><%= link_to "Results", result_week_path %>
   </div>
 </div>
