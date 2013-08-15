@@ -1,0 +1,17 @@
+
+Confirmation of week <%= @week.week_num %> picks for <%= @user.name %>
+ 
+  	<% @picks.each do |pick| %>
+		<%
+			t1 = pick.pick == 'HOME'? pick.game.home_team.display_name : pick.game.away_team.display_name
+			t2 = pick.pick == 'HOME'? pick.game.away_team.display_name : pick.game.home_team.display_name
+			loc = pick.pick == 'HOME'? " at home" : "away"
+			tb = pick.game.tiebreak ? "(tiebreak game)" : ""
+		%>
+  		<% if pick.pick != 'NONE' %>
+	      		<%= pick.points %> on <%= t1 %>	to beat <%= t2 %> <%= loc %> <%= tb
+	      		%>
+  		<% end %>	
+  	<% end %>
+
+  	Tiebreak points: <%= @entry.tiebreak %>

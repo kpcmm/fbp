@@ -28,3 +28,23 @@
   </div>
 
 
+
+
+<div class="row">
+  <% (1..6).each do |col| %>
+    <div class="span1 oddcolmarker">
+      odd <%= col %>
+    </div>
+    <div class="span1 evencolmarker">
+      even <%= col %>
+    </div>
+  <% end %>
+</div>
+
+        <ul>
+          <% @entries.each do |e| %>
+            <li>
+                  <%= link_to "Week #{e.week.week_num}",   week_path(w) %>
+            </li>
+          <% end %>
+        </ul>

@@ -8,6 +8,7 @@ class EntriesController < ApplicationController
   def show
     setup
     @picks = @picks.sort { |a, b| a.points <=> b.points }
+    ensure_entries
   end
 
   def edit
@@ -93,6 +94,7 @@ class EntriesController < ApplicationController
     else
       flash.now[:success] = "Congratulations! Your week #{@week.week_num} picks are good!"
       @picks = @picks.sort { |a, b| a.points <=> b.points }
+      EntryMailer.entry_email(@entry).deliver
       render 'show'
     end
 
@@ -107,6 +109,19 @@ class EntriesController < ApplicationController
   end
 
   private
+    def ensure_entries
+    weeks = @entry.week.season.weeks.sort { |a,b| a <=> b }
+    @entries = []
+    weeks.each do |w|
+      e = Entry.find_by_user_id_and_week_id(current_user.id, w.id)
+      if !e
+        e = w.entries.create(user_id: current_user.id, tiebreak: 0, status: "NEW"  )
+      end
+      @entries.append e
+    end
+
+    end
+
     def setup
       @entry = Entry.find(params[:id])
       @user = current_user
