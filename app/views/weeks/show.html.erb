@@ -10,9 +10,9 @@
   </div>
 </div>
 <div class="row">
-  <div class="span6 offset5">
-    <p><%= link_to "Entry...", user_entry_path(@user, @entry) %>
-    <p><%= link_to "What if...", what_if_week_path %>
-    <p><%= link_to "Results", result_week_path %>
+  <div class="span6 offset4">
+    <%= link_to "Entry...", user_entry_path(@user, @entry), class: "btn btn-primary" %>
+    <%= link_to "What if", what_if_week_path, class: "btn btn-primary" %>
+    <%= link_to "Results", result_week_path, class: "btn btn-primary" %>
   </div>
 </div>

@@ -1,14 +1,10 @@
-1. email
-2. about page
-3. contact page
-4. UI stuff
-4.1 buttons at bottom of week summary page
-4.2 make left column on entry page link to entries for other weeks
-5. deploy test
-6. what if
-7. results
-8. foy
-9. news page
-10. User sign-in etc
-11. Get rid of footer - move contact to top menu
-12. Add a form to the contact page for submitting comments etc (maybe rename the page "Comments")
+= contact page
+= make left column on entry page link to entries for other weeks
+= deploy test
+= what if
+= results
+= foy
+= User sign-in etc
+= Add a form to the contact page for submitting comments etc (maybe rename the page "Comments")
+= cutoff logic (test and apply to results page)
+= user nickname usage
