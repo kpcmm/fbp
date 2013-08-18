@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130815001218) do
+ActiveRecord::Schema.define(:version => 20130816143430) do
 
   create_table "entries", :force => true do |t|
     t.integer  "tiebreak"
@@ -60,6 +60,12 @@ ActiveRecord::Schema.define(:version => 20130815001218) do
 
   add_index "picks", ["entry_id", "game_id"], :name => "index_picks_on_entry_id_and_game_id", :unique => true
   add_index "picks", ["game_id"], :name => "index_picks_on_game_id"
+
+  create_table "regs", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "relationships", :force => true do |t|
     t.integer  "follower_id"
