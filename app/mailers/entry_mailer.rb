@@ -1,5 +1,5 @@
 class EntryMailer < ActionMailer::Base
-  default from: "kpcopley@gmail.com"
+  default from: "fbpceo@gmail.com"
 
   def entry_email(entry)
   	@entry = entry

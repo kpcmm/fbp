@@ -23,10 +23,11 @@ class User < ActiveRecord::Base
   has_many :entries, dependent: :destroy
 
   #before_save { |user| user.email = email.downcase }
+  before_save { |u| u.nickname = u.name.dup; name.downcase! }
   before_save { email.downcase! }
   before_save :create_remember_token
 
-  validates(:name, presence: true, length: { maximum: 50 })
+  validates(:name, presence: true, length: { maximum: 50 }, uniqueness: { case_sensitive: false })
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates(:email, presence: true,
                     format: { with: VALID_EMAIL_REGEX },

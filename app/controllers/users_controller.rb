@@ -17,12 +17,18 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(params[:user])
-    if @user.save
-      sign_in @user
-      flash[:success] = "Welcome to FBP!"
-      UserMailer.sign_up_email(@user).deliver
-      redirect_to @user
+    @reg = Reg.find_by_nickname(@user.name.downcase)
+    if @reg
+      if @user.save
+        sign_in @user
+        flash[:success] = "Welcome to FBPhq!"
+        UserMailer.sign_up_email(@user).deliver
+        redirect_to @user
+      else
+        render 'new'
+      end
     else
+      flash[:error] = "Participation in this site is by invitation only, please use the name in your invitation email"
       render 'new'
     end
   end
