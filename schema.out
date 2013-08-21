@@ -1,0 +1,26 @@
+                     List of relations
+ Schema |         Name         |   Type   |     Owner      
+--------+----------------------+----------+----------------
+ public | entries              | table    | gzbcpiefofjvwn
+ public | entries_id_seq       | sequence | gzbcpiefofjvwn
+ public | games                | table    | gzbcpiefofjvwn
+ public | games_id_seq         | sequence | gzbcpiefofjvwn
+ public | microposts           | table    | gzbcpiefofjvwn
+ public | microposts_id_seq    | sequence | gzbcpiefofjvwn
+ public | picks                | table    | gzbcpiefofjvwn
+ public | picks_id_seq         | sequence | gzbcpiefofjvwn
+ public | regs                 | table    | gzbcpiefofjvwn
+ public | regs_id_seq          | sequence | gzbcpiefofjvwn
+ public | relationships        | table    | gzbcpiefofjvwn
+ public | relationships_id_seq | sequence | gzbcpiefofjvwn
+ public | schema_migrations    | table    | gzbcpiefofjvwn
+ public | seasons              | table    | gzbcpiefofjvwn
+ public | seasons_id_seq       | sequence | gzbcpiefofjvwn
+ public | teams                | table    | gzbcpiefofjvwn
+ public | teams_id_seq         | sequence | gzbcpiefofjvwn
+ public | users                | table    | gzbcpiefofjvwn
+ public | users_id_seq         | sequence | gzbcpiefofjvwn
+ public | weeks                | table    | gzbcpiefofjvwn
+ public | weeks_id_seq         | sequence | gzbcpiefofjvwn
+(21 rows)
+
