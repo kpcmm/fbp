@@ -22,7 +22,7 @@ class UsersController < ApplicationController
       if @user.save
         sign_in @user
         flash[:success] = "Welcome to FBPhq!"
-        #UserMailer.sign_up_email(@user).deliver
+        UserMailer.sign_up_email(@user).deliver
         redirect_to @user
       else
         render 'new'
