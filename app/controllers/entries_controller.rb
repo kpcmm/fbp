@@ -16,7 +16,9 @@ class EntriesController < ApplicationController
     @user = current_user
     @week = @entry.week
     @games = @week.games
-    Time.zone= "Eastern Time (US & Canada)"
+    @total_games = @games.size
+    @total_points = (1..@total_games).inject { |a,b| a + b }
+    Time.zone= "Pacific Time (US & Canada)"
 
     if !@entry.picks.any?
       @games.each do |g|
@@ -28,10 +30,12 @@ class EntriesController < ApplicationController
   
   def update
     flash.clear
-    Time.zone= "Eastern Time (US & Canada)"
+    Time.zone= "Pacific Time (US & Canada)"
     @entry = Entry.find(params[:id])
     @week = @entry.week
     @games = @week.games.sort { |a,b| a <=> b }
+    @total_games = @games.size
+    @total_points = (1..@total_games).inject { |a,b| a + b }
     n = @games.size
 
     cutoff = @games[0].start
@@ -94,7 +98,7 @@ class EntriesController < ApplicationController
     else
       flash.now[:success] = "Congratulations! Your week #{@week.week_num} picks are good!"
       @picks = @picks.sort { |a, b| a.points <=> b.points }
-      EntryMailer.entry_email(@entry).deliver
+      #EntryMailer.entry_email(@entry).deliver
       render 'show'
     end
 
@@ -127,7 +131,7 @@ class EntriesController < ApplicationController
       @user = current_user
       @week = @entry.week
       @games = @week.games
-      Time.zone= "Eastern Time (US & Canada)"
+      Time.zone= "Pacific Time (US & Canada)"
 
       if !@entry.picks.any?
         @games.each do |g|

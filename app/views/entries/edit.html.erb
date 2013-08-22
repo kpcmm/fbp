@@ -6,6 +6,7 @@
     <p>
   <div class="span6 offset2">
     <%= render 'shared/error_messages', object: @entry %>
+    <h2>Total games: <%= @total_games %>, Possible points: <%= @total_points %></h2>
     <%= form_tag("/users/#{@user.id}/entries/#{@entry.id}", action: "update", method: "put", xyz: 'just') do%>
       <% @pdate = "xxx" %>      
       <% @ptime = "xxx" %>      
