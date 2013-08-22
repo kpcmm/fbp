@@ -14,14 +14,44 @@ Fbp::Application.configure do
   config.action_controller.perform_caching = false
 
   config.action_mailer.delivery_method = :smtp
+
   config.action_mailer.smtp_settings = {
-    address:              'smtp.gmail.com',
-    port:                 587,
-    domain:               'fbphq.com',
-    user_name:            'kpcopley',
-    password:             'gr1ml10n',
-    authentication:       'plain',
-    enable_starttls_auto: true  }
+    # address:              'smtp.gmail.com',
+    # port:                 587,
+    # domain:               'fbphq.com',
+    # user_name:            'fbpceo',
+    # password:             'f00tp1ck',
+    # authentication:       'plain',
+    # enable_starttls_auto: true 
+
+
+  :address        => 'smtp.sendgrid.net',
+  :port           => '587',
+  :authentication => :plain,
+  :user_name      => ENV['SENDGRID_USERNAME'],
+  :password       => ENV['SENDGRID_PASSWORD'],
+  :domain         => 'heroku.com',
+  :enable_starttls_auto => true
+
+  }
+
+  # config.action_mailer.smtp_settings = {
+  #   address:              'srv04.ia-dns.com',
+  #   port:                 465,
+  #   domain:               'fbphq.com',
+  #   user_name:            'fbpceo',
+  #   password:             'Z29z+32H',
+  #   authentication:       'login',
+  # }
+
+  # config.action_mailer.smtp_settings = {
+  #   address:              'mail.fbphq.com',
+  #   port:                 26,
+  #   domain:               'fbphq.com',
+  #   user_name:            'fbpceo',
+  #   password:             'Z29z+32H',
+  #   authentication:       'login',
+  # }
 
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false

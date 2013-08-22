@@ -98,7 +98,7 @@ class EntriesController < ApplicationController
     else
       flash.now[:success] = "Congratulations! Your week #{@week.week_num} picks are good!"
       @picks = @picks.sort { |a, b| a.points <=> b.points }
-      #EntryMailer.entry_email(@entry).deliver
+      EntryMailer.entry_email(@entry).deliver
       render 'show'
     end
 
