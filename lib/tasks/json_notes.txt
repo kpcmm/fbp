@@ -1,0 +1,67 @@
+projects / project/sports_scores.git / blob
+? search: re
+summary | shortlog | log | commit | commitdiff | tree blame | history | raw | HEAD
+Committed notes from Darrell Fox on his reverse engineering of the
+[project/sports_scores.git] / nfl.com_json_notes.txt
+1 The following notes on the NFL.com scorestrip.json feed was submitted by
+2 Darrell Fox.
+3
+4 -----------
+5 Hi, Justin,
+6
+7 I've been working on my own NFL picks module and thought I'd share some info with you after finding your Sports Scores module.
+8
+9 In sports_scores.inc, you've got some UNKNOWN entries in your notations for the scorestrip.json from NFL.com and I've figured them out if you're interested:
+10
+11 (These update/change as the game is in progress)
+12 3 => Time Left in current quarter
+13 8 => Team with ball possession
+14 9 => Red Zone indicator (if #8 above is in the 'Red Zone')
+15 11 => Recent Score method ("TD", "FG" - haven't seen a safety abbreviation yet)
+16 (Also, #11 is only populated for a limited time, which I guess is about 30 seconds, but haven't tested it)
+17
+18
+19
+20 The ss.xml that NFL.com uses is structured similar, though it adds and removes a couple depending on if the game is ongoing or not.
+21
+22 Here's what I've got for the attributes for each "g" tag in order:
+23 eid= Event ID (4-digit year, 2-digit month, 2-digit day & 2-digit game number for that day)
+24 gsis= Game ID system number
+25 d= Day of week
+26 t= Game time (Eastern Time Zone)
+27 q= Quarter (or "F" for Final, "P" for Pregame, and I assume "FOT" for Final Overtime?)
+28 k= Time left in current quarter (not shown at all if game is final or hasn't started)
+29 h= Home team abbrev.
+30 hnn= Home team nickname
+31 hs= Home team score
+32 v= Visiting team abbrev.
+33 vnn= Visiting team nickname
+34 vs= Visiting team score
+35 p= Team abbrev with ball possession (not shown at all if game is final or hasn't started)
+36 rz= Red Zone indicator
+37 ga= Recent scoring method (blank string after limited time)
+38
+39 It will also ad a "b" tag with recent "Big Play" info at times after the closing "gms" tag enclosed between "bps" tags.
+40
+41 Anyway, I didn't know if you had been retrieving the json or xml and observing them while games were ongoing, but they provide decent actual live updates and I thought the info might be useful to you and your Sports Scores module. ;)
+42
+43
+44 I forgot that in the scorestrip.json, the third entry in the array can contain a "1", "2", "3", "4" or "OT" (indicating quarter) in addition to "Pregame", "Final" or the indicator for final overtime (FOT??)
+45
+46 I was watching Sunday during the games and updated the following:
+47
+48 In scorestrip.json:
+49 2 => "Pregame", "1", "2", "Halftime", "3", "4", "5" (for OT), "Final" or "final overtime"
+50
+51 Also, the 12th value ([11]), so far I've found "TD", "FG" and "INT", so it's not just a recent score, but recent action. Didn't catch a fumble ("FUM"???) or safety or anything yet and won't know what other ones they use until it happens in a game.
+52
+53
+54 The ss.xml versions are:
+55 q=   ("P", "1", "2", "H", "3", "4", "5", "F" or "FO")
+56 ga=  (So far looks like the same abbrevs in [11] of scorestrip.json)
+57
+58 (I figure that "ga" stands for "Game Action" most likely)
+59 -----------
+Cache Last Updated: Sun Aug 25 14:35:00 2013 GMT
+For more information about this repository, visit the project page at http://drupal.org/project/sports_scores
+RSS Atom
