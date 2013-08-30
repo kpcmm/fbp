@@ -48,3 +48,14 @@
             </li>
           <% end %>
         </ul>
+
+
+
+[root@localhost fbp]# heroku config:get SENDGRID_USERNAME
+app16110051@heroku.com
+[root@localhost fbp]# heroku config:get SENDGRID_PASSWORD
+nqvkvvhd
+
+
+
+Ed Spowhn            Wiley77@aol.com            Tazdivil

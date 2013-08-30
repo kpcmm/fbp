@@ -19,7 +19,7 @@ end
 
 def make_reg
   count = 0;
-  File.open(Rails.root.join('lib', 'tasks', 'reg2013.dat').to_s, "r") do |r|
+  File.open(Rails.root.join('lib', 'tasks', 'reg2013-2.dat').to_s, "r") do |r|
     while line = r.gets
       parts = line.split ":"
       Reg.create(name: parts[1], email: parts[2], nickname: parts[3].downcase, admin: parts[4])

@@ -1,1 +1,15 @@
-<h1> What If... </h1>
+<h1> Week <%= @week.week_num %> What If... </h1>
+<table>
+	<tr>
+		<% @games.each do |game| %>
+			<td>xxx</td>
+		<%end%>
+	</tr>
+	<% @entries.each do |entry| %>
+		<tr>
+			<% @games.each do |game| %>
+				<td>yyyyyy</td>
+			<%end%>
+		</tr>
+	<%end%>
+</table>
