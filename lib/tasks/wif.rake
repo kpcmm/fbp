@@ -22,7 +22,7 @@ end
 
 
 def make_png
-  pm = 10
+  pm = 30
   gm = 10
   tm = 5  # text margin
 
@@ -32,7 +32,9 @@ def make_png
   gh = 100
   gw = 50
 
-  go = pm + pw
+  tw = 50
+
+  go = pm + pw + tw
   po = gm + gh
 
 
@@ -44,27 +46,29 @@ def make_png
     players << r.nickname
   end
 
+  status = []
+  status << "NOT_STARTED"
+  status << "STARTED"
+  status << "COMPLETE"
   w = Week.find_by_week_num 1
-  w.games.each do |g|
-    puts g.home_team.display_name
+  w.games.each_with_index do |g, i|
+    g.status = status[rand 3]
+    if g.status != "NOT_STARTED"
+      g.home_points = rand 40
+      g.away_points = rand 40
+    end
+    puts " #{g.status} #{g.away_team.display_name} #{g.away_points} at  #{g.home_team.display_name} #{g.home_points}"
   end
 
-
+  current_player_picks = ([true]*8 + [false]*8).shuffle
 
   canvas = Magick::ImageList.new
-  canvas.new_image(1000, 3000)
-
-  #r.gravity = Magick::CenterGravity
-
-  # text = Magick::Draw.new
-  # text.font_family = 'helvetica'
-  # text.pointsize = 9
-  # text.gravity = Magick::CenterGravity
+  canvas.new_image(1100, 3000)
 
   players.each_with_index do |p,i|
-    #puts i, p
+
+
     r = Magick::Draw.new
-    #r.fill = "yellow"
     f = ["rgb(90%, 95%, 95%)", "rgb(85%, 90%, 90%)"]
     r.fill = f[i%2]
     r.rectangle pm, po + i*ph, go + w.games.size * gw, po+(i+1)*ph
@@ -78,45 +82,64 @@ def make_png
     r.line go + gw*i, po, go + gw*i, po + players.size*ph
     r.draw canvas
 
+    if g.status == "NOT_STARTED"
+    else
+    end
+
     r = Magick::Draw.new
     r.translate go + gw*i + gw/2, po
     r.rotate -60
-    r.fill = "black"
-    r.text 0,0, "#{g.away_team.display_name}\nat #{g.home_team.display_name}"
+    r.fill = "gray"
+    r.pointsize = 16
+    r.font_weight = 900
+    r.text 0,0, "#{g.away_team.display_name}"
+    r.draw canvas
+
+    r = Magick::Draw.new
+    r.translate go + gw*i + gw/2 + gw/3, po
+    r.rotate -60
+    r.fill = "red"
+    r.pointsize = 10
+    r.font_weight = 100
+    r.text 0,0, "#{g.home_team.display_name}"
     r.draw canvas
   end
 
   players.each_with_index do |p,i|
     r = Magick::Draw.new
-    #puts i, p
-    r.fill = "blue"
+    r.fill = "rgb(20%, 20%, 20%)"
     r.pointsize = 16
-    #r.text(pm+pw/2, po+(i*ph)+(ph/2), p)
     r.text(pm + tm, po + ph*i + ph*0.7, p)
     r.draw canvas
 
+    pick_points = (1..w.games.size).shuffle
+    home_picks = ([true]*8 + [false]*8).shuffle
+    total = 0
     w.games.each_with_index do |g,j|
       r = Magick::Draw.new
-      f = ["red", "blue", "green", "black", "cyan"]
-      r.fill = f[(i+j)%5]
+
+      if g.status == "NOT_STARTED"
+      else
+      end
+
+      f = ["red", "gray"]
+      r.fill = f[(i+j)%2]
       r.pointsize = 20
-      r.font_weight = 500
-      r.text(go + j*gw + gw*0.2, po + ph*i + ph*0.7, (i%5 + 2*j%7).to_s)
+      wt = [700,100]
+      r.font_weight = wt[(i+j)%2]
+      points = (i%5 + 2*j%7)
+      total += points
+      r.text(go + j*gw + gw*0.2, po + ph*i + ph*0.7, pick_points[i].to_s)
       r.draw canvas
     end
+
+    r = Magick::Draw.new
+    r.fill = "red"
+    r.pointsize = 20
+    r.font_weight = 700
+    r.text(pm + pw + tm, po + ph*i + ph*0.7, total.to_s)
+    r.draw canvas
   end
-
-
-  # players.each_with_index do |p,i|
-  #   #puts i, p
-  #   text.annotate(canvas, 0, 0, pm+pw/2, po+(i*ph)+(ph/2), p) {
-  #      self.fill = 'black'
-  #    }
-  # end
-
-
-
-  #text.fill = "rgb(10%, 50%, 5%)"
 
 
 
