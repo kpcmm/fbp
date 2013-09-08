@@ -67,6 +67,7 @@ module WeeksHelper
 
 			g.home_points = home_score.to_i
 			g.away_points = away_score.to_i
+			status << "home score: #{g.home_points}, away score: #{g.away_points}"
 
 			g.save
 
@@ -106,7 +107,12 @@ module WeeksHelper
 		  cu_entry = entries.find_by_user_id current_user.id
 		  cu_picks = cu_entry.picks if cu_entry
 
-		  games = week.games(true).sort { |a,b| a <=> b }
+		  games = week.games.sort { |a,b| a <=> b }
+		  games.each do |g|
+		  	g.home_points = 0 if g.home_points == nil
+		  	g.away_points = 0 if g.away_points == nil
+		  end
+
 		  tb_game = week.games.find_by_tiebreak true
 
 		  status << "tiebreak game #{tb_game.away_team.nickname} at #{tb_game.home_team.nickname}"
