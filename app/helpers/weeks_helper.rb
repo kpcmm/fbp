@@ -154,8 +154,8 @@ module WeeksHelper
 		  	if b.points != a.points
 		  		b.points <=> a.points
 		    else
-			  	adiff = Math.abs(tb_game_points - a.tb)
-			  	bdiff = Math.abs(tb_game_points - b.tb)
+			  	adiff = (tb_game_points - a.tb).abs
+			  	bdiff = (tb_game_points - b.tb).abs
 			  	if bdiff != adiff
 			  		adiff <=> bdiff
 			  	else
