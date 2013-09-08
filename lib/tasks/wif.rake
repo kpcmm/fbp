@@ -63,17 +63,6 @@ def make_png
   canvas = Magick::ImageList.new
   canvas.new_image(1100, 3000)
 
-  players.each_with_index do |p,i|
-
-
-    r = Magick::Draw.new
-    f = ["rgb(90%, 95%, 95%)", "rgb(85%, 90%, 90%)"]
-    r.fill = f[i%2]
-    r.rectangle pm, po + i*ph, go + w.games.size * gw, po+(i+1)*ph
-    r.draw canvas
-  end
-
-
   w.games.each_with_index do |g, i|
     r = Magick::Draw.new
     r.stroke = "rgb(80%, 85%, 85%)"
@@ -96,6 +85,7 @@ def make_png
     r.pointsize = 10
     r.pointsize = 16 unless current_player_picks[i]
     r.fill = "gray"
+    r.fill = "green" if g.status == "NOT_STARTED"
     r.fill = "red" if away_ahead
     r.font_weight = 100
     r.font_weight = 900 if away_ahead
@@ -108,12 +98,25 @@ def make_png
     r.pointsize = 10
     r.pointsize = 16 if current_player_picks[i]
     r.fill = "gray"
+    r.fill = "green" if g.status == "NOT_STARTED"
     r.fill = "red" if home_ahead
     r.font_weight = 100
     r.font_weight = 900 if home_ahead
     r.text 0,0, "#{g.home_team.display_name}"
     r.draw canvas
   end
+
+
+  players.each_with_index do |p,i|
+
+
+    r = Magick::Draw.new
+    f = ["rgb(90%, 95%, 95%)", "rgb(85%, 90%, 90%)"]
+    r.fill = f[i%2]
+    r.rectangle pm, po + i*ph, go + w.games.size * gw, po+(i+1)*ph
+    r.draw canvas
+  end
+
 
   players.each_with_index do |p,i|
     r = Magick::Draw.new
@@ -129,22 +132,28 @@ def make_png
       r = Magick::Draw.new
 
       if g.status == "NOT_STARTED"
+        r.fill = "green"
       else
+        if (g.home_points == g.away_points)
+          pick_points[j] /= 2.0
+        end
+        r.fill = "gray"
+        if ((g.home_points >= g.away_points) && home_picks[j]) || ((g.away_points >= g.home_points) && !home_picks[j])
+          r.fill = "red"
+          total += pick_points[j]
+        end
       end
 
-      f = ["red", "gray"]
-      r.fill = f[(i+j)%2]
+
       r.pointsize = 20
       wt = [700,100]
       r.font_weight = wt[(i+j)%2]
-      points = (i%5 + 2*j%7)
-      total += points
       r.text(go + j*gw + gw*0.2, po + ph*i + ph*0.7, pick_points[j].to_s)
       r.draw canvas
     end
 
     r = Magick::Draw.new
-    r.fill = "red"
+    r.fill = "blue"
     r.pointsize = 20
     r.font_weight = 700
     r.text(pm + pw + tm, po + ph*i + ph*0.7, total.to_s)
