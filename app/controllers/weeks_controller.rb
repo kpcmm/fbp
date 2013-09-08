@@ -17,7 +17,8 @@ class WeeksController < ApplicationController
 	def result
 		@week = Week.find(params[:id])
 		@status = view_context.update_scores
-		@status.append view_context.make_result_image @week
+		x = view_context.make_result_image @week
+		x.each { |line| @status.append line }
 		@image_name = "result_#{@week.week_num}_#{current_user.name}.png"
 	end
 
