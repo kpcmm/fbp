@@ -108,6 +108,8 @@ module WeeksHelper
 
 		  games = week.games.sort { |a,b| a <=> b }
 		  tb_game = week.games.find_by_tiebreak true
+
+		  status << "tiebreak game #{tb_game.away_team.nickname} at #{tb_game.home_team.nickname}"
 		  tb_game_points = tb_game.home_points + tb_game.away_points
 
 		  # build an array of player information, so we can later sort it by calculatd total points
