@@ -64,8 +64,9 @@ module WeeksHelper
 			g.status = "COMPLETE" if disp_code == "FO"
 			status << "game status: #{g.status}"
 
-			g.home_points = home_score
-			g.away_points = away_score
+
+			g.home_points = home_score.to_i
+			g.away_points = away_score.to_i
 
 			g.save
 
