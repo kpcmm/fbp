@@ -151,11 +151,18 @@ module WeeksHelper
 		  end
 
 		  players.sort! do |a,b|
-		  	if b.points != a.points then return(b.points <=> a.points) end
-		  	adiff = Math.abs(tb_game_points - a.tb)
-		  	bdiff = Math.abs(tb_game_points - b.tb)
-		  	if bdiff != adiff then return(adiff <=> bdiff) end
-		  	return(a.tb <=> b.tb)
+		  	if b.points != a.points
+		  		b.points <=> a.points
+		    else
+			  	adiff = Math.abs(tb_game_points - a.tb)
+			  	bdiff = Math.abs(tb_game_points - b.tb)
+			  	if bdiff != adiff
+			  		adiff <=> bdiff
+			  	else
+			  		a.tb <=> b.tb
+			  	end
+		    end
+
 		  end
 		  
 
