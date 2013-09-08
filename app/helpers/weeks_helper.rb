@@ -106,7 +106,7 @@ module WeeksHelper
 		  cu_entry = entries.find_by_user_id current_user.id
 		  cu_picks = cu_entry.picks if cu_entry
 
-		  games = week.games.sort { |a,b| a <=> b }
+		  games = week.games(true).sort { |a,b| a <=> b }
 		  tb_game = week.games.find_by_tiebreak true
 
 		  status << "tiebreak game #{tb_game.away_team.nickname} at #{tb_game.home_team.nickname}"

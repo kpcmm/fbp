@@ -17,8 +17,8 @@ class WeeksController < ApplicationController
 	def result
 		@week = Week.find(params[:id])
 		@status = view_context.update_scores
-		#@status.append view_context.make_result_image @week
-		#@image_name = "result_#{@week.week_num}_#{current_user.name}.png"
+		@status.append view_context.make_result_image @week
+		@image_name = "result_#{@week.week_num}_#{current_user.name}.png"
 	end
 
 	def what_if
