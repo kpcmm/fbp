@@ -22,7 +22,7 @@ class WeeksController < ApplicationController
 		x.each { |line| @status.append line }
 		`find . -name 'result*'`.each_line { |line| @status << "find: #{line}"}
 		if @status[-1] == "image done"
-			@image_name = "public/result_#{@week.week_num}_#{current_user.name}.png"
+			@image_name = "app/assets/images/result_#{@week.week_num}_#{current_user.name}.png"
 		else
 			@image_name = "test1.png"
 		end
