@@ -19,7 +19,11 @@ class WeeksController < ApplicationController
 		@status = view_context.update_scores
 		x = (view_context.make_result_image(@week))
 		x.each { |line| @status.append line }
-		@image_name = "result_#{@week.week_num}_#{current_user.name}.png"
+		if @status[-1] == "image done"
+			@image_name = "result_#{@week.week_num}_#{current_user.name}.png"
+		else
+			@image_name = test1.png
+		end
 	end
 
 	def what_if

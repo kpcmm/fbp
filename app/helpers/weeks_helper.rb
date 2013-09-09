@@ -258,8 +258,10 @@ module WeeksHelper
 		    r.draw canvas
 		  end
 
+		  status << "writing image"
 		  canvas.write "app/assets/images/result_#{week.week_num}_#{current_user.name}.png"
 
+		  status << "image done"
 		  status
 	end
 
