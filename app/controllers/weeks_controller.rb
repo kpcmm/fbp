@@ -22,7 +22,7 @@ class WeeksController < ApplicationController
 		if @status[-1] == "image done"
 			@image_name = "tmp/result_#{@week.week_num}_#{current_user.name}.png"
 		else
-			@image_name = test1.png
+			@image_name = "test1.png"
 		end
 	end
 
