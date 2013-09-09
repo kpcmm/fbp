@@ -20,7 +20,7 @@ class WeeksController < ApplicationController
 		x = (view_context.make_result_image(@week))
 		x.each { |line| @status.append line }
 		if @status[-1] == "image done"
-			@image_name = "result_#{@week.week_num}_#{current_user.name}.png"
+			@image_name = "tmp/result_#{@week.week_num}_#{current_user.name}.png"
 		else
 			@image_name = test1.png
 		end

@@ -259,7 +259,7 @@ module WeeksHelper
 		  end
 
 		  status << "writing image"
-		  canvas.write "app/assets/images/result_#{week.week_num}_#{current_user.name}.png"
+		  canvas.write "tmp/result_#{week.week_num}_#{current_user.name}.png"
 
 		  status << "image done"
 		  status
