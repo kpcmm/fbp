@@ -16,11 +16,13 @@ class WeeksController < ApplicationController
 
 	def result
 		@week = Week.find(params[:id])
-		@status = view_context.update_scores
+		@status = []
+		#@status = view_context.update_scores
 		x = (view_context.make_result_image(@week))
 		x.each { |line| @status.append line }
+		`find . -name 'result*'`.each_line { |line| @status << "find: #{line}"}
 		if @status[-1] == "image done"
-			@image_name = "/tmp/result_#{@week.week_num}_#{current_user.name}.png"
+			@image_name = "public/result_#{@week.week_num}_#{current_user.name}.png"
 		else
 			@image_name = "test1.png"
 		end

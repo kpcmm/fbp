@@ -38,12 +38,12 @@ def make_png
   po = gm + gh
 
 
-
+  Player = Struct.new(:name, :points)
 
   count = 0
-  players = []
+  players = {}
   Reg.all.each do |r|
-    players << r.nickname
+    players[r.nickname] = 0
   end
 
   w = Week.find_by_week_num 1
