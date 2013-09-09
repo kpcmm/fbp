@@ -26,7 +26,7 @@ class WeeksController < ApplicationController
 		# else
 		# 	@image_name = "test1.png"
 		# end
-		@image_name = "app/assets/images/result_#{@week.week_num}_#{current_user.name}.png"
+		@image_name = "images/result_#{@week.week_num}_#{current_user.name}.png"
 	end
 
 	def what_if
