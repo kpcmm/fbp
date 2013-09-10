@@ -80,7 +80,7 @@ module WeeksHelper
 	require 'RMagick'
 	include Magick
 
-    Player = Struct.new(:name, :points, :user, :picks, :tb, :cu)
+    Player = Struct.new(:name, :points, :user, :picks, :tb, :cu, :sort_points)
 
 	def make_result_image(week)
 		  status = []
@@ -88,20 +88,23 @@ module WeeksHelper
 		  status << "week num: #{week.week_num}"
 		  status << "current user: #{current_user.name}"
 
-		  pm = 30
-		  gm = 10
+		  pm = 30 # player margin
+		  gm = 10 # game margin
 		  tm = 5  # text margin
 
-		  ph = 30
-		  pw = 150
+		  ph = 30  # player height
+		  pw = 150 # player name width
 
-		  gh = 100
-		  gw = 50
+		  gh = 100 # game height
+		  gw = 50  # game width
 
-		  tw = 50
+		  tw = 50 # total width
 
-		  go = pm + pw + tw
-		  po = gm + gh
+		  posw = 30 # pos width
+		  tbw = 30  # tiebreak width
+
+		  go = pm + posw + pw + tbw + tw # game offset
+		  po = gm + gh # player offset
 
 		  entries = week.entries
 		  cu_entry = entries.find_by_user_id current_user.id
@@ -146,30 +149,36 @@ module WeeksHelper
 		  			end
 		  		end
 		  	end
+		  	player.sort_points = player.points
+		  	# add an increment to diffentiate by tiebreak
+		  	player.sort_points += (1000 -((tb_game_points - player.tb).abs)/10000.0)
+		  	# add an even smaller increment to differentiate low tiebreak vs high (low wins)
+		  	player.sort_points += 0.00001 if player.tb > tb_game_points 
+		  	player.sort_points += 0.00002 if player.tb < tb_game_points 
 
 		  	players << player
 		  end
 
-		  players.sort! do |a,b|
-		  	if b.points != a.points
-		  		b.points <=> a.points
-		    else
-			  	adiff = (tb_game_points - a.tb).abs
-			  	bdiff = (tb_game_points - b.tb).abs
-			  	if bdiff != adiff
-			  		adiff <=> bdiff
-			  	else
-			  		a.tb <=> b.tb
-			  	end
-		    end
+		  players.sort! { |a,b|  b.sort_points <=> a.sort_points }
+		  # 	if b.points != a.points
+		  # 		b.points <=> a.points
+		  #   else
+			 #  	adiff = (tb_game_points - a.tb).abs
+			 #  	bdiff = (tb_game_points - b.tb).abs
+			 #  	if bdiff != adiff
+			 #  		adiff <=> bdiff
+			 #  	else
+			 #  		a.tb <=> b.tb
+			 #  	end
+		  #   end
 
-		  end
+		  # end
 		  
 
 		  count = 0
 
 		  canvas = Magick::ImageList.new
-		  canvas.new_image(1100, 3000)
+		  canvas.new_image(1200, 3000)
 
 		  games.each_with_index do |g, i|
 		    r = Magick::Draw.new
@@ -191,9 +200,9 @@ module WeeksHelper
 		    r = Magick::Draw.new
 		    r.translate go + gw*i + gw/2, po
 		    r.rotate -60
-		    r.pointsize = 10
+		    r.pointsize = 11
 		    r.pointsize = 16 if cu_pick and cu_pick.pick == "AWAY"
-		    r.fill = "gray"
+		    r.fill = "rgb(10%, 10%, 10%)"
 		    r.fill = "green" if g.status == "NOT_STARTED"
 		    r.fill = "red" if away_ahead
 		    r.font_weight = 100
@@ -204,9 +213,9 @@ module WeeksHelper
 		    r = Magick::Draw.new
 		    r.translate go + gw*i + gw/2 + gw/3, po
 		    r.rotate -60
-		    r.pointsize = 10
+		    r.pointsize = 11
 		    r.pointsize = 16 if cu_pick and cu_pick.pick == "HOME"
-		    r.fill = "gray"
+		    r.fill = "rgb(10%, 10%, 10%)"
 		    r.fill = "green" if g.status == "NOT_STARTED"
 		    r.fill = "red" if home_ahead
 		    r.font_weight = 100
@@ -223,11 +232,23 @@ module WeeksHelper
 		    r.draw canvas
 		  end
 
+		  prev_sort_points = -1
+		  prev_pos = 0
 		  players.each_with_index do |player,i|
+		  	if player.sort_points == prev_sort_points
+		  		pos = prev_pos
+		  	else
+		  		pos = i + 1
+		  	end
+
+		  	prev_sort_points = player.sort_points
+		  	prev_pos = pos
+
+		  	#status << "\n========= Processing player #{player.name}"
 		    r = Magick::Draw.new
 		    r.fill = "rgb(20%, 20%, 20%)"
 		    r.pointsize = 16
-		    r.text(pm + tm, po + ph*i + ph*0.7, player.name)
+		    r.text(pm + posw + tm, po + ph*i + ph*0.7, player.name)
 		    r.draw canvas
 
 		    total = 0
@@ -237,24 +258,38 @@ module WeeksHelper
 		      if g.status == "NOT_STARTED"
 		        r.fill = "green"
 		      else
-		        r.fill = "gray"
-		        if ((g.home_points >= g.away_points) && player.picks[j] == "HOME") || ((g.away_points >= g.home_points) && player.picks[j] == "AWAY")
+		        r.fill = "rgb(10%, 10%, 10%)"
+		        if ((g.home_points >= g.away_points) && player.picks[j].pick == "HOME") || ((g.away_points >= g.home_points) && player.picks[j].pick == "AWAY")
 		          r.fill = "red"
 		        end
 		      end
 
+		      r.decorate UnderlineDecoration if player.picks[j].pick == "AWAY"
 		      r.pointsize = 20
-		      wt = [700,100]
-		      r.font_weight = wt[(i+j)%2]
+		      r.font_weight = 100
 		      r.text(go + j*gw + gw*0.2, po + ph*i + ph*0.7, player.picks[j].points.to_s)
 		      r.draw canvas
 		    end
 
 		    r = Magick::Draw.new
+		    r.fill = "gray"
+		    r.pointsize = 16
+		    r.font_weight = 200
+		    r.text(pm + tm, po + ph*i + ph*0.7, pos.to_s)
+		    r.draw canvas
+
+		    r = Magick::Draw.new
+		    r.fill = "gray"
+		    r.pointsize = 16
+		    r.font_weight = 200
+		    r.text(pm + posw + pw + tm, po + ph*i + ph*0.7, player.tb.to_s)
+		    r.draw canvas
+
+		    r = Magick::Draw.new
 		    r.fill = "blue"
 		    r.pointsize = 20
 		    r.font_weight = 700
-		    r.text(pm + pw + tm, po + ph*i + ph*0.7, player.points.to_s)
+		    r.text(pm + posw + pw + tbw + tm, po + ph*i + ph*0.7, player.points.to_s)
 		    r.draw canvas
 		  end
 
