@@ -293,10 +293,14 @@ module WeeksHelper
 		    r.draw canvas
 		  end
 
+		  `ls -l app/assets/images'`.each_line { |line| @status << "find: #{line}"}
 		  status << "writing image"
-		  canvas.write "app/assets/images/result_#{week.week_num}_#{current_user.name}.png"
+		  image_file = "app/assets/images/result_#{week.week_num}_#{current_user.name}.png"
+		  `rm -f #{image_file}`
+		  canvas.write image_file
 
 		  status << "image done"
+		  `ls -l app/assets/images'`.each_line { |line| @status << "find: #{line}"}
 		  status
 	end
 
