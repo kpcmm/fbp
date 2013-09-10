@@ -13,6 +13,7 @@ Fbp::Application.routes.draw do
     member do
       get 'result'
       get 'what_if'
+      post 'what_if'
     end
   end
 

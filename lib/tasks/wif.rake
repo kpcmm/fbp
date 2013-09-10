@@ -20,6 +20,7 @@ def make_clean
   end
 end
 
+Player = Struct.new(:name, :points)
 
 def make_png
   pm = 30
@@ -38,7 +39,6 @@ def make_png
   po = gm + gh
 
 
-  Player = Struct.new(:name, :points)
 
   count = 0
   players = {}

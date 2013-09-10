@@ -20,6 +20,7 @@ class WeeksController < ApplicationController
 		@status = view_context.update_scores
 		x = (view_context.make_result_image(@week))
 		x.each { |line| @status.append line }
+		@status = []
 		`find . -name 'result*'`.each_line { |line| @status << "find: #{line}"}
 		# if @status[-1] == "image done"
 		# 	@image_name = "app/assets/images/result_#{@week.week_num}_#{current_user.name}.png"
