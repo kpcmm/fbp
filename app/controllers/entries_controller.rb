@@ -40,6 +40,12 @@ class EntriesController < ApplicationController
 
     cutoff = @games[0].start
     if Time.now > cutoff
+      if !@entry.picks.any?
+        @games.each do |g|
+          @entry.picks.create(entry_id: @entry.id, game_id: g.id, pick: "NONE")
+        end
+      end
+      @picks = @entry.picks.sort { |a, b| a.game.start == b.game.start ? a.game.home_team.name <=> b.game.home_team.name : a.game.start <=> b.game.start }
       flash.now[:alert] = " Sorry, cutoff time for week #{@week.week_num} has passed"
       render 'show' and return
     end
