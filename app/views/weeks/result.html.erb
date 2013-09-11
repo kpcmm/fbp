@@ -1,4 +1,4 @@
-<h1> Results </h1>
+<h1> FBP<sub>hq</sub> Results Week <%= @week.week_num %></h1>
 <!--h2> SUBJECT TO CONFIRMATION </h2-->
 <p>
 	Results below should be accurate, but need to be checked. You can check your
@@ -10,6 +10,7 @@
 <div class="span6 offset1" style="background: khaki; border-radius: 15px">
 <div class="span4 offset1" style="background: khaki">
 <table>
+	<td><p></td>
 	<% @results.each do |r| %>
 		<tr>
 			<td> <%= r[0].to_s %> </td>
@@ -19,6 +20,7 @@
 			<td> <%= r[2].to_s %> </td>
 		</tr>
 	<% end %>
+	<td><p></td>
 </table>
 </div>
 </div>
