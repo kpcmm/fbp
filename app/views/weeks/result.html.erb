@@ -1,14 +1,19 @@
-<h1> Results (beta) </h1>
-<h2> SUBJECT TO CONFIRMATION </h2>
+<h1> Results </h1>
+<!--h2> SUBJECT TO CONFIRMATION </h2-->
 <p>
 	Results below should be accurate, but need to be checked. You can check your
-	own results - points for correct picks are in red, your total is in blue. Please email any discrepancies to fbphq@yahoo.com
-	 The game headers have your picks in the larger font and the winning team in red. Points in the body of the table are underlined for away team picks.
+	own results
+	<!-- - points for correct picks are in red, your total is in blue. Please email any discrepancies to fbphq@yahoo.com
+	 The game headers have your picks in the larger font and the winning team in red. Points in the body of the table are underlined for away team picks. -->
 </p>
 <p>Thanks for your patience while we get this figured out</p>
-<%= image_tag @image_name %>
-<ul>
-	<% @status.each do |s| %>
-		<li> <%= s %> </li>
+<table>
+	<% @results.each do |r| %>
+		<tr>
+			<td> <%= r[0].to_s %> </td>
+			<td> <%= r[1] %> </td>
+			<td> <%= r[2].to_s %> </td>
+		</tr>
 	<% end %>
-</ul>
+</table>
+<%= image_tag @image_name %>

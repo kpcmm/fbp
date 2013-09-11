@@ -18,7 +18,7 @@ class WeeksController < ApplicationController
 		@week = Week.find(params[:id])
 		@status = []
 		@status = view_context.update_scores
-		x,@image_name = (view_context.make_result_image(@week))
+		@results,x,@image_name = (view_context.make_result_image(@week))
 		@status = []
 		x.each { |line| @status.append line }
 		`find . -name 'result*'`.each_line { |line| @status << "find: #{line}"}

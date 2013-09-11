@@ -234,6 +234,7 @@ module WeeksHelper
 
 		  prev_sort_points = -1
 		  prev_pos = 0
+		  results = []
 		  players.each_with_index do |player,i|
 		  	if player.sort_points == prev_sort_points
 		  		pos = prev_pos
@@ -243,7 +244,7 @@ module WeeksHelper
 
 		  	prev_sort_points = player.sort_points
 		  	prev_pos = pos
-
+		  	results << [pos, player.name, player.points]
 		  	#status << "\n========= Processing player #{player.name}"
 		    r = Magick::Draw.new
 		    r.fill = "rgb(20%, 20%, 20%)"
@@ -302,7 +303,7 @@ module WeeksHelper
 
 		  status << "image done"
 		  `ls -l app/assets/images`.each_line { |line| status << "find: #{line}"}
-		  [status, image_file]
+		  [results, status, image_file]
 	end
 
 end
