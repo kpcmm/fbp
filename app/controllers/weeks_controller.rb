@@ -18,7 +18,7 @@ class WeeksController < ApplicationController
 		@week = Week.find(params[:id])
 		@status = []
 		@status = view_context.update_scores
-		x = (view_context.make_result_image(@week))
+		x,@image_name = (view_context.make_result_image(@week))
 		@status = []
 		x.each { |line| @status.append line }
 		`find . -name 'result*'`.each_line { |line| @status << "find: #{line}"}
@@ -27,7 +27,7 @@ class WeeksController < ApplicationController
 		# else
 		# 	@image_name = "test1.png"
 		# end
-		@image_name = "result_#{@week.week_num}_#{current_user.name}.png"
+		#@image_name = "result_#{@week.week_num}_#{current_user.name}.png"
 	end
 
 	def what_if
