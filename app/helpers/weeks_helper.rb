@@ -163,6 +163,10 @@ module WeeksHelper
 	  				choice = params["game_#{g.id}"]
 	  			end
 
+	  			if g.status == 'NOT_STARTED' && action == :NEW
+	  				choice = 'NR'
+	  			end
+
 	  			logger.debug "get_games_and_players        choice: #{choice}"
 	  			case choice
 	  			when 'NR'
