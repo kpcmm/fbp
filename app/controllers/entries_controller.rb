@@ -81,6 +81,7 @@ class EntriesController < ApplicationController
       @entry.tiebreak = nil
     else
       @entry.tiebreak = tb.to_i
+      logger.debug "Setting tiebreak to #{@entry.tiebreak}"
     end
 
     @entry.save
