@@ -1,0 +1,110 @@
+<h1> Week <%= @week.week_num %> What If... </h1>
+
+<p> Results below should be accurate, but need to be checked. Please check your
+	own results.
+<p>	Points for correct picks are in red, incorrect picks in black, and points that don't yet count either way are in green.  your total is in blue. The game headers have the winning team in red.
+
+<p> Please email any discrepancies to fbphq@yahoo.com
+	 <!-- Points in the body of the table are underlined for away team picks. -->
+
+<p>Thanks for your patience while we get this figured out</p>
+
+
+<%
+	cp = @players[@cpi]
+	chs = cp[:choices]
+%>
+<%= form_tag do %>
+<table>
+	<tr><td><p></td></tr>
+	<tr>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<% @games.each_with_index do |g, i|
+				cp_pick = chs[i]
+				home_color = "green"
+				away_color = "green"
+				unless g.status == 'NOT_STARTED'
+					(home_color = "red"; away_color = "black") if g.home_points >= g.away_points
+					(home_color = "gray"; away_color = "red") if g.away_points >= g.home_points
+				end
+			%>
+				<td>
+					<%= radio_button_tag "game_#{g.id}", 'NR', cp_pick == 'NR' %><b style="color: black"><sub>NR</sub></b><p>
+					<%= radio_button_tag "game_#{g.id}", 'TIE', cp_pick == 'TIE' %><b style="color: black"><sub>TIE</sub></b><p>
+					<%= radio_button_tag "game_#{g.id}", 'AWAY', cp_pick == 'AWAY' %><b style="color: <%= away_color%>"><sub><%= g.away_team.code %></sub></b><p>
+					<%= radio_button_tag "game_#{g.id}", 'HOME', cp_pick == 'HOME' %><b style="color: <%= home_color%>"><sub><%= g.home_team.code %></sub></b>
+				</td>
+		<% end %>
+	</tr>
+	<% @players.each_with_index do |p, i|
+		row_colors = ["cornsilk", "gainsboro"]
+		row_color =  row_colors[i%2]
+	%>
+		<tr>
+			<td style="background: <%= row_color %>"> <%= p[:pos] %> </td>
+			<td style="background: <%= row_color %>"> .... </td>
+			<td style="background: <%= row_color %>"> <%= p[:name] %> </td>
+			<td style="color: gray; background: <%= row_color %>"> <b><%= p[:tb] %></b> </td>
+			<td style="background: <%= row_color %>"> ... </td>
+			<td style="color: blue; background: <%= row_color %>"> <b><%= p[:points] %></b> </td>
+			<% p[:choices].each_with_index do |ch,j| %>
+				<td style="color: <%= p[:colors][j]%>; background: <%= row_color %>"> <%= p[:dpoints][j] %> </td>
+			<% end %>
+		</tr>
+	<% end %>
+	<tr><td><p></td></tr>
+</table>
+        <%= submit_tag("Update scenario", class: "btn btn-large btn-primary") %>
+        <%= submit_tag("Use my picks", class: "btn btn-large btn-primary") %>
+        <%= submit_tag("Use results", class: "btn btn-large btn-primary") %>
+        <!--%= submit_tag("Find my best shot", class: "btn btn-large btn-primary") %-->
+<% end %>
+
+<!-- div class="span10 offset1" style="background: khaki; border-radius: 15px">
+<div class="span8 offset1" style="background: khaki">
+	<%= form_tag do %>
+		<table>
+			<% @games.each do |game| %>
+			<tr>
+				<td "padding=20">
+					<%= radio_button_tag "game_#{game.id}", 'away' %><p>
+				</td>
+				<td>
+					<%= label_tag "game_#{game.id}_away", game.away_team.display_name %>
+				</td>
+				<td>
+					___ at ____
+				</td>
+				<td>
+					<%= radio_button_tag "game_#{game.id}", 'home', true %><p>
+				</td>
+				<td>
+					<%= label_tag "game_#{game.id}_home", game.home_team.display_name %>
+				</td>
+				<td>
+					<%= radio_button_tag "game_#{game.id}", 'tie' %><p>
+				</td>
+				<td>
+					<%= label_tag "game_#{game.id}_home", "tie" %>
+				</td>
+				<td>
+					_______
+				</td>
+				<td>
+					COMPLETED
+				</td>
+			</tr>
+			<% end %>
+		</table>
+        <%= submit_tag("Update scenario", class: "btn btn-large btn-primary") %>
+        <%= submit_tag("Use my picks", class: "btn btn-large btn-primary") %>
+        <%= submit_tag("Find my best shot", class: "btn btn-large btn-primary") %>
+	<% end %>
+</div>
+</div -->
+
