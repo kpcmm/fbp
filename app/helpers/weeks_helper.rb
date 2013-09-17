@@ -133,69 +133,49 @@ module WeeksHelper
 	  			end
 	  		end
 	  		logger.debug "get_games_and_players        pick: #{pick.pick}"
-	  		choice = pick.pick
-	  		dpoints = pick.points
-	  		color = "green"
-	  		if g.status != 'NOT_STARTED' && action == :RESULTS
-	  			logger.debug "get_games_and_players        game started and RESULTS case"
+	  		choice = pick.pick # default
+	  		dpoints = pick.points # default
+	  		color = "green" #default
+	  		case action
+	  		when :NEW
+	  			choice = 'NR' if g.status == 'NOT_STARTED'
+	  		when :UPDATE
+	  			choice = params["game_#{g.id}"]
+	  		when :PICKS
+	  			choice = 'NR' if g.status == 'NOT_STARTED' # same as new
+	  		else
+	  			choice = 'NR'
+	  		end
+
+	  		case choice
+	  		when 'NR'
+	  		when 'TIE'
+	  			dpoints = pick.points/2.0
+				player[:points] += dpoints
+				color = "red"
+	  		when 'HOME'
 	  			if g.home_points > g.away_points
-	  				if choice == "HOME"
-	  					player[:points] += pick.points
-	  					color = "red"
-	  				else
-	  					color = "black"
-	  				end
-	  			elsif g.away_points > g.home_points
-	  				if choice == "AWAY"
-	  					player[:points] += pick.points
-	  					color = "red"
-	  				else
-	  					color = "black"
-	  				end
-	  			else
-	  				player[:points] += pick.points / 2.0
-	  				dpoints = pick.points / 2.0
-	  				color = "red"
+  					player[:points] += pick.points
+  					color = "red"
+  				elsif g.home_points == g.away_points
+		  			dpoints = pick.points/2.0
+					player[:points] += dpoints
+  					color = "red"
+				else
+  					color = "black"
+	  			end
+	  		when 'AWAY'
+	  			if g.away_points > g.home_points
+  					player[:points] += pick.points
+  					color = "red"
+  				elsif g.home_points == g.away_points
+		  			dpoints = pick.points/2.0
+					player[:points] += dpoints
+  					color = "red"
+				else
+  					color = "black"
 	  			end
 	  		else
-	  			logger.debug "get_games_and_players        game not started or not RESULTS case"
-	  			if action == :UPDATE
-	  				choice = params["game_#{g.id}"]
-	  			end
-
-	  			if g.status == 'NOT_STARTED' && action == :NEW
-	  				choice = 'NR'
-	  			end
-
-	  			logger.debug "get_games_and_players        choice: #{choice}"
-	  			case choice
-	  			when 'NR'
-	  				color = "green"
-	  			when 'TIE'
-	  				player[:points] += pick.points / 2.0	  				
-	  				dpoints = pick.points / 2.0
-	  				color = "red"
-	  			else
-		  			if g.home_points >= g.away_points
-		  				if choice == "HOME"
-		  					player[:points] += pick.points
-		  					color = "red"
-		  				else
-		  					color = "black"
-		  				end
-		  			elsif g.away_points >= g.home_points
-		  				if choice == "AWAY"
-		  					player[:points] += pick.points
-		  					color = "red"
-		  				else
-		  					color = "black"
-		  				end
-		  			else
-		  				player[:points] += pick.points / 2.0
-		  				dpoints = pick.points / 2.0
-		  				color = "red"
-		  			end
-	  			end
 	  		end
 
 	  		player[:picks] << pick
@@ -233,5 +213,9 @@ module WeeksHelper
 	  [games, players]  
     end
 
-
+    def gen_foy_data
+    	Week.all.sort_by_week_num do |w|
+    		logger.debug "gen_foy_data #{w.week_num}"
+    	end
+    end
 end

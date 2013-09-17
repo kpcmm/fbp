@@ -291,3 +291,109 @@ Ed Spowhn            Wiley77@aol.com            Tazdivil
     #   view_context.get_games_and_players @week, nil, true
     # end
 
+<!--%= image_tag @image_name %-->
+
+table>
+  <tr><td><p></td></tr>
+  <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <% @games.each do |g| %>
+        <td>
+          <%= g.away_team.code %> <%= g.home_team.code %>
+        </td>
+    <% end %>
+  </tr>
+  <% @players.each do |p| %>
+    <tr>
+      <td> <%= p.name %> </td>
+      <td> ..... </td>
+      <td> <%= p.points %> </td>
+      <td> ..... </td>
+      <td> <%= p.tb %> </td>
+      <% p.picks.each do |pick| %>
+        <td> <%= pick.points %> </td>
+      <% end %>
+    </tr>
+  <% end %>
+  <tr><td><p></td></tr>
+</table
+
+<!--table>
+  <% @status.each do |s| %>
+    <tr>
+      <td> <%= s %> </td>
+    </tr>
+  <% end %>
+</table-->
+
+
+
+
+
+
+        if g.status != 'NOT_STARTED' && action == :RESULTS
+          logger.debug "get_games_and_players        game started and RESULTS case"
+          if g.home_points > g.away_points
+            if choice == "HOME"
+              player[:points] += pick.points
+              color = "red"
+            else
+              color = "black"
+            end
+          elsif g.away_points > g.home_points
+            if choice == "AWAY"
+              player[:points] += pick.points
+              color = "red"
+            else
+              color = "black"
+            end
+          else
+            player[:points] += pick.points / 2.0
+            dpoints = pick.points / 2.0
+            color = "red"
+          end
+        else
+          logger.debug "get_games_and_players        game not started or not RESULTS case"
+          if action == :UPDATE
+            choice = params["game_#{g.id}"]
+          end
+
+          if g.status == 'NOT_STARTED' && action == :NEW
+            choice = 'NR'
+          end
+
+          logger.debug "get_games_and_players        choice: #{choice}"
+          case choice
+          when 'NR'
+            color = "green"
+          when 'TIE'
+            player[:points] += pick.points / 2.0            
+            dpoints = pick.points / 2.0
+            color = "red"
+          else
+            if g.home_points >= g.away_points
+              if choice == "HOME"
+                player[:points] += pick.points
+                color = "red"
+              else
+                color = "black"
+              end
+            elsif g.away_points >= g.home_points
+              if choice == "AWAY"
+                player[:points] += pick.points
+                color = "red"
+              else
+                color = "black"
+              end
+            else
+              player[:points] += pick.points / 2.0
+              dpoints = pick.points / 2.0
+              color = "red"
+            end
+          end
+        end
+

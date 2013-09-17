@@ -19,12 +19,13 @@ class WeeksController < ApplicationController
 		@status = []
 		#@status = view_context.update_scores
 		#@results,x,@image_name = (view_context.make_result_image(@week))
-		@players, @games = (view_context.make_result_image(@week))
-		@status = []
-		@status << "pick count #{@players[0].picks.size}"
-		@players[0].picks.each do |pp|
-			@status << "pick  #{pp.pick} #{pp.points}"
-		end
+		#@players, @games = (view_context.make_result_image(@week))
+		@games, @players = view_context.get_games_and_players @week, :NEW
+		# @status = []
+		# @status << "pick count #{@players[0].picks.size}"
+		# @players[0].picks.each do |pp|
+		# 	@status << "pick  #{pp.pick} #{pp.points}"
+		# end
 		#@status = []
 		#x.each { |line| @status.append line }
 		#{}`find . -name 'result*'`.each_line { |line| @status << "find: #{line}"}
@@ -45,7 +46,6 @@ class WeeksController < ApplicationController
 		action = :NEW
 		action = :UPDATE if params[:commit] == "Update scenario"
 		action = :PICKS if params[:commit] == "Use my picks"
-		action = :RESULTS if params[:commit] == "Use results"
 		action = :BEST if params[:commit] == "Find my best shot"
 
 		@games, @players = view_context.get_games_and_players @week, action, params
@@ -57,8 +57,8 @@ class WeeksController < ApplicationController
 
 	end
 
-	def what_if_test
-		logger.info "===================================== W H A T    I F  T E S T ================================"
+	def foy
+		logger.info "===================================== F O Y ================================"
 
 		@week = Week.find(params[:id])
 		@status = view_context.update_scores

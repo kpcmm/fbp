@@ -7,58 +7,24 @@
 	 The game headers have your picks in the larger font and the winning team in red. Points in the body of the table are underlined for away team picks. -->
 </p>
 <p>Thanks for your patience while we get this figured out</p>
-<!--div class="span6 offset1" style="background: khaki; border-radius: 15px">
+<div class="span6 offset1" style="background: khaki; border-radius: 15px">
 <div class="span4 offset1" style="background: khaki">
-<table>
-	<td><p></td>
-	<% @players.each do |p| %>
-		<tr>
-			<td> <%= p[0].to_s %> </td>
-			<td> ..... </td>
-			<td> <%= p[1] %> </td>
-			<td> ..... </td>
-			<td> <%= p[2].to_s %> </td>
-		</tr>e
-	<% end %>
-	<td><p></td>
-</table>
-</div>
-</div-->
-<!--%= image_tag @image_name %-->
-
-<table>
-	<tr><td><p></td></tr>
-	<tr>
-			<td> </td>
-			<td> </td>
-			<td> </td>
-			<td> </td>
-			<td> </td>
-			<% @games.each do |g| %>
-				<td>
-					<%= g.away_team.code %> <%= g.home_team.code %>
-				</td>
+<% if @week.status == 'COMPLETE' %>
+	<table>
+		<tr><td><p></td></tr>
+		<% @players.each do |p| %>
+			<tr>
+				<td> <%= p[:pos] %> </td>
+				<td> ..... </td>
+				<td> <%= p[:name] %> </td>
+				<td> ..... </td>
+				<td> <%= p[:points] %> </td>
+			</tr>
 		<% end %>
-	</tr>
-	<% @players.each do |p| %>
-		<tr>
-			<td> <%= p.name %> </td>
-			<td> ..... </td>
-			<td> <%= p.points %> </td>
-			<td> ..... </td>
-			<td> <%= p.tb %> </td>
-			<% p.picks.each do |pick| %>
-				<td> <%= pick.points %> </td>
-			<% end %>
-		</tr>
-	<% end %>
-	<tr><td><p></td></tr>
-</table>
-
-<table>
-	<% @status.each do |s| %>
-		<tr>
-			<td> <%= s %> </td>
-		</tr>
-	<% end %>
-</table>
+		<td><p></td>
+	</table>
+<% else %>
+	Results for this week are not yet available.
+<% end %>
+</div>
+</div>

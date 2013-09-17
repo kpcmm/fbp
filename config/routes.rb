@@ -11,11 +11,10 @@ Fbp::Application.routes.draw do
   
   resources :weeks do
     member do
+      get 'foy'
       get 'result'
       get 'what_if'
       post 'what_if'
-      get 'what_if_test'
-      post 'what_if_test'
     end
   end
 

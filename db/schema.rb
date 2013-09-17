@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130818184734) do
+ActiveRecord::Schema.define(:version => 20130916142018) do
 
   create_table "entries", :force => true do |t|
     t.integer  "tiebreak"
@@ -113,6 +113,7 @@ ActiveRecord::Schema.define(:version => 20130818184734) do
     t.string   "remember_token"
     t.boolean  "admin",           :default => false
     t.string   "nickname"
+    t.boolean  "foy"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
