@@ -9,7 +9,7 @@
 		<div class="row-fluid">
 			<div class="span2">
 				<ul>
-					<% @week.season.weeks.each do |w| %>
+					<% @week.season.weeks.sort_by { |a| a.week_num }.each do |w| %>
 						<li>
 				      		<%= link_to "Week #{w.week_num}",   week_path(w) %>
 						</li>

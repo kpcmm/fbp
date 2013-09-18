@@ -7,24 +7,46 @@
 	 The game headers have your picks in the larger font and the winning team in red. Points in the body of the table are underlined for away team picks. -->
 </p>
 <p>Thanks for your patience while we get this figured out</p>
-<div class="span6 offset1" style="background: khaki; border-radius: 15px">
-<div class="span4 offset1" style="background: khaki">
-<% if @week.status == 'COMPLETE' %>
-	<table>
-		<tr><td><p></td></tr>
-		<% @players.each do |p| %>
-			<tr>
-				<td> <%= p[:pos] %> </td>
-				<td> ..... </td>
-				<td> <%= p[:name] %> </td>
-				<td> ..... </td>
-				<td> <%= p[:points] %> </td>
-			</tr>
-		<% end %>
-		<td><p></td>
-	</table>
+<% if @week.status == 'COMPLETE' || @user.admin %>
+	<% if @week.status != 'COMPLETE'%>
+		<div class="span8 offset1">
+			<p style="color: red">
+			The results below are not generally viewable. As the administrator you decide when the results
+			are to be published. Note that once published, results cannot be "unpublished".
+
+			Press the "Publish" button only when you are sure the results are correct.
+			<p>
+		</div>
+		<div class="span8 offset3">
+				<%= form_tag do %>				
+        		<%= submit_tag("Publish", class: "btn btn-large btn-primary") %>
+			<% end %>
+		</div>
+	<% end %>
+	<div class="span6 offset1" style="background: khaki; border-radius: 15px">
+	<div class="span4 offset1" style="background: khaki">
+		<table>
+			<tr><td><p></td></tr>
+			<% @players.each do |p| %>
+				<tr>
+					<td> <%= p[:pos] %> </td>
+					<td> ..... </td>
+					<td> <%= p[:name] %> </td>
+					<td> ..... </td>
+					<td> <%= p[:points] %> </td>
+				</tr>
+			<% end %>
+			<td><p></td>
+		</table>
+	</div>
+	</div>
 <% else %>
 	Results for this week are not yet available.
 <% end %>
-</div>
+
+<div class="span10 offset2">
+	<p>
+	<%= link_to "Week #{@week.week_num} Summary",   week_path(@week) %>
+    <p>
+    <%= link_to "FOY", foy_season_path(@week.season) %>
 </div>

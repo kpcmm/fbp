@@ -7,12 +7,16 @@ Fbp::Application.routes.draw do
   end
   resources :sessions, only: [:new, :create, :destroy]
   resources :microposts, only: [:create, :destroy]
-  resources :seasons
+  resources :seasons do
+    member do
+      get 'foy'
+    end
+  end
   
   resources :weeks do
     member do
-      get 'foy'
       get 'result'
+      post 'result'
       get 'what_if'
       post 'what_if'
     end

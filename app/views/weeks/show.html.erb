@@ -14,5 +14,8 @@
     <%= link_to "Entry...", user_entry_path(@user, @entry), class: "btn btn-primary" %>
     <%= link_to "What if", what_if_week_path, class: "btn btn-primary" %>
     <%= link_to "Results", result_week_path, class: "btn btn-primary" %>
+        <p>
+    <%= link_to "FOY", foy_season_path(@week.season) %>
+    <p><%= link_to "Season", season_path(@week.season) %>
   </div>
 </div>

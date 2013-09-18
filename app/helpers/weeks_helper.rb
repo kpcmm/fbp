@@ -103,6 +103,7 @@ module WeeksHelper
 	  # build an array of player information, so we can later sort it by calculatd total points
 	  players = []
 	  entries.each do |e|
+	  	next unless e.picks.size == week.games.size
 	  	player = { #Player.new( e.user.nickname, 0, e.user, [], e.tiebreak, e.user.id == current_user.id)
 	  		name: e.user.nickname,
 	  		points: 0,
