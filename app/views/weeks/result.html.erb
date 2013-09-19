@@ -7,8 +7,7 @@
 	 The game headers have your picks in the larger font and the winning team in red. Points in the body of the table are underlined for away team picks. -->
 </p>
 <p>Thanks for your patience while we get this figured out</p>
-<% if @week.status == 'COMPLETE' || @user.admin %>
-	<% if @week.status != 'COMPLETE'%>
+<% if  @week.status == 'COMPLETE' && @user.admin %>
 		<div class="span8 offset1">
 			<p style="color: red">
 			The results below are not generally viewable. As the administrator you decide when the results
@@ -19,10 +18,12 @@
 		</div>
 		<div class="span8 offset3">
 				<%= form_tag do %>				
-        		<%= submit_tag("Publish", class: "btn btn-large btn-primary", disabled: true) %>
+        		<%= submit_tag("Publish", class: "btn btn-large btn-primary") %>
 			<% end %>
 		</div>
-	<% end %>
+<% end %>
+
+<% if @week.status == 'PUBLISHED' || (@week.status == 'COMPLETE' && @user.admin) %>
 	<div class="span6 offset1" style="background: khaki; border-radius: 15px">
 	<div class="span4 offset1" style="background: khaki">
 		<table>

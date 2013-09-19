@@ -2,7 +2,9 @@ module WeeksHelper
 	require 'json'
 	require 'net/http'
 
-	def update_scores
+
+	def update_scores(week)
+		return if week.status == 'COMPLETE' or week.status == 'PUBLISHED'
 		host = 'www.nfl.com'
 		path = "/liveupdate/scorestrip/ss.json"
 
@@ -17,9 +19,11 @@ module WeeksHelper
 		return status unless s
 		status << "got season #{s.year}"
 
+		#note: this might be a different week than we came in with
 		week = s.weeks.find_by_week_num w
 		return status unless week
 		status << "got week #{week.week_num}"
+		return if week.status == 'COMPLETE' or week.status == 'PUBLISHED'
 
 		week_type = parsed["t"]
 		return status unless week_type == "REG"
@@ -70,7 +74,25 @@ module WeeksHelper
 			status << "home score: #{g.home_points}, away score: #{g.away_points}"
 
 			g.save
+			n = false # seen not started game
+			s = false # seen started game
+			c = false # seen complete game
+			week.games.each do |g|
+				n = true if g.status == 'NOT_STARTED'
+				s = true if g.status == 'STARTED'
+				c = true if g.status == 'COMPLETE'
+			end
 
+			if c && !s && !n
+				week.status = 'COMPLETE'
+			elsif s
+				week.status = 'STARTED'
+			else
+				week.status = 'NOT_STARTED'
+			end
+		
+			week.save
+			
 			#puts "#{away_team} #{away_score} at  #{home_team} #{home_score}   (#{disposition})"
 		end
 

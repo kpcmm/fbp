@@ -17,10 +17,10 @@ class WeeksController < ApplicationController
 	def result
 		@week = Week.find(params[:id])
 		if params[:commit] == 'Publish'
-			@week.status = 'COMPLETE'
+			@week.status = 'PUBLISHED'
 			@week.save
 		end
-		view_context.update_scores if @week.status != 'COMPLETE'
+		view_context.update_scores @week
 		@games, @players = view_context.get_games_and_players @week, :NEW
 		@user = current_user
 	end
@@ -29,7 +29,7 @@ class WeeksController < ApplicationController
 		logger.info "===================================== W H A T    I F ================================"
 
 		@week = Week.find(params[:id])
-		view_context.update_scores if @week.status != 'COMPLETE'
+		view_context.update_scores @week
 
 		action = :NEW
 		action = :UPDATE if params[:commit] == "Update scenario"
