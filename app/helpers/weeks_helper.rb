@@ -170,7 +170,7 @@ module WeeksHelper
 	  		when :UPDATE
 	  			choice = params["game_#{g.id}"]
 	  		when :PICKS
-	  			choice = 'NR' if g.status == 'NOT_STARTED' # same as new
+	  			choice = pick.pick if g.status == 'NOT_STARTED' # same as new
 	  		when :RESULTS
 	  			if g.status == 'NOT_STARTED'
 	  				choice = 'NR'
