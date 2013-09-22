@@ -35,13 +35,15 @@ class WeeksController < ApplicationController
 		action = :UPDATE if params[:commit] == "Update scenario"
 		action = :PICKS if params[:commit] == "Use my picks"
 		action = :BEST if params[:commit] == "Find my best shot"
+		action = :RESET if params[:commit] == "Reset"
+		action = :RESULTS if params[:commit] == "Use results"
 
 		@games, @players = view_context.get_games_and_players @week, action, params
 
 	    cutoff = @games[0].start
 	    @early = (Time.now <= cutoff)
 
-		@cpi = nil
+		@cpi = 0
 		@players.each_with_index { |p,i| @cpi = i if p[:cu] }
 		logger.debug "cpi: #{@cpi}"
 		@user = current_user
@@ -57,7 +59,6 @@ class WeeksController < ApplicationController
 		action = :NEW
 		action = :UPDATE if params[:commit] == "Update scenario"
 		action = :PICKS if params[:commit] == "Use my picks"
-		action = :RESULTS if params[:commit] == "Use results"
 		action = :BEST if params[:commit] == "Find my best shot"
 
 		@games, @players = view_context.get_games_and_players @week, action, params

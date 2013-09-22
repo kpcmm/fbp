@@ -159,17 +159,32 @@ module WeeksHelper
 	  		choice = pick.pick # default
 	  		dpoints = pick.points # default
 	  		color = "green" #default
+	  		logger.debug "get_games_and_players        action: #{action}"
 	  		case action
 	  		when :NEW
 	  			choice = 'NR' if g.status == 'NOT_STARTED'
+	  		when :RESET
+	  			choice = 'NR'
+	  		when :BEST
+	  			choice = 'NR'
 	  		when :UPDATE
 	  			choice = params["game_#{g.id}"]
 	  		when :PICKS
 	  			choice = 'NR' if g.status == 'NOT_STARTED' # same as new
+	  		when :RESULTS
+	  			if g.status == 'NOT_STARTED'
+	  				choice = 'NR'
+		  			choice = params["game_#{g.id}"] if params["game_#{g.id}"]
+	  			else
+		  			choice = 'HOME' if g.home_points > g.away_points
+		  			choice = 'AWAY' if g.away_points > g.home_points
+		  			choice = 'TIE' if g.away_points == g.home_points
+	  			end
 	  		else
 	  			choice = 'NR'
 	  		end
 
+	  		logger.debug "get_games_and_players        choice: #{choice}"
 	  		case choice
 	  		when 'NR'
 	  		when 'TIE'

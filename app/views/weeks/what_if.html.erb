@@ -1,6 +1,6 @@
 <h1> Week <%= @week.week_num %> What If... </h1>
 
-<p> Results below should be accurate, but need to be checked. Please check your
+<p> <u> Results below should be accurate,</u> but need to be checked. Please check your
 	own results.
 <p>	Points for correct picks are in red, incorrect picks in black, and points that don't yet count either way are in green.  your total is in blue. The game headers have the winning team in red.
 
@@ -36,12 +36,18 @@
 						(home_color = "red"; away_color = "black") if g.home_points >= g.away_points
 						(home_color = "gray"; away_color = "red") if g.away_points >= g.home_points
 					end
+					ul1 = ""
+					ul2 = ""
+					if g.status == 'COMPLETE'
+						ul1 = "<u>"
+						ul2 = "</u>"
+					end
 				%>
 					<td>
 						<%= radio_button_tag "game_#{g.id}", 'NR', cp_pick == 'NR' %><b style="color: black"><sub>NR</sub></b><p>
 						<%= radio_button_tag "game_#{g.id}", 'TIE', cp_pick == 'TIE' %><b style="color: black"><sub>TIE</sub></b><p>
-						<%= radio_button_tag "game_#{g.id}", 'AWAY', cp_pick == 'AWAY' %><b style="color: <%= away_color%>"><sub><%= g.away_team.code %></sub></b><p>
-						<%= radio_button_tag "game_#{g.id}", 'HOME', cp_pick == 'HOME' %><b style="color: <%= home_color%>"><sub><%= g.home_team.code %></sub></b>
+						<%= radio_button_tag "game_#{g.id}", 'AWAY', cp_pick == 'AWAY' %><b style="color: <%= away_color%>"><sub><%= (ul1 + g.away_team.code + ul2).html_safe %></sub></b><p>
+						<%= radio_button_tag "game_#{g.id}", 'HOME', cp_pick == 'HOME' %><b style="color: <%= home_color%>"><sub><%= (ul1 + g.home_team.code + ul2).html_safe %></sub></b>
 					</td>
 			<% end %>
 		</tr>
@@ -65,6 +71,8 @@
 	</table>
 	        <%= submit_tag("Update scenario", class: "btn btn-large btn-primary") %>
 	        <%= submit_tag("Use my picks", class: "btn btn-large btn-primary") %>
+	        <%= submit_tag("Use results", class: "btn btn-large btn-primary") %>
+	        <%= submit_tag("Reset", class: "btn btn-large btn-primary") %>
 	        <!--%= submit_tag("Find my best shot", class: "btn btn-large btn-primary") %-->
 	<% end %>
 <% end %>

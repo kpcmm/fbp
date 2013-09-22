@@ -23,7 +23,7 @@ class User < ActiveRecord::Base
   has_many :entries, dependent: :destroy
 
   #before_save { |user| user.email = email.downcase }
-  before_save { |u| u.nickname = u.name.dup; name.downcase! }
+  before_save { |u| u.nickname = u.name.dup; u.name.downcase! }
   before_save { email.downcase! }
   before_save :create_remember_token
 
