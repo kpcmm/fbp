@@ -192,7 +192,7 @@ module WeeksHelper
 				player[:points] += dpoints
 				color = "red"
 	  		when 'HOME'
-	  			if g.home_points > g.away_points
+	  			if g.status == 'NOT_STARTED' || g.home_points > g.away_points
   					player[:points] += pick.points
   					color = "red"
   				elsif g.home_points == g.away_points
@@ -203,7 +203,7 @@ module WeeksHelper
   					color = "black"
 	  			end
 	  		when 'AWAY'
-	  			if g.away_points > g.home_points
+	  			if g.status == 'NOT_STARTED' || g.away_points > g.home_points
   					player[:points] += pick.points
   					color = "red"
   				elsif g.home_points == g.away_points
