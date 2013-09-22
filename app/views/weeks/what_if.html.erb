@@ -33,8 +33,9 @@
 					home_color = "green"
 					away_color = "green"
 					unless g.status == 'NOT_STARTED'
-						(home_color = "red"; away_color = "black") if g.home_points >= g.away_points
-						(home_color = "gray"; away_color = "red") if g.away_points >= g.home_points
+						home_color = away_color = "black"
+						home_color = "red" if g.home_points >= g.away_points
+						away_color = "red" if g.away_points >= g.home_points
 					end
 					ul1 = ""
 					ul2 = ""
