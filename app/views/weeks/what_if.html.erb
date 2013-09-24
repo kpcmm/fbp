@@ -14,10 +14,6 @@
 <% if @early %>
 	<h2 style="color: red">Games for this week have not yet started</h2>
 <% else %>
-	<%
-		cp = @players[@cpi]
-		chs = cp[:choices]
-	%>
 	<%= form_tag do %>
 	<table>
 		<tr><td><p></td></tr>
@@ -28,15 +24,12 @@
 				<td> </td>
 				<td> </td>
 				<td> </td>
-				<% @games.each_with_index do |g, i|
-					cp_pick = chs[i]
-					home_color = "green"
-					away_color = "green"
-					unless g.status == 'NOT_STARTED'
-						home_color = away_color = "black"
-						home_color = "red" if g.home_points >= g.away_points
-						away_color = "red" if g.away_points >= g.home_points
-					end
+				<% @outcomes.each_with_index do |o, i|
+					g = o[:game]
+					outcome = o[:outcome]
+					home_color = o[:home_color]
+					away_color = o[:away_color]
+
 					ul1 = ""
 					ul2 = ""
 					if g.status == 'COMPLETE'
@@ -44,11 +37,12 @@
 						ul2 = "</u>"
 					end
 				%>
+
 					<td>
-						<%= radio_button_tag "game_#{g.id}", 'NR', cp_pick == 'NR' %><b style="color: black"><sub>NR</sub></b><p>
-						<%= radio_button_tag "game_#{g.id}", 'TIE', cp_pick == 'TIE' %><b style="color: black"><sub>TIE</sub></b><p>
-						<%= radio_button_tag "game_#{g.id}", 'AWAY', cp_pick == 'AWAY' %><b style="color: <%= away_color%>"><sub><%= (ul1 + g.away_team.code + ul2).html_safe %></sub></b><p>
-						<%= radio_button_tag "game_#{g.id}", 'HOME', cp_pick == 'HOME' %><b style="color: <%= home_color%>"><sub><%= (ul1 + g.home_team.code + ul2).html_safe %></sub></b>
+						<%= radio_button_tag "game_#{g.id}", 'NR', outcome == 'NR' %><b style="color: black"><sub>NR</sub></b><p>
+						<%= radio_button_tag "game_#{g.id}", 'TIE', outcome == 'TIE' %><b style="color: black"><sub>TIE</sub></b><p>
+						<%= radio_button_tag "game_#{g.id}", 'AWAY', outcome == 'AWAY' %><b style="color: <%= away_color%>"><sub><%= (ul1 + g.away_team.code + ul2).html_safe %></sub></b><p>
+						<%= radio_button_tag "game_#{g.id}", 'HOME', outcome == 'HOME' %><b style="color: <%= home_color%>"><sub><%= (ul1 + g.home_team.code + ul2).html_safe %></sub></b>
 					</td>
 			<% end %>
 		</tr>
@@ -63,7 +57,7 @@
 				<td style="color: gray; background: <%= row_color %>"> <b><%= p[:tb] %></b> </td>
 				<td style="background: <%= row_color %>"> ... </td>
 				<td style="color: blue; background: <%= row_color %>"> <b><%= p[:points] %></b> </td>
-				<% p[:choices].each_with_index do |ch,j| %>
+				<% p[:dpoints].each_with_index do |ch,j| %>
 					<td style="color: <%= p[:colors][j]%>; background: <%= row_color %>"> <%= p[:dpoints][j] %> </td>
 				<% end %>
 			</tr>

@@ -38,7 +38,7 @@ class WeeksController < ApplicationController
 		action = :RESET if params[:commit] == "Reset"
 		action = :RESULTS if params[:commit] == "Use results"
 
-		@games, @players = view_context.get_games_and_players @week, action, params
+		@games, @players, @outcomes = view_context.get_games_and_players @week, action, params
 
 	    cutoff = @games[0].start
 	    @early = (Time.now <= cutoff)
