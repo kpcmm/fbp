@@ -1,2 +1,22 @@
 <% provide(:title, "FOY #{@season.year}") %>
 <h1>FBP<sub>hq</sub> FOY </h1>
+<table>
+	<tr>
+		<td/>
+		<td/>
+		<% (1..@foy_data[:max_week]).each do |wnum| %>
+			<td> <%= wnum %> </td>
+		<% end %>
+		<td> Total </td>
+	</tr>
+	<% @foy_data[:players].each_with_index do |p, i| %>
+		<tr>
+			<td> <%= i+1 %> </td>
+			<td> <%= p[:name] %> </td>
+			<% (1..@foy_data[:max_week]).each do |wnum| %>
+				<td> <%= p[:points][wnum] %> </td>
+			<% end %>
+			<td> <%= p[:total] %> </td>			
+		</tr>
+	<% end %>
+</table>
