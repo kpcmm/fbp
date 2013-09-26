@@ -13,11 +13,12 @@ class Season < ActiveRecord::Base
     		name = e.user.name
     		player = players[name]
     		unless player
-    			player = {name: name, points: {}, total: 0}
+    			player = {name: name, points: {}, winner: {}, total: 0}
     			players[name] = player
     		end
     		points = e.get_points
     		player[:points][w.week_num] = points
+    		player[:winner][w.week_num] = e.winner
     		player[:total] += points
     	end
     end

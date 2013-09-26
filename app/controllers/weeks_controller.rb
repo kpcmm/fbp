@@ -16,13 +16,15 @@ class WeeksController < ApplicationController
 
 	def result
 		@week = Week.find(params[:id])
-		if params[:commit] == 'Publish'
-			@week.status = 'PUBLISHED'
-			@week.save
-		end
 		view_context.update_scores @week
 		@games, @players = view_context.get_games_and_players @week, :NEW
 		@user = current_user
+		if params[:commit] == 'Publish'
+			@week.status = 'PUBLISHED'
+			@week.save
+			@players[0][:entry].winner = true
+			@players[0][:entry].save
+		end
 	end
 
 	def what_if

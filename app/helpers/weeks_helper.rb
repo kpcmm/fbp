@@ -193,7 +193,8 @@ module WeeksHelper
 	  		tb: e.tiebreak,
 	  		cu: e.user.id == current_user.id,
 	  		sort_points: 0,
-	  		pos: ''
+	  		pos: '',
+	  		entry: e
 	  		}
 
 	  	logger.debug "get_games_and_players player: #{player[:name]} player tb: #{player[:tb]} entry tb: #{e.tiebreak}, Current user: #{player[:cu]}"

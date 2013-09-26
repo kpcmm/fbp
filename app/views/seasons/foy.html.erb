@@ -1,23 +1,28 @@
 <% provide(:title, "FOY #{@season.year}") %>
-<h1>FBP<sub>hq</sub> FOY </h1>
+<h1>FBP<sub>hq</sub> FOY <%= @season.year %></h1>
 <h2 style="color: red">Beta under development - use at your own risk</h2>
 <table>
 	<tr>
-		<td/>
-		<td/>
+		<td style="width: 3%"/>
+		<td style="width: 12%"/>
 		<% (1..@foy_data[:max_week]).each do |wnum| %>
-			<td> <%= wnum %> </td>
+			<td style="width: 5%;text-align: center"> <%= wnum %> </td>
 		<% end %>
-		<td> Total </td>
+		<td style="width: 4%"> Total </td>
 	</tr>
 	<% @foy_data[:players].each_with_index do |p, i| %>
-		<tr>
+		<%
+			row_colors = ["cornsilk", "gainsboro"]
+			row_color =  row_colors[i%2]
+		%>
+		<tr style="background: <%= row_color %>">
 			<td> <%= i+1 %> </td>
 			<td> <%= p[:name] %> </td>
 			<% (1..@foy_data[:max_week]).each do |wnum| %>
-				<td> <%= p[:points][wnum] %> </td>
+				<% color = row_color; color = "red" if p[:winner][wnum] %>
+				<td style="background: <%= color %>;text-align: center"> <%= p[:points][wnum] %> </td>
 			<% end %>
-			<td> <%= p[:total] %> </td>			
+			<td style="text-align: right"> <%= p[:total] %> </td>			
 		</tr>
 	<% end %>
 </table>

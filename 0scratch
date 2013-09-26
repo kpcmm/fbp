@@ -443,3 +443,37 @@ table>
   <% end %>
 </div>
 </div -->
+
+
+
+        logger.debug "get_games_and_players        pick: #{pick.pick}"
+        outcome = pick.pick # default
+        dpoints = pick.points # default
+        color = "green" #default
+        logger.debug "get_games_and_players        action: #{action}"
+        case action
+        when :NEW
+          outcome = 'NR' if g.status == 'NOT_STARTED'
+        when :RESET
+          outcome = 'NR'
+        when :BEST
+          outcome = 'NR'
+        when :UPDATE
+          outcome = params["game_#{g.id}"]
+        when :PICKS
+          outcome = cu_pick if g.status == 'NOT_STARTED' # same as new
+        when :RESULTS
+          if g.status == 'NOT_STARTED'
+            outcome = 'NR'
+            outcome = params["game_#{g.id}"] if params["game_#{g.id}"]
+          else
+            outcome = 'HOME' if g.home_points > g.away_points
+            outcome = 'AWAY' if g.away_points > g.home_points
+            outcome = 'TIE' if g.away_points == g.home_points
+          end
+        else
+          outcome = 'NR'
+        end
+
+Entry.all.each { |e| e.winner = false; e.save }
+
