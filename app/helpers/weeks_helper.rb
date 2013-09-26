@@ -151,7 +151,7 @@ module WeeksHelper
   		when :RESULTS, :NEW
   			if g.status == 'NOT_STARTED'
   				outcome = 'NR'
-	  			outcome = params["game_#{g.id}"] if params["game_#{g.id}"]
+	  			outcome = params["game_#{g.id}"] if params && params["game_#{g.id}"]
   			else
 	  			outcome = 'HOME' if g.home_points > g.away_points
 	  			outcome = 'AWAY' if g.away_points > g.home_points
