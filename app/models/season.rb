@@ -10,6 +10,7 @@ class Season < ActiveRecord::Base
     weeks.each do |w|
     	next unless w.status == 'PUBLISHED'
     	w.entries.each do |e|
+    		next unless e.user.foy
     		name = e.user.name
     		player = players[name]
     		unless player
