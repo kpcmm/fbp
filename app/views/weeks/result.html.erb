@@ -1,12 +1,5 @@
 <h1> FBP<sub>hq</sub> Results Week <%= @week.week_num %></h1>
 <!--h2> SUBJECT TO CONFIRMATION </h2-->
-<p>
-	Results below should be accurate, but need to be checked. You can check your
-	own results
-	<!-- - points for correct picks are in red, your total is in blue. Please email any discrepancies to fbphq@yahoo.com
-	 The game headers have your picks in the larger font and the winning team in red. Points in the body of the table are underlined for away team picks. -->
-</p>
-<p>Thanks for your patience while we get this figured out</p>
 <% if  @week.status == 'COMPLETE' && @user.admin %>
 		<div class="span8 offset1">
 			<p style="color: red">
