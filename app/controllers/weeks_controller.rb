@@ -21,9 +21,10 @@ class WeeksController < ApplicationController
 		@user = current_user
 		if params[:commit] == 'Publish'
 			@week.status = 'PUBLISHED'
+			@week.comment = params[:comment]
 			@week.save
-			@players[0][:entry].winner = true
-			@players[0][:entry].save
+			@players[0] && @players[0][:entry].winner = true
+			@players[0] && @players[0][:entry].save
 		end
 	end
 
@@ -52,23 +53,23 @@ class WeeksController < ApplicationController
 
 	end
 
-	def foy
-		logger.info "===================================== F O Y ================================"
+	# def foy
+	# 	logger.info "===================================== F O Y ================================"
 
-		@week = Week.find(params[:id])
-		@status = view_context.update_scores
+	# 	@week = Week.find(params[:id])
+	# 	@status = view_context.update_scores
 
-		action = :NEW
-		action = :UPDATE if params[:commit] == "Update scenario"
-		action = :PICKS if params[:commit] == "Use my picks"
-		action = :BEST if params[:commit] == "Find my best shot"
+	# 	action = :NEW
+	# 	action = :UPDATE if params[:commit] == "Update scenario"
+	# 	action = :PICKS if params[:commit] == "Use my picks"
+	# 	action = :BEST if params[:commit] == "Find my best shot"
 
-		@games, @players = view_context.get_games_and_players @week, action, params
+	# 	@games, @players = view_context.get_games_and_players @week, action, params
 
-		@cpi = nil
-		@players.each_with_index { |p,i| @cpi = i if p[:cu] }
-		logger.debug "cpi: #{@cpi}"
-		@user = current_user
+	# 	@cpi = nil
+	# 	@players.each_with_index { |p,i| @cpi = i if p[:cu] }
+	# 	logger.debug "cpi: #{@cpi}"
+	# 	@user = current_user
 
-	end
+	# end
 end

@@ -8,9 +8,10 @@
 
 			Press the "Publish" button only when you are sure the results are correct.
 			<p>
-		</div>
-		<div class="span8 offset3">
-				<%= form_tag do %>				
+			<%= form_tag do %>
+				<p>
+				<%= label_tag :comment, "Comment:" %>
+				<%= text_field_tag :comment %>			
         		<%= submit_tag("Publish", class: "btn btn-large btn-primary") %>
 			<% end %>
 		</div>
@@ -19,6 +20,7 @@
 <% if @week.status == 'PUBLISHED' || (@week.status == 'COMPLETE' && @user.admin) %>
 	<div class="span6 offset1" style="background: khaki; border-radius: 15px">
 	<div class="span4 offset1" style="background: khaki">
+		<%= @week.comment %>
 		<table>
 			<tr><td><p></td></tr>
 			<% @players.each do |p| %>
