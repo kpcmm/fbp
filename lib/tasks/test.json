@@ -1,0 +1,14 @@
+{
+    "season": 2014,
+    "weeks": [
+        {
+            "week": 1,
+            "games": [{"a": "xxx"}, {"b": "yyy"}]
+        },
+        {
+            "week": 2,
+            "games": [{"c": "zzz"}, {"d": "qqq"}]
+        }
+    ]
+}
+

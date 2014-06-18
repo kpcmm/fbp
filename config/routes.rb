@@ -19,6 +19,7 @@ Fbp::Application.routes.draw do
       post 'result'
       get 'what_if'
       post 'what_if'
+      get 'entry_list'
     end
   end
 

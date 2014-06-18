@@ -103,6 +103,8 @@ class EntriesController < ApplicationController
     if @entry.errors.any?
       render 'edit'
     else
+      @entry.status = 'COMPLETE'
+      @entry.save
       flash.now[:success] = "Congratulations! Your week #{@week.week_num} picks are good!"
       @picks = @picks.sort { |a, b| a.points <=> b.points }
       EntryMailer.entry_email(@entry).deliver

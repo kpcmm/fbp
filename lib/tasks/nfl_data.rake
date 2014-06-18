@@ -1,6 +1,6 @@
 namespace :nfl do
   desc "Fill database with sample data"
-  task populate: :environment do
+  task populate2013: :environment do
     make_teams
     make_games
   end

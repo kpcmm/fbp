@@ -1,0 +1,37 @@
+<h1> FBP<sub>hq</sub> Entry Summary for Week <%= @week.week_num %></h1>
+<!--h2> SUBJECT TO CONFIRMATION </h2-->
+<% if @user.admin %>
+		<div class="span8 offset1">
+			<p style="color: red">
+			You are seeing this list because you are an administrator.
+			<p>
+			<ul>
+				<% @user_details.each do |ud|
+					color = 'white'
+					case ud[:status]
+						when 'NO_ENTRY'
+							color = 'red'
+						when 'NEW'
+							color = 'red'
+						when 'INCOMPLETE'
+							color = 'red'
+						when 'COMPLETE'
+							color = 'yellow'
+						when 'LOCKED'
+							color = 'green'
+					end %>
+					<li style="background: <%= color %>"><%= ud[:name] %> <%= ud[:status] %></li>
+				<% end %>
+			</ul>
+		</div>
+<% else %>
+			<p style="color: red">
+			This view is available only for administrators.
+<% end %>
+
+<div class="span10 offset2">
+	<p>
+	<%= link_to "Week #{@week.week_num} Summary",   week_path(@week) %>
+    <p>
+    <%= link_to "FOY", foy_season_path(@week.season) %>
+</div>

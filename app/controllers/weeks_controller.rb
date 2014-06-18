@@ -28,6 +28,19 @@ class WeeksController < ApplicationController
 		end
 	end
 
+	def entry_list
+		@week = Week.find(params[:id])
+		entries = @week.entries
+		@user = current_user
+		@user_details = []
+		User.all.each do |u|
+			status = 'NO_ENTRY'
+			entry = entries.find_by_user_id u.id
+			entry && status = entry.status
+			@user_details << {name: u.nickname, status: status}
+		end
+	end
+
 	def what_if
 		logger.info "===================================== W H A T    I F ================================"
 
