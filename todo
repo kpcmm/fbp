@@ -10,3 +10,18 @@
 = user nickname usage
 = a better home page
 = real time results processing
+= 2014 preparation
+	- for heroku
+		+ db migration entry.details
+		+ rake dbmod:pick_details
+		+ import 2014 season, weeks and games
+= convert all code to use entry details rather than picks
+	- entries_controller.rb
+	- weeks_helper.rb get_games_and_players
+	- app/views entry_mailer
+= db migration to get rid of picks
+= assess multi-season capabilities
+= make and multi-season changes
+= canvas-based what-if
+= get rid of micropost stuff
+
