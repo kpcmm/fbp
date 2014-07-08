@@ -1,129 +1,162 @@
+require "json"
+require 'net/http'
+
 namespace :nfl do
-  desc "Fill database with sample data"
-  task populate2013: :environment do
-    make_teams
-    make_games
+  desc "Fill database with real data - invoke like so: rake nfl:populate[2014]"
+
+  task :populate, [:season] => :environment do |task, args|
+    get_data args[:season]
+    make_games_and_teams args[:season]
   end
-  task clean: :environment do
-    make_clean
+  task clean_all: :environment do
+    clean_all
+  end
+  task :clean, [:season] => :environment do |task, args|
+    cleanup args[:season]
   end
 end
 
-def make_clean
-  Season.all.each do |s|
-    s.destroy
+def try_args s
+  puts "try_args#{s}"
+end
+
+def cleanup the_season
+  season = Season.find_by_year(the_season)
+  if season
+    season.weeks.each do |w|
+      w.entries.each do |e|
+        e.picks.each do |p|
+          p.destroy
+        end
+        e.destroy
+      end
+      w.games.each do |g|
+        g.destroy
+      end
+    end
+    season.destroy
+  end
+end
+
+def clean_all
+  Pick.all.each do |p|
+    p.destroy
+  end
+  Entry.all.each do |e|
+    e.destroy
+  end
+  Game.all.each do |g|
+    g.destroy
+  end
+  Week.all.each do |w|
+    w.destroy
   end
   Team.all.each do |t|
     t.destroy
   end
+  Season.all.each do |s|
+    s.destroy
+  end
 end
 
-def make_teams
-  count = 0;
-  File.open(Rails.root.join('lib', 'tasks', 'nfl2013.dat').to_s, "r") do |f|
-    while line = f.gets
-      if line =~ /\"[A-Z]+\" : { \"abbr\" : \"([A-Z]+)\", \"url\" : \"(.+)\", \"teamPage\":\"(.+)\", \"city\" : \"(.+)\", \"nickname\" : \"(.+)\", \"conference\": \"(.+)\", \"division\": \"(.+)\", \"shopId\" : \"(.+)\", \"facebook\": \"(.+)\", \"twitter\": \"(.+)\" }/
+def get_data the_season
+  host = 'www.nfl.com'
+  nflraw = File.open(Rails.root.join('lib', 'tasks', "nfl#{the_season}raw.dat").to_s, "w")
+
+  tags = Set.new()
+
+  tags.add "formattedDate"
+  tags.add "formattedTime"
+  tags.add "awayAbbr"
+  tags.add "homeAbbr"
+  tags.add "awayName"
+  tags.add "homeName"
+  tags.add "awayCityName"
+  tags.add "homeCityName"
+
+  last_tag = "homeCityName"
+
+  num_weeks = 17
+
+  schedule = {}
+  schedule[:season] = the_season
+  schedule[:weeks] = []
+  (1..num_weeks).each do |w|
+    path = "/schedules/#{the_season}/REG#{w}"
+    game_data = {}
+    week = {}
+    week[:week] = w
+    week[:games] = []
+    schedule[:weeks].append week
+    Net::HTTP.get(host, path).lines do |line|
+      nflraw.write line
+      if line =~ /^<!-- ([A-Za-z]+): (.+) -->/
         data = Regexp.last_match
-        code = data[1]
-        city = data[4]
-        display_name = city
-        display_name = 'N.Y. Giants' if code == 'NYG'
-        display_name = 'N.Y. Jets' if code == 'NYJ'
-        nickname = data[5]
-        team = Team.find_by_code(code)
-        if !team
-          #puts "team: #{code} #{city} #{nickname}"
-          count += 1
-          Team.create(code: code, nickname: nickname, city: city, name: "#{city} #{nickname}", display_name: display_name )
-          #puts "count #{count}"
+        tag = data[1]
+        value = data[2]
+        game_data[tag] = value if tags.include? tag
+        if tag == last_tag
+          week[:games].append game_data
+          game_data = {}
         end
       end
 
-      if count > 25 && line =~ /<\/script>/
-        break
-      end
+    end
+  end
+
+  nflraw.close
+  File.open(Rails.root.join('lib', 'tasks', "nfl#{the_season}.json").to_s, "w") do |outfile|
+    outfile.write(JSON.pretty_generate schedule)
+  end
+end
+
+def ensure_team(params)
+  display_name = params[:city]
+  display_name = 'N.Y. Giants' if params[:code] == 'NYG'
+  display_name = 'N.Y. Jets' if params[:code] == 'NYJ'
+  nickname = params[:name]
+  team = Team.find_by_code(params["code"])
+  if !team
+    Team.create(code: params[:code], nickname: nickname, city: params[:city], name: "#{params[:city]} #{nickname}", display_name: display_name )
+  end
+end
+
+def make_games_and_teams the_season
+  season = Season.find_by_year(the_season)
+  if !season
+    season = Season.create(year: the_season)
+  end
+  nfljson = File.open(Rails.root.join('lib', 'tasks', "nfl#{the_season}.json").to_s, "r")
+  total_games = 0;
+  last_date = nil
+  pdata = JSON.load nfljson
+  pdata["weeks"].each do |w|
+    week = Week.find_by_season_id_and_week_num(season.id, w["week"])
+    if !week
+      week = season.weeks.create(week_num: w["week"], status: "NOT_STARTED")
+    end
+    games = w["games"]
+    total_games += games.size
+    games.each do |g|
+      ensure_team({code: g["homeAbbr"], city: g["homeCityName"], name: g["homeName"]})
+      ensure_team({code: g["awayAbbr"], city: g["awayCityName"], name: g["awayName"]})
+
+      g["formattedDate"] =~ /(.+day), (.+) (.+)/
+      data = Regexp.last_match
+      day_ = data[1]
+      month_ = data[2]
+      date_ = data[3]
+      current_date = "#{month_} #{date_}"
+
+      g["formattedTime"] =~ /(\d+:\d+ [AP]M)/
+      data = Regexp.last_match
+      game_time = data[1]
+      game_date_time = Time.zone.parse("#{season.year} #{current_date} #{game_time}")
+
+      home_team = Team.find_by_code(g["homeAbbr"])
+      away_team = Team.find_by_code(g["awayAbbr"])
+      week.games.create!(home_team_id: home_team.id, away_team_id: away_team.id, status: 'NOT_STARTED', start: game_date_time, tiebreak: false)
     end
   end
 end
 
-def make_games
-  year = 0
-  season = nil
-  week_num = 0
-  week = nil
-  weeks = 0
-  count = 0
-  games = 0
-  game = nil
-  home_team = nil
-  away_team = nil
-  total_games = 0
-  team = {}
-  team_code = {}
-  team_name = {}
-  Time.zone= "Eastern Time (US & Canada)"
-  File.open(Rails.root.join('lib', 'tasks', 'nfl2013.dat').to_s, "r") do |f|
-    while line = f.gets
-      if line =~ /nfl data (\d{4})/
-        data = Regexp.last_match
-        year = data[1]
-        puts "got season, year: #{year}"
-        season = Season.find_by_year(year)
-        if !season
-          season = Season.create(year: year)
-        end
-      end
-
-      if line =~ /== week (\d+)/
-        data = Regexp.last_match
-        weeks += 1
-        week_num = data[1]
-        puts "------------------- week #{week_num} -------------------"
-        count = 0
-        games = 0
-        game_time = nil
-        time_suffix = nil
-        last_date = nil
-        week = Week.find_by_season_id_and_week_num(season.id, week_num)
-        if !week
-          week = season.weeks.create(week_num: week_num, status: "NOT_STARTED")
-        end
-      end
-
-      if line =~ /<!-- formattedDate: (.+day), (.+) (.+) -->/
-        data = Regexp.last_match
-        day_ = data[1]
-        month_ = data[2]
-        date_ = data[3]
-        current_date = "#{month_} #{date_}"
-        if current_date != last_date
-          puts "--#{current_date} -------------------"
-          last_date = current_date
-        end
-      end
-
-      if current_date && line =~/<!-- formattedTime: (\d+:\d+ [AP]M)  -->/
-        data = Regexp.last_match
-        game_time = data[1]
-        game_date_time = Time.zone.parse("#{season.year} #{current_date} #{game_time}")
-        #puts("#{season.year} #{current_date} #{game_time} =>>>  #{game_date_time}")
-      end
-
-      if game_date_time && line =~ /<!-- (home|away)Abbr: ([A-Z]+) -->/
-        data = Regexp.last_match
-        team_code[data[1]] = data[2]
-        #puts "--#{data[1]} #{data[2]} -------------------"
-      end
-
-      if team_code["home"] && team_code["away"] && game_date_time
-        games += 1
-        puts " time: #{game_date_time}, home: #{team_code["home"]}, away: #{team_code["away"]}"
-        home_team = Team.find_by_code(team_code["home"])
-        away_team = Team.find_by_code(team_code["away"])
-        week.games.create!(home_team_id: home_team.id, away_team_id: away_team.id, status: 'NOT_STARTED', start: game_date_time, tiebreak: false)
-        current_date = game_date_time = team_code["home"] = team_code["away"] = nil
-      end
-    end
-  end
-  season.weeks.each {|w| g=w.games.last;  g.tiebreak = true;  g.save}
-end

@@ -20,7 +20,6 @@ def do_pick_details
       end
       detail[p.points] = t.code
     end
-    detail["TB"] = e.tiebreak
     d = JSON.generate detail
     #puts d
     e.details =  d

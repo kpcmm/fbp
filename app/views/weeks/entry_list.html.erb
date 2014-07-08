@@ -1,3 +1,4 @@
+<% provide(:year, "#{@week.season.year}") %>
 <h1> FBP<sub>hq</sub> Entry Summary for Week <%= @week.week_num %></h1>
 <!--h2> SUBJECT TO CONFIRMATION </h2-->
 <% if @user.admin %>
@@ -18,7 +19,7 @@
 						when 'COMPLETE'
 							color = 'yellow'
 						when 'LOCKED'
-							color = 'green'
+							color = 'lightgreen'
 					end %>
 					<li style="background: <%= color %>"><%= ud[:name] %> <%= ud[:status] %></li>
 				<% end %>

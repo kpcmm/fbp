@@ -1,6 +1,17 @@
-<% provide(:title, "week #{@week.week_num}") %>
+<% provide(:title, "#{@week.season.year} week #{@week.week_num}") %>
+<% provide(:year, "#{@week.season.year}") %>
 <div class="row">
-  <div class="span8 offset3">
+  <div class="span2">
+   <ul>
+      <% @week.season.weeks.sort_by { |a| a.week_num }.each do |w| %>
+        <li>
+              <%= link_to "Week #{w.week_num}",   week_path(w) %>
+        </li>
+      <% end %>
+    </ul>
+    <ul>
+  </div> 
+  <div class="span6 offset1">
     <% if @games.any? %>
       <h3>Week <%= @week.week_num %> Games (<%= @games.count %>)</h3>
       <ol class="games">

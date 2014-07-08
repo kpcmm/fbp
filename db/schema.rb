@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131008043422) do
+ActiveRecord::Schema.define(:version => 20140630111455) do
 
   create_table "entries", :force => true do |t|
     t.integer  "tiebreak"
@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(:version => 20131008043422) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.boolean  "winner"
+    t.string   "details__"
+    t.string   "details"
   end
 
   add_index "entries", ["user_id"], :name => "index_entries_on_user_id"
@@ -50,17 +52,7 @@ ActiveRecord::Schema.define(:version => 20131008043422) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "picks", :force => true do |t|
-    t.integer  "entry_id"
-    t.integer  "game_id"
-    t.string   "pick"
-    t.integer  "points"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "picks", ["entry_id", "game_id"], :name => "index_picks_on_entry_id_and_game_id", :unique => true
-  add_index "picks", ["game_id"], :name => "index_picks_on_game_id"
+  add_index "microposts", ["user_id", "created_at"], :name => "index_microposts_on_user_id_and_created_at"
 
   create_table "regs", :force => true do |t|
     t.string   "name"

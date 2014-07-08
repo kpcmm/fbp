@@ -99,8 +99,6 @@ module WeeksHelper
 		status
 	end
 
-	require 'RMagick'
-	include Magick
 
     Player = Struct.new(:name, :points, :user, :picks, :tb, :cu, :sort_points)
 
@@ -176,7 +174,7 @@ module WeeksHelper
   		outcomes << {game: g, home_color: home_color, away_color: away_color, outcome: outcome}
 	  end
 
-	  tb_game_points = tb_game.home_points + tb_game.away_points
+	  tb_game_points = tb_game ? tb_game.home_points + tb_game.away_points : 0
 
 	  # build an array of player information, so we can later sort it by calculatd total points
 	  players = []
@@ -229,7 +227,7 @@ module WeeksHelper
 				color = "red"
 			else
 				if pick.pick == outcome
-		  			dpoints = pick.points
+		  			dpoints = pick.points.to_i
 					player[:points] += dpoints
   					color = "red"
 				else

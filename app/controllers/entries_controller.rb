@@ -20,11 +20,6 @@ class EntriesController < ApplicationController
     @total_points = (1..@total_games).inject { |a,b| a + b }
     Time.zone= "Pacific Time (US & Canada)"
 
-    if !@entry.picks.any?
-      @games.each do |g|
-        @entry.picks.create(entry_id: @entry.id, game_id: g.id, pick: "NONE")
-      end
-    end
     @picks = @entry.picks.sort { |a, b| a.game.start == b.game.start ? a.game.home_team.name <=> b.game.home_team.name : a.game.start <=> b.game.start }
   end
   
@@ -40,11 +35,6 @@ class EntriesController < ApplicationController
 
     cutoff = @games[0].start
     if Time.now > cutoff
-      if !@entry.picks.any?
-        @games.each do |g|
-          @entry.picks.create(entry_id: @entry.id, game_id: g.id, pick: "NONE")
-        end
-      end
       @picks = @entry.picks.sort { |a, b| a.game.start == b.game.start ? a.game.home_team.name <=> b.game.home_team.name : a.game.start <=> b.game.start }
       flash.now[:alert] = " Sorry, cutoff time for week #{@week.week_num} has passed"
       render 'show' and return
@@ -55,8 +45,8 @@ class EntriesController < ApplicationController
     usage = Array.new(n+1, 0)
     problems = []
 
-    @picks = @entry.picks.sort { |a, b| a.game.start <=> b.game.start }
-    @picks.each do |pick|
+    #@picks = @entry.picks.sort { |a, b| a.game.start <=> b.game.start }
+    @entry.picks.each do |pick|
       home_points = params[pick.game.home_team.code].to_i
       away_points = params[pick.game.away_team.code].to_i
       if home_points > 0 && home_points <= n && away_points == 0
@@ -72,7 +62,6 @@ class EntriesController < ApplicationController
         pick.pick = 'NONE'
         problems << "No valid pick for #{pick.game.away_team.name} at #{pick.game.home_team.name}"
       end
-      pick.save
     end
 
     tb = params['tiebreak']
@@ -106,8 +95,9 @@ class EntriesController < ApplicationController
       @entry.status = 'COMPLETE'
       @entry.save
       flash.now[:success] = "Congratulations! Your week #{@week.week_num} picks are good!"
-      @picks = @picks.sort { |a, b| a.points <=> b.points }
+      @picks = @entry.picks.sort { |a, b| a.points <=> b.points }
       EntryMailer.entry_email(@entry).deliver
+      ensure_entries
       render 'show'
     end
 
@@ -123,15 +113,18 @@ class EntriesController < ApplicationController
 
   private
     def ensure_entries
-    weeks = @entry.week.season.weeks.sort { |a,b| a <=> b }
-    @entries = []
-    weeks.each do |w|
-      e = Entry.find_by_user_id_and_week_id(current_user.id, w.id)
-      if !e
-        e = w.entries.create(user_id: current_user.id, tiebreak: 0, status: "NEW"  )
+      weeks = @entry.week.season.weeks.sort { |a,b| a <=> b }
+      @entries = []
+      weeks.each do |w|
+        e = Entry.find_by_user_id_and_week_id(current_user.id, w.id)
+        if !e
+          e = w.entries.create(user_id: current_user.id, tiebreak: 0, status: "NEW"  )
+          e.save
+        end
+        @entries.append e
       end
-      @entries.append e
-    end
+
+      @entries = @entries.sort {|a,b| a.week.week_num <=> b.week.week_num}
 
     end
 
@@ -142,11 +135,6 @@ class EntriesController < ApplicationController
       @games = @week.games
       Time.zone= "Pacific Time (US & Canada)"
 
-      if !@entry.picks.any?
-        @games.each do |g|
-          @entry.picks.create(entry_id: @entry.id, game_id: g.id, pick: "NONE")
-        end
-      end
       @picks = @entry.picks.sort { |a, b| a.game.start <=> b.game.start }
     end
 

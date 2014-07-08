@@ -1,3 +1,4 @@
+<% provide(:year, "#{@week.season.year}") %>
 <h1> FBP<sub>hq</sub> Results Week <%= @week.week_num %></h1>
 <!--h2> SUBJECT TO CONFIRMATION </h2-->
 <% if  @week.status == 'COMPLETE' && @user.admin %>

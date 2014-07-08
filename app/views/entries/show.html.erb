@@ -1,4 +1,5 @@
 <% provide(:title, 'Valid Entry') %>
+<% provide(:year, "#{@week.season.year}") %>
 <h1>Entry for week <%= @week.week_num%></h1>
 
 
@@ -8,10 +9,17 @@
 	<div class="span12">
 		<div class="row-fluid">
 			<div class="span2">
-				<ul>
+<!-- 				<ul>
 					<% @week.season.weeks.sort_by { |a| a.week_num }.each do |w| %>
 						<li>
 				      		<%= link_to "Week #{w.week_num}",   week_path(w) %>
+						</li>
+					<% end %>
+				</ul>
+ -->				<ul>
+					<% @entries.each do |e| %>
+						<li>
+				      		<%= link_to "Entry for week: #{e.week.week_num}",  user_entry_path(current_user,e) %>
 						</li>
 					<% end %>
 				</ul>

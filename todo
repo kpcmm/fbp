@@ -25,4 +25,5 @@
 = canvas-based what-if
 = get rid of micropost stuff
 = figure out why todo didn't get pushed
+= what-if and results crash on a week summary page if no entries yet for that week
 

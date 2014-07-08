@@ -6,6 +6,7 @@ class SeasonsController < ApplicationController
 	def show
 		Time.zone= "Pacific Time (US & Canada)"
 	    @season = Season.find(params[:id])
+	    current_season = @season if @season
 	    @weeks = @season.weeks. sort { |a,b| a.week_num <=> b.week_num }
 	    @cutoff = []
 	    @weeks.each do |w|

@@ -2,6 +2,7 @@
   <div class="navbar-inner">
     <div class="container">
       <%= link_to raw("FBP<sub>hq</sub>"), root_path, id: "logo" %>
+      <div id="yr"><%= yield(:year)%></div>
       <nav>
         <ul class="nav pull-right">
           <li><%= link_to "Home", root_path %></li>
