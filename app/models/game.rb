@@ -1,5 +1,5 @@
 class Game < ActiveRecord::Base
-  attr_accessible :status, :away_points, :away_team_id, :home_points, :home_team_id, :start, :week_id, :tiebreak, :home_team, :away_team
+  #attr_accessible :status, :away_points, :away_team_id, :home_points, :home_team_id, :start, :week_id, :tiebreak, :home_team, :away_team
   validates :status, presence: true, inclusion: { in: %w(NOT_STARTED STARTED COMPLETE), message: "%{value} is not NOT_STARTED STARTED or COMPLETE" }
 
   validates :away_team_id, presence: true

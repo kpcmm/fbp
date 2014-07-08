@@ -1,5 +1,5 @@
 class Entry < ActiveRecord::Base
-  attr_accessible :status, :tiebreak, :user_id, :week_id
+  #attr_accessible :status, :tiebreak, :user_id, :week_id
   attr :picks
   validates :status, presence: true, inclusion: { in: %w(NEW INCOMPLETE COMPLETE LOCKED), message: "%{value} is not NEW, INCOMPLETE, COMPLETE or LOCKED" }
   validates :user_id, presence: true

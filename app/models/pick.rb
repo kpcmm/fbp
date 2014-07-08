@@ -1,5 +1,5 @@
 class Pick < ActiveRecord::Base
-  attr_accessible :entry_id, :game_id, :pick, :points
+  #attr_accessible :entry_id, :game_id, :pick, :points
   validates :entry_id, presence: true
   validates :game_id, presence: true, uniqueness: { scope: :entry_id }
   validates :pick, presence: true, inclusion: { in: %w(HOME AWAY NONE), message: "%{value} is not HOME or AWAY or NONE" }
