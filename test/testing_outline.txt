@@ -1,0 +1,11 @@
+Two years of test data are set up by fixtures.
+
+2011 - all games and entries complete - use to test results, historic what-if, complete FOY etc.
+     - fixture week names are week_1 to week_17
+
+2012 - fixture weeks week_18 to week_34. week_18 to week_23 are complete. week_24 to week_34 are not yet started.
+     - use week_24 to test time-sensitive actions like cut-off and mid-game score changes.
+     - week_24 is 2011, week 7.
+
+There are ruby scripts in lib/tasks, such as game_yml.rb to generate fixture data based on actual year 2013.
+

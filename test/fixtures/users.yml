@@ -1,0 +1,243 @@
+user_114:
+  name: 'limey'
+  email: 'johnackers94521@yahoo.com'
+  password_digest: '$2a$10$wXkabVMNBnMJMLPeK.1sZ.OdDm9NJ0ukA5yT38FHt5m4B2rUHxHZO'
+  remember_token: 'dLPadzenTwojn5NdBwuyCQ'
+  admin: false
+  foy: false
+  nickname: 'limey'
+
+user_101:
+  name: 'tgb'
+  email: 'copleyb@yahoo.com'
+  password_digest: '$2a$10$FsEG8UzuXa79oaYkp6Fd2.2T/5ctCqa/k39COchWqGXR7TGBYKc/S'
+  remember_token: 'v0WMRJGW3zqrYKgj7uxs7w'
+  admin: false
+  foy: true
+  nickname: 'tgb'
+
+user_104:
+  name: 'fbpking'
+  email: 'fbpking@aol.com'
+  password_digest: '$2a$10$CNl3M2qzAEVkJxbAPiQDpO45.6xScatJTFoAb8bTz9SLr5vpSs4Ie'
+  remember_token: 'eVaSNLcAZb6eOim-DFj-tQ'
+  admin: false
+  foy: true
+  nickname: 'fbpking'
+
+user_105:
+  name: 'bonnieandclyde'
+  email: 'spowhn@gmail.com'
+  password_digest: '$2a$10$saAcH8MXSfCc/C0eYfcdHu34grpVSlP6MIUhlcS80jgwUD5HUOu2e'
+  remember_token: 'GOF5ufW1yEoTwVZF1_xM6Q'
+  admin: false
+  foy: true
+  nickname: 'BonnieandClyde'
+
+user_106:
+  name: 'valcro'
+  email: 'valdii@yahoo.com'
+  password_digest: '$2a$10$qiGmWLOqJZ//rG56dKWUJucag/NnruLOrxfqkO0xbq/.rUfFBRp.e'
+  remember_token: 'eIfV1zvSATUcZ5silScTsw'
+  admin: false
+  foy: true
+  nickname: 'valcro'
+
+user_107:
+  name: 'theenglander'
+  email: 'odpcoach23@yahoo.com'
+  password_digest: '$2a$10$6tpwbPBrZEbcSLh9IaV22eW35l3SfU5YA295DydL6wYp1xfoREV7K'
+  remember_token: 'E5mT62c5EfWmLpTVL1amlQ'
+  admin: false
+  foy: true
+  nickname: 'TheEnglander'
+
+user_108:
+  name: 'shadylady'
+  email: 'alycetrave@aol.com'
+  password_digest: '$2a$10$bTOQZtVBSSm6Ck.QQ/pm2eUdM2LBtwcMfRY7dnREJBFEdAoWSLxka'
+  remember_token: '2Pv7d6Uc46hNYnpljpBjmw'
+  admin: false
+  foy: true
+  nickname: 'ShadyLady'
+
+user_110:
+  name: 'raider'
+  email: 'markdeloso@comcast.net'
+  password_digest: '$2a$10$osab7pxumfWqk/DxD73ru.M2tFT4aR0esvnciQEnbhpZvrJIIML9y'
+  remember_token: 'EVTzC22gEVzj1h0IsAObhg'
+  admin: false
+  foy: true
+  nickname: 'Raider'
+
+user_111:
+  name: 'emfightingsaints'
+  email: 'wertcm@hotmail.com'
+  password_digest: '$2a$10$SzwHgHnd3eYHLKqDRbo/KeWxBLi8cdEMN2K9KoFOYK1tuGqqbQKCC'
+  remember_token: 'iEq11ovXCJmiCH50-04hkg'
+  admin: false
+  foy: true
+  nickname: 'EMFightingSaints'
+
+user_112:
+  name: 'fbpprincess'
+  email: 'melissblue@aol.com'
+  password_digest: '$2a$10$n34GWsHdRRROxpuzMteNvOCZJ.ifp4ccVVwJJCtXA0zjWjtz3V8um'
+  remember_token: 'Mmh7R5Vzy2A0wdvyWsMiuQ'
+  admin: false
+  foy: true
+  nickname: 'FBPPrincess'
+
+user_113:
+  name: 'diamondgirl'
+  email: 'irene40@msn.com'
+  password_digest: '$2a$10$p1eOlQcPzL36Olf6v8mUT.hC6U5Fvux8guyjYgKVZmDuqQ7UrFIQS'
+  remember_token: 'RDOhJgWNisbHhVe7hNoeTQ'
+  admin: false
+  foy: true
+  nickname: 'diamondgirl'
+
+user_115:
+  name: 'the machine'
+  email: 'patrickvail@gmail.com'
+  password_digest: '$2a$10$tpSBZaOlD.WnT0OiTdxFDO1HA.8F2NHiCc0PjxvquHVBeMfsL/a7W'
+  remember_token: 'kp7b6MkAyHany87ZeVv2Tw'
+  admin: false
+  foy: true
+  nickname: 'The Machine'
+
+user_116:
+  name: 'rharry'
+  email: 'rharry33@yahoo.con'
+  password_digest: '$2a$10$kRmI7r378UaSsDjBhaLph.erlK78lp/B3y41tkdKfZ1sOOFUB9gvi'
+  remember_token: '7aej9Hurtw6NRUAFDF9GBA'
+  admin: false
+  foy: true
+  nickname: 'Rharry'
+
+user_119:
+  name: 'paw'
+  email: 'calimom_563@hotmail.com'
+  password_digest: '$2a$10$34N8ELy/5vCpr5J.qUIm7eJYRTyS.kxwEDC2TWSgnMn8Q6wsK579C'
+  remember_token: 'GcK9CT5AP6BjVBBw4nbHAQ'
+  admin: false
+  foy: true
+  nickname: 'PAW'
+
+user_120:
+  name: 'bigdog'
+  email: 'stusteinlc@sbcglobal.net'
+  password_digest: '$2a$10$2XOLVP7ne7xh5m/t/riebe5lyeQZXaWeRgeT1CbLTmW/v0RqSgNEO'
+  remember_token: 'zEQ0PzfRxz3U9ZYXpLtu6A'
+  admin: false
+  foy: true
+  nickname: 'BigDog'
+
+user_121:
+  name: 'treeguru'
+  email: 'jctraverso@aol.com'
+  password_digest: '$2a$10$/PR8Hs2o1DLDGjoxw2K7wupUkZ1100FYUe3Ca2efN6BG0PrjJvxru'
+  remember_token: 'rAN8ESAg2n7lyBd9AGhxNQ'
+  admin: false
+  foy: true
+  nickname: 'TreeGuru'
+
+user_122:
+  name: 'utahkev'
+  email: 'kevingwalthers@gmail.com'
+  password_digest: '$2a$10$J0tpuDFbmdRepsyTAzvxq.TxIEdXNPlsj6I4uBdIStlnUogskdEhK'
+  remember_token: 'yhw-P9dKaLR9rQIvmhhaJw'
+  admin: false
+  foy: true
+  nickname: 'utahkev'
+
+user_123:
+  name: 'mightymice'
+  email: 'nikala1127@gmail.com'
+  password_digest: '$2a$10$hllnx1oM2prqfoFUaJRM0u11BjraEr.jyRCZh7756399SRru/1/0y'
+  remember_token: 'jFE109MA9-FN6VgqXCN24g'
+  admin: false
+  foy: true
+  nickname: 'MightyMice'
+
+user_124:
+  name: 'local522'
+  email: 'brit0217@gmail.com'
+  password_digest: '$2a$10$Qw1LRBxyyOrxoGFOv14XB.nJDpZhXYdyL1286Mvz7gB3ZZGvMl3cG'
+  remember_token: 'w3fcQyWznJYhjxOlajSH3Q'
+  admin: false
+  foy: true
+  nickname: 'Local522'
+
+user_125:
+  name: 'stuckinthemiddle'
+  email: 'barbara.lum@gmail.com'
+  password_digest: '$2a$10$jl93iljPnJ4ihlW0lfZy9uCMYLyZmj4VyplaWuMhQcla0qmQTezPe'
+  remember_token: 'WOTK-a1CkGOfT0kRAfKHuA'
+  admin: false
+  foy: true
+  nickname: 'StuckintheMiddle'
+
+user_126:
+  name: 'l3lowuaway'
+  email: 'mjwong1@hotmail.com'
+  password_digest: '$2a$10$q.SdhqFRvt4t9.Wysl/uXuapo9nNuUocdanjeyj.r376DTK/kae66'
+  remember_token: 'O_jnRMEHxVJoAq50LAd1Qg'
+  admin: false
+  foy: true
+  nickname: 'l3lowuaway'
+
+user_127:
+  name: 'fatty'
+  email: 'gregkwong@hotmail.com'
+  password_digest: '$2a$10$bp6zKFpxoeldLaMDlzMb5u9OSZF0ayoRG.9tv/AxlpNjAnqqM1l1W'
+  remember_token: '5VaP4ixYBIzyfqo2devZ8g'
+  admin: false
+  foy: true
+  nickname: 'fatty'
+
+user_109:
+  name: 'lifesavers'
+  email: 'enourse@gmail.com'
+  password_digest: '$2a$10$Mzu2z/qwJsTv9FCvkeGqdOkdR5h5uANR/HJfMWlZBq0fY9J8ErV2K'
+  remember_token: 'yC4CTpbnJp3-9hG2nud2WA'
+  admin: false
+  foy: true
+  nickname: 'lifesavers'
+
+user_103:
+  name: 'fbp_ceo'
+  email: 'fbphq@yahoo.com'
+  password_digest: '$2a$10$3s70Vjd7QEYTKxpqHjGbieUPK3Pd2IIzH6wVxfftymVxgLy3v7sUW'
+  remember_token: 'rmqeaJd9nVunHA1R7GeQPw'
+  admin: true
+  foy: true
+  nickname: 'fbp_ceo'
+
+user_118:
+  name: 'tazdivil'
+  email: 'wiley77@aol.com'
+  password_digest: '$2a$10$hEujOTD9TJc/rGX1s.to1.VnZSDedBNg6V01sVeFKHaVssgonW6Ce'
+  remember_token: 'APhucptpqAccPLXLlkiVgg'
+  admin: false
+  foy: false
+  nickname: 'tazdivil'
+
+user_102:
+  name: 'goingfortwo'
+  email: 'kpcmm@yahoo.com'
+  password_digest: '$2a$10$Whmd.SX66o.mv0cYEooDC.I9Ohbp4oE/CIOW0U1oxbQtaDnRZXAz6'
+  remember_token: 'QNj262OcxuyiYIqhgdxOqQ'
+  admin: true
+  foy: true
+  nickname: 'goingfortwo'
+
+user_117:
+  name: 'anygvnday'
+  email: 'mscreeker@yahoo.com'
+  password_digest: '$2a$10$K/bQMiFf3yoltsBq9NrdjukbJIDac/rBIMAJg1G7FEmN41JIiB8rO'
+  remember_token: 'W2GeCIUh4qjxj73umuAOJA'
+  admin: false
+  foy: true
+  nickname: 'anygvnday'
+

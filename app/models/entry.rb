@@ -22,7 +22,7 @@ class Entry < ActiveRecord::Base
   end
 
   def create_json
-    "{}" if !@picks
+    return "{}" if !@picks
     temp = {}
     @picks.each do |p|
       t = 'NONE'

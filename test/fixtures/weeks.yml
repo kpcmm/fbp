@@ -1,0 +1,23 @@
+<% 1.upto 17 do |n| %>
+week_<%= n %>:
+  season: :year_one
+  week_num: <%= n %>
+  status: PUBLISHED
+  comment: created by yaml
+<% end %>
+
+<% 18.upto 23 do |n| %>
+week_<%= n %>:
+  season: :year_two
+  week_num: <%= n-17 %>
+  status: PUBLISHED
+  comment: created by yaml
+<% end %>
+
+<% 24.upto 34 do |n| %>
+week_<%= n %>:
+  season: :year_two
+  week_num: <%= n-17 %>
+  status: NOT_STARTED
+  comment: created by yaml
+<% end %>

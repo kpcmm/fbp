@@ -1,0 +1,224 @@
+team_BUF:
+  code: 'BUF'
+  name: 'Buffalo Bills'
+  nickname: 'Bills'
+  city: 'Buffalo'
+  display_name: 'Buffalo'
+
+team_MIA:
+  code: 'MIA'
+  name: 'Miami Dolphins'
+  nickname: 'Dolphins'
+  city: 'Miami'
+  display_name: 'Miami'
+
+team_NE:
+  code: 'NE'
+  name: 'New England Patriots'
+  nickname: 'Patriots'
+  city: 'New England'
+  display_name: 'New England'
+
+team_NYJ:
+  code: 'NYJ'
+  name: 'New York Jets'
+  nickname: 'Jets'
+  city: 'New York'
+  display_name: 'N.Y. Jets'
+
+team_BAL:
+  code: 'BAL'
+  name: 'Baltimore Ravens'
+  nickname: 'Ravens'
+  city: 'Baltimore'
+  display_name: 'Baltimore'
+
+team_CIN:
+  code: 'CIN'
+  name: 'Cincinnati Bengals'
+  nickname: 'Bengals'
+  city: 'Cincinnati'
+  display_name: 'Cincinnati'
+
+team_CLE:
+  code: 'CLE'
+  name: 'Cleveland Browns'
+  nickname: 'Browns'
+  city: 'Cleveland'
+  display_name: 'Cleveland'
+
+team_PIT:
+  code: 'PIT'
+  name: 'Pittsburgh Steelers'
+  nickname: 'Steelers'
+  city: 'Pittsburgh'
+  display_name: 'Pittsburgh'
+
+team_HOU:
+  code: 'HOU'
+  name: 'Houston Texans'
+  nickname: 'Texans'
+  city: 'Houston'
+  display_name: 'Houston'
+
+team_IND:
+  code: 'IND'
+  name: 'Indianapolis Colts'
+  nickname: 'Colts'
+  city: 'Indianapolis'
+  display_name: 'Indianapolis'
+
+team_JAC:
+  code: 'JAC'
+  name: 'Jacksonville Jaguars'
+  nickname: 'Jaguars'
+  city: 'Jacksonville'
+  display_name: 'Jacksonville'
+
+team_TEN:
+  code: 'TEN'
+  name: 'Tennessee Titans'
+  nickname: 'Titans'
+  city: 'Tennessee'
+  display_name: 'Tennessee'
+
+team_DEN:
+  code: 'DEN'
+  name: 'Denver Broncos'
+  nickname: 'Broncos'
+  city: 'Denver'
+  display_name: 'Denver'
+
+team_KC:
+  code: 'KC'
+  name: 'Kansas City Chiefs'
+  nickname: 'Chiefs'
+  city: 'Kansas City'
+  display_name: 'Kansas City'
+
+team_OAK:
+  code: 'OAK'
+  name: 'Oakland Raiders'
+  nickname: 'Raiders'
+  city: 'Oakland'
+  display_name: 'Oakland'
+
+team_SD:
+  code: 'SD'
+  name: 'San Diego Chargers'
+  nickname: 'Chargers'
+  city: 'San Diego'
+  display_name: 'San Diego'
+
+team_DAL:
+  code: 'DAL'
+  name: 'Dallas Cowboys'
+  nickname: 'Cowboys'
+  city: 'Dallas'
+  display_name: 'Dallas'
+
+team_NYG:
+  code: 'NYG'
+  name: 'New York Giants'
+  nickname: 'Giants'
+  city: 'New York'
+  display_name: 'N.Y. Giants'
+
+team_PHI:
+  code: 'PHI'
+  name: 'Philadelphia Eagles'
+  nickname: 'Eagles'
+  city: 'Philadelphia'
+  display_name: 'Philadelphia'
+
+team_WAS:
+  code: 'WAS'
+  name: 'Washington Redskins'
+  nickname: 'Redskins'
+  city: 'Washington'
+  display_name: 'Washington'
+
+team_CHI:
+  code: 'CHI'
+  name: 'Chicago Bears'
+  nickname: 'Bears'
+  city: 'Chicago'
+  display_name: 'Chicago'
+
+team_DET:
+  code: 'DET'
+  name: 'Detroit Lions'
+  nickname: 'Lions'
+  city: 'Detroit'
+  display_name: 'Detroit'
+
+team_GB:
+  code: 'GB'
+  name: 'Green Bay Packers'
+  nickname: 'Packers'
+  city: 'Green Bay'
+  display_name: 'Green Bay'
+
+team_MIN:
+  code: 'MIN'
+  name: 'Minnesota Vikings'
+  nickname: 'Vikings'
+  city: 'Minnesota'
+  display_name: 'Minnesota'
+
+team_ATL:
+  code: 'ATL'
+  name: 'Atlanta Falcons'
+  nickname: 'Falcons'
+  city: 'Atlanta'
+  display_name: 'Atlanta'
+
+team_CAR:
+  code: 'CAR'
+  name: 'Carolina Panthers'
+  nickname: 'Panthers'
+  city: 'Carolina'
+  display_name: 'Carolina'
+
+team_NO:
+  code: 'NO'
+  name: 'New Orleans Saints'
+  nickname: 'Saints'
+  city: 'New Orleans'
+  display_name: 'New Orleans'
+
+team_TB:
+  code: 'TB'
+  name: 'Tampa Bay Buccaneers'
+  nickname: 'Buccaneers'
+  city: 'Tampa Bay'
+  display_name: 'Tampa Bay'
+
+team_ARI:
+  code: 'ARI'
+  name: 'Arizona Cardinals'
+  nickname: 'Cardinals'
+  city: 'Arizona'
+  display_name: 'Arizona'
+
+team_STL:
+  code: 'STL'
+  name: 'St. Louis Rams'
+  nickname: 'Rams'
+  city: 'St. Louis'
+  display_name: 'St. Louis'
+
+team_SF:
+  code: 'SF'
+  name: 'San Francisco 49ers'
+  nickname: '49ers'
+  city: 'San Francisco'
+  display_name: 'San Francisco'
+
+team_SEA:
+  code: 'SEA'
+  name: 'Seattle Seahawks'
+  nickname: 'Seahawks'
+  city: 'Seattle'
+  display_name: 'Seattle'
+

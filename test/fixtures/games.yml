@@ -1,0 +1,5120 @@
+game_2011_week11_IND_at_TEN:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_TEN
+  away_team: :team_IND
+  home_points: 27
+  away_points: 30
+  start: 2011-11-18 01:25:00 UTC
+  tiebreak: false
+
+game_2011_week11_KC_at_DEN:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_DEN
+  away_team: :team_KC
+  home_points: 27
+  away_points: 17
+  start: 2011-11-20 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week11_BAL_at_CHI:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_CHI
+  away_team: :team_BAL
+  home_points: 23
+  away_points: 20
+  start: 2011-11-20 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week11_NE_at_CAR:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_CAR
+  away_team: :team_NE
+  home_points: 24
+  away_points: 20
+  start: 2011-11-22 01:40:00 UTC
+  tiebreak: true
+
+game_2011_week11_NYJ_at_BUF:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_BUF
+  away_team: :team_NYJ
+  home_points: 37
+  away_points: 14
+  start: 2011-11-20 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week11_CLE_at_CIN:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_CIN
+  away_team: :team_CLE
+  home_points: 41
+  away_points: 20
+  start: 2011-11-20 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week11_OAK_at_HOU:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_HOU
+  away_team: :team_OAK
+  home_points: 23
+  away_points: 28
+  start: 2011-11-20 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week11_ARI_at_JAC:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_JAC
+  away_team: :team_ARI
+  home_points: 14
+  away_points: 27
+  start: 2011-11-20 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week11_WAS_at_PHI:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_PHI
+  away_team: :team_WAS
+  home_points: 24
+  away_points: 16
+  start: 2011-11-20 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week11_DET_at_PIT:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_PIT
+  away_team: :team_DET
+  home_points: 37
+  away_points: 27
+  start: 2011-11-20 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week11_ATL_at_TB:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_TB
+  away_team: :team_ATL
+  home_points: 41
+  away_points: 28
+  start: 2011-11-20 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week11_MIN_at_SEA:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_SEA
+  away_team: :team_MIN
+  home_points: 41
+  away_points: 20
+  start: 2011-11-20 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week11_SF_at_NO:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_NO
+  away_team: :team_SF
+  home_points: 23
+  away_points: 20
+  start: 2011-11-20 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week11_SD_at_MIA:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_MIA
+  away_team: :team_SD
+  home_points: 20
+  away_points: 16
+  start: 2011-11-20 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week11_GB_at_NYG:
+  status: 'COMPLETE'
+  week: :week_11
+  home_team: :team_NYG
+  away_team: :team_GB
+  home_points: 27
+  away_points: 13
+  start: 2011-11-21 01:30:00 UTC
+  tiebreak: false
+
+game_2011_week2_PIT_at_CIN:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_CIN
+  away_team: :team_PIT
+  home_points: 20
+  away_points: 10
+  start: 2011-09-20 00:40:00 UTC
+  tiebreak: true
+
+game_2011_week2_NYJ_at_NE:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_NE
+  away_team: :team_NYJ
+  home_points: 13
+  away_points: 10
+  start: 2011-09-16 00:25:00 UTC
+  tiebreak: false
+
+game_2011_week2_CLE_at_BAL:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_BAL
+  away_team: :team_CLE
+  home_points: 14
+  away_points: 6
+  start: 2011-09-18 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week2_STL_at_ATL:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_ATL
+  away_team: :team_STL
+  home_points: 31
+  away_points: 24
+  start: 2011-09-18 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week2_SF_at_SEA:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_SEA
+  away_team: :team_SF
+  home_points: 29
+  away_points: 3
+  start: 2011-09-19 00:30:00 UTC
+  tiebreak: false
+
+game_2011_week2_NO_at_TB:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_TB
+  away_team: :team_NO
+  home_points: 14
+  away_points: 16
+  start: 2011-09-18 20:05:00 UTC
+  tiebreak: false
+
+game_2011_week2_DET_at_ARI:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_ARI
+  away_team: :team_DET
+  home_points: 25
+  away_points: 21
+  start: 2011-09-18 20:05:00 UTC
+  tiebreak: false
+
+game_2011_week2_DEN_at_NYG:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_NYG
+  away_team: :team_DEN
+  home_points: 23
+  away_points: 41
+  start: 2011-09-18 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week2_JAC_at_OAK:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_OAK
+  away_team: :team_JAC
+  home_points: 19
+  away_points: 9
+  start: 2011-09-18 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week2_CAR_at_BUF:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_BUF
+  away_team: :team_CAR
+  home_points: 24
+  away_points: 23
+  start: 2011-09-18 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week2_MIN_at_CHI:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_CHI
+  away_team: :team_MIN
+  home_points: 31
+  away_points: 30
+  start: 2011-09-18 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week2_WAS_at_GB:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_GB
+  away_team: :team_WAS
+  home_points: 38
+  away_points: 20
+  start: 2011-09-18 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week2_MIA_at_IND:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_IND
+  away_team: :team_MIA
+  home_points: 20
+  away_points: 24
+  start: 2011-09-18 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week2_DAL_at_KC:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_KC
+  away_team: :team_DAL
+  home_points: 17
+  away_points: 16
+  start: 2011-09-18 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week2_SD_at_PHI:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_PHI
+  away_team: :team_SD
+  home_points: 30
+  away_points: 33
+  start: 2011-09-18 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week2_TEN_at_HOU:
+  status: 'COMPLETE'
+  week: :week_2
+  home_team: :team_HOU
+  away_team: :team_TEN
+  home_points: 30
+  away_points: 24
+  start: 2011-09-18 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week3_SD_at_TEN:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_TEN
+  away_team: :team_SD
+  home_points: 20
+  away_points: 17
+  start: 2011-09-25 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week3_KC_at_PHI:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_PHI
+  away_team: :team_KC
+  home_points: 16
+  away_points: 26
+  start: 2011-09-23 00:25:00 UTC
+  tiebreak: false
+
+game_2011_week3_ARI_at_NO:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_NO
+  away_team: :team_ARI
+  home_points: 31
+  away_points: 7
+  start: 2011-09-25 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week3_IND_at_SF:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_SF
+  away_team: :team_IND
+  home_points: 7
+  away_points: 27
+  start: 2011-09-25 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week3_HOU_at_BAL:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_BAL
+  away_team: :team_HOU
+  home_points: 30
+  away_points: 9
+  start: 2011-09-25 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week3_NYG_at_CAR:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_CAR
+  away_team: :team_NYG
+  home_points: 38
+  away_points: 0
+  start: 2011-09-25 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week3_JAC_at_SEA:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_SEA
+  away_team: :team_JAC
+  home_points: 45
+  away_points: 17
+  start: 2011-09-25 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week3_STL_at_DAL:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_DAL
+  away_team: :team_STL
+  home_points: 31
+  away_points: 7
+  start: 2011-09-25 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week3_TB_at_NE:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_NE
+  away_team: :team_TB
+  home_points: 23
+  away_points: 3
+  start: 2011-09-25 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week3_ATL_at_MIA:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_MIA
+  away_team: :team_ATL
+  home_points: 27
+  away_points: 23
+  start: 2011-09-25 20:05:00 UTC
+  tiebreak: false
+
+game_2011_week3_GB_at_CIN:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_CIN
+  away_team: :team_GB
+  home_points: 34
+  away_points: 30
+  start: 2011-09-25 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week3_BUF_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_NYJ
+  away_team: :team_BUF
+  home_points: 27
+  away_points: 20
+  start: 2011-09-25 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week3_CLE_at_MIN:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_MIN
+  away_team: :team_CLE
+  home_points: 27
+  away_points: 31
+  start: 2011-09-25 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week3_OAK_at_DEN:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_DEN
+  away_team: :team_OAK
+  home_points: 37
+  away_points: 21
+  start: 2011-09-27 00:40:00 UTC
+  tiebreak: true
+
+game_2011_week3_DET_at_WAS:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_WAS
+  away_team: :team_DET
+  home_points: 20
+  away_points: 27
+  start: 2011-09-25 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week3_CHI_at_PIT:
+  status: 'COMPLETE'
+  week: :week_3
+  home_team: :team_PIT
+  away_team: :team_CHI
+  home_points: 23
+  away_points: 40
+  start: 2011-09-26 00:30:00 UTC
+  tiebreak: false
+
+game_2011_week1_BAL_at_DEN:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_DEN
+  away_team: :team_BAL
+  home_points: 49
+  away_points: 27
+  start: 2011-09-09 00:30:00 UTC
+  tiebreak: false
+
+game_2011_week1_MIA_at_CLE:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_CLE
+  away_team: :team_MIA
+  home_points: 10
+  away_points: 23
+  start: 2011-09-11 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week1_ATL_at_NO:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_NO
+  away_team: :team_ATL
+  home_points: 23
+  away_points: 17
+  start: 2011-09-11 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week1_MIN_at_DET:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_DET
+  away_team: :team_MIN
+  home_points: 34
+  away_points: 24
+  start: 2011-09-11 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week1_KC_at_JAC:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_JAC
+  away_team: :team_KC
+  home_points: 2
+  away_points: 28
+  start: 2011-09-11 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week1_GB_at_SF:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_SF
+  away_team: :team_GB
+  home_points: 34
+  away_points: 28
+  start: 2011-09-11 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week1_CIN_at_CHI:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_CHI
+  away_team: :team_CIN
+  home_points: 24
+  away_points: 21
+  start: 2011-09-11 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week1_TEN_at_PIT:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_PIT
+  away_team: :team_TEN
+  home_points: 9
+  away_points: 16
+  start: 2011-09-11 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week1_OAK_at_IND:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_IND
+  away_team: :team_OAK
+  home_points: 21
+  away_points: 17
+  start: 2011-09-11 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week1_NE_at_BUF:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_BUF
+  away_team: :team_NE
+  home_points: 21
+  away_points: 23
+  start: 2011-09-11 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week1_SEA_at_CAR:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_CAR
+  away_team: :team_SEA
+  home_points: 7
+  away_points: 12
+  start: 2011-09-11 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week1_NYG_at_DAL:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_DAL
+  away_team: :team_NYG
+  home_points: 36
+  away_points: 31
+  start: 2011-09-12 00:30:00 UTC
+  tiebreak: false
+
+game_2011_week1_ARI_at_STL:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_STL
+  away_team: :team_ARI
+  home_points: 27
+  away_points: 24
+  start: 2011-09-11 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week1_PHI_at_WAS:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_WAS
+  away_team: :team_PHI
+  home_points: 27
+  away_points: 33
+  start: 2011-09-12 23:10:00 UTC
+  tiebreak: false
+
+game_2011_week1_TB_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_NYJ
+  away_team: :team_TB
+  home_points: 18
+  away_points: 17
+  start: 2011-09-11 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week1_HOU_at_SD:
+  status: 'COMPLETE'
+  week: :week_1
+  home_team: :team_SD
+  away_team: :team_HOU
+  home_points: 28
+  away_points: 31
+  start: 2011-09-13 02:20:00 UTC
+  tiebreak: true
+
+game_2011_week12_NYJ_at_BAL:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_BAL
+  away_team: :team_NYJ
+  home_points: 19
+  away_points: 3
+  start: 2011-11-27 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week12_NO_at_ATL:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_ATL
+  away_team: :team_NO
+  home_points: 13
+  away_points: 17
+  start: 2011-11-25 01:25:00 UTC
+  tiebreak: false
+
+game_2011_week12_PIT_at_CLE:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_CLE
+  away_team: :team_PIT
+  home_points: 11
+  away_points: 27
+  start: 2011-11-27 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week12_MIN_at_GB:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_GB
+  away_team: :team_MIN
+  home_points: 26
+  away_points: 26
+  start: 2011-11-27 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week12_DAL_at_NYG:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_NYG
+  away_team: :team_DAL
+  home_points: 21
+  away_points: 24
+  start: 2011-11-27 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week12_DEN_at_NE:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_NE
+  away_team: :team_DEN
+  home_points: 34
+  away_points: 31
+  start: 2011-11-28 01:30:00 UTC
+  tiebreak: false
+
+game_2011_week12_SD_at_KC:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_KC
+  away_team: :team_SD
+  home_points: 38
+  away_points: 41
+  start: 2011-11-27 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week12_JAC_at_HOU:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_HOU
+  away_team: :team_JAC
+  home_points: 6
+  away_points: 13
+  start: 2011-11-27 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week12_TB_at_DET:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_DET
+  away_team: :team_TB
+  home_points: 21
+  away_points: 24
+  start: 2011-11-27 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week12_CAR_at_MIA:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_MIA
+  away_team: :team_CAR
+  home_points: 16
+  away_points: 20
+  start: 2011-11-27 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week12_CHI_at_STL:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_STL
+  away_team: :team_CHI
+  home_points: 42
+  away_points: 21
+  start: 2011-11-27 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week12_IND_at_ARI:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_ARI
+  away_team: :team_IND
+  home_points: 40
+  away_points: 11
+  start: 2011-11-27 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week12_TEN_at_OAK:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_OAK
+  away_team: :team_TEN
+  home_points: 19
+  away_points: 23
+  start: 2011-11-27 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week12_SF_at_WAS:
+  status: 'COMPLETE'
+  week: :week_12
+  home_team: :team_WAS
+  away_team: :team_SF
+  home_points: 6
+  away_points: 27
+  start: 2011-11-29 01:40:00 UTC
+  tiebreak: true
+
+game_2011_week4_SF_at_STL:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_STL
+  away_team: :team_SF
+  home_points: 11
+  away_points: 35
+  start: 2011-09-30 00:25:00 UTC
+  tiebreak: false
+
+game_2011_week4_MIA_at_NO:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_NO
+  away_team: :team_MIA
+  home_points: 38
+  away_points: 17
+  start: 2011-10-04 00:40:00 UTC
+  tiebreak: true
+
+game_2011_week4_NYJ_at_TEN:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_TEN
+  away_team: :team_NYJ
+  home_points: 38
+  away_points: 13
+  start: 2011-10-02 20:05:00 UTC
+  tiebreak: false
+
+game_2011_week4_CIN_at_CLE:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_CLE
+  away_team: :team_CIN
+  home_points: 17
+  away_points: 6
+  start: 2011-10-02 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week4_CHI_at_DET:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_DET
+  away_team: :team_CHI
+  home_points: 40
+  away_points: 32
+  start: 2011-10-02 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week4_SEA_at_HOU:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_HOU
+  away_team: :team_SEA
+  home_points: 20
+  away_points: 23
+  start: 2011-10-02 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week4_IND_at_JAC:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_JAC
+  away_team: :team_IND
+  home_points: 3
+  away_points: 37
+  start: 2011-10-02 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week4_NYG_at_KC:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_KC
+  away_team: :team_NYG
+  home_points: 31
+  away_points: 7
+  start: 2011-10-02 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week4_PIT_at_MIN:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_MIN
+  away_team: :team_PIT
+  home_points: 34
+  away_points: 27
+  start: 2011-10-02 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week4_ARI_at_TB:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_TB
+  away_team: :team_ARI
+  home_points: 10
+  away_points: 13
+  start: 2011-10-02 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week4_DAL_at_SD:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_SD
+  away_team: :team_DAL
+  home_points: 30
+  away_points: 21
+  start: 2011-10-02 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week4_PHI_at_DEN:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_DEN
+  away_team: :team_PHI
+  home_points: 52
+  away_points: 20
+  start: 2011-10-02 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week4_NE_at_ATL:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_ATL
+  away_team: :team_NE
+  home_points: 23
+  away_points: 30
+  start: 2011-10-03 00:30:00 UTC
+  tiebreak: false
+
+game_2011_week4_BAL_at_BUF:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_BUF
+  away_team: :team_BAL
+  home_points: 23
+  away_points: 20
+  start: 2011-10-02 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week4_WAS_at_OAK:
+  status: 'COMPLETE'
+  week: :week_4
+  home_team: :team_OAK
+  away_team: :team_WAS
+  home_points: 14
+  away_points: 24
+  start: 2011-10-02 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week13_OAK_at_DAL:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_DAL
+  away_team: :team_OAK
+  home_points: 31
+  away_points: 24
+  start: 2011-12-01 21:30:00 UTC
+  tiebreak: false
+
+game_2011_week13_GB_at_DET:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_DET
+  away_team: :team_GB
+  home_points: 40
+  away_points: 10
+  start: 2011-12-01 17:30:00 UTC
+  tiebreak: false
+
+game_2011_week13_TEN_at_IND:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_IND
+  away_team: :team_TEN
+  home_points: 22
+  away_points: 14
+  start: 2011-12-04 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week13_PIT_at_BAL:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_BAL
+  away_team: :team_PIT
+  home_points: 22
+  away_points: 20
+  start: 2011-12-02 01:30:00 UTC
+  tiebreak: false
+
+game_2011_week13_TB_at_CAR:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_CAR
+  away_team: :team_TB
+  home_points: 27
+  away_points: 6
+  start: 2011-12-04 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week13_ARI_at_PHI:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_PHI
+  away_team: :team_ARI
+  home_points: 24
+  away_points: 21
+  start: 2011-12-04 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week13_NE_at_HOU:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_HOU
+  away_team: :team_NE
+  home_points: 31
+  away_points: 34
+  start: 2011-12-04 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week13_JAC_at_CLE:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_CLE
+  away_team: :team_JAC
+  home_points: 28
+  away_points: 32
+  start: 2011-12-04 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week13_ATL_at_BUF:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_BUF
+  away_team: :team_ATL
+  home_points: 31
+  away_points: 34
+  start: 2011-12-04 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week13_STL_at_SF:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_SF
+  away_team: :team_STL
+  home_points: 23
+  away_points: 13
+  start: 2011-12-04 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week13_MIA_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_NYJ
+  away_team: :team_MIA
+  home_points: 3
+  away_points: 23
+  start: 2011-12-04 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week13_CIN_at_SD:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_SD
+  away_team: :team_CIN
+  home_points: 10
+  away_points: 17
+  start: 2011-12-04 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week13_DEN_at_KC:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_KC
+  away_team: :team_DEN
+  home_points: 28
+  away_points: 35
+  start: 2011-12-04 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week13_NYG_at_WAS:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_WAS
+  away_team: :team_NYG
+  home_points: 17
+  away_points: 24
+  start: 2011-12-05 01:30:00 UTC
+  tiebreak: false
+
+game_2011_week13_CHI_at_MIN:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_MIN
+  away_team: :team_CHI
+  home_points: 23
+  away_points: 20
+  start: 2011-12-04 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week13_NO_at_SEA:
+  status: 'COMPLETE'
+  week: :week_13
+  home_team: :team_SEA
+  away_team: :team_NO
+  home_points: 34
+  away_points: 7
+  start: 2011-12-06 01:40:00 UTC
+  tiebreak: true
+
+game_2011_week5_NO_at_CHI:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_CHI
+  away_team: :team_NO
+  home_points: 18
+  away_points: 26
+  start: 2011-10-09 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week5_BUF_at_CLE:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_CLE
+  away_team: :team_BUF
+  home_points: 37
+  away_points: 24
+  start: 2011-10-07 00:25:00 UTC
+  tiebreak: false
+
+game_2011_week5_DET_at_GB:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_GB
+  away_team: :team_DET
+  home_points: 22
+  away_points: 9
+  start: 2011-10-09 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week5_SEA_at_IND:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_IND
+  away_team: :team_SEA
+  home_points: 34
+  away_points: 28
+  start: 2011-10-09 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week5_SD_at_OAK:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_OAK
+  away_team: :team_SD
+  home_points: 27
+  away_points: 17
+  start: 2011-10-09 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week5_HOU_at_SF:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_SF
+  away_team: :team_HOU
+  home_points: 34
+  away_points: 3
+  start: 2011-10-10 00:30:00 UTC
+  tiebreak: false
+
+game_2011_week5_BAL_at_MIA:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_MIA
+  away_team: :team_BAL
+  home_points: 23
+  away_points: 26
+  start: 2011-10-09 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week5_NYJ_at_ATL:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_ATL
+  away_team: :team_NYJ
+  home_points: 28
+  away_points: 30
+  start: 2011-10-11 00:40:00 UTC
+  tiebreak: true
+
+game_2011_week5_NE_at_CIN:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_CIN
+  away_team: :team_NE
+  home_points: 13
+  away_points: 6
+  start: 2011-10-09 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week5_PHI_at_NYG:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_NYG
+  away_team: :team_PHI
+  home_points: 21
+  away_points: 36
+  start: 2011-10-09 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week5_JAC_at_STL:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_STL
+  away_team: :team_JAC
+  home_points: 34
+  away_points: 20
+  start: 2011-10-09 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week5_KC_at_TEN:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_TEN
+  away_team: :team_KC
+  home_points: 17
+  away_points: 26
+  start: 2011-10-09 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week5_CAR_at_ARI:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_ARI
+  away_team: :team_CAR
+  home_points: 22
+  away_points: 6
+  start: 2011-10-09 20:05:00 UTC
+  tiebreak: false
+
+game_2011_week5_DEN_at_DAL:
+  status: 'COMPLETE'
+  week: :week_5
+  home_team: :team_DAL
+  away_team: :team_DEN
+  home_points: 48
+  away_points: 51
+  start: 2011-10-09 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week14_DAL_at_CHI:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_CHI
+  away_team: :team_DAL
+  home_points: 45
+  away_points: 28
+  start: 2011-12-13 01:40:00 UTC
+  tiebreak: true
+
+game_2011_week14_HOU_at_JAC:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_JAC
+  away_team: :team_HOU
+  home_points: 27
+  away_points: 20
+  start: 2011-12-09 01:25:00 UTC
+  tiebreak: false
+
+game_2011_week14_DET_at_PHI:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_PHI
+  away_team: :team_DET
+  home_points: 34
+  away_points: 20
+  start: 2011-12-11 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week14_CLE_at_NE:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_NE
+  away_team: :team_CLE
+  home_points: 27
+  away_points: 26
+  start: 2011-12-11 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week14_ATL_at_GB:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_GB
+  away_team: :team_ATL
+  home_points: 22
+  away_points: 21
+  start: 2011-12-12 01:30:00 UTC
+  tiebreak: false
+
+game_2011_week14_BUF_at_TB:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_TB
+  away_team: :team_BUF
+  home_points: 27
+  away_points: 6
+  start: 2011-12-11 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week14_OAK_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_NYJ
+  away_team: :team_OAK
+  home_points: 37
+  away_points: 27
+  start: 2011-12-11 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week14_MIA_at_PIT:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_PIT
+  away_team: :team_MIA
+  home_points: 28
+  away_points: 34
+  start: 2011-12-11 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week14_CAR_at_NO:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_NO
+  away_team: :team_CAR
+  home_points: 31
+  away_points: 13
+  start: 2011-12-11 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week14_IND_at_CIN:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_CIN
+  away_team: :team_IND
+  home_points: 42
+  away_points: 28
+  start: 2011-12-11 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week14_TEN_at_DEN:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_DEN
+  away_team: :team_TEN
+  home_points: 51
+  away_points: 28
+  start: 2011-12-11 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week14_STL_at_ARI:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_ARI
+  away_team: :team_STL
+  home_points: 30
+  away_points: 10
+  start: 2011-12-11 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week14_MIN_at_BAL:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_BAL
+  away_team: :team_MIN
+  home_points: 29
+  away_points: 26
+  start: 2011-12-11 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week14_NYG_at_SD:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_SD
+  away_team: :team_NYG
+  home_points: 37
+  away_points: 14
+  start: 2011-12-11 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week14_SEA_at_SF:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_SF
+  away_team: :team_SEA
+  home_points: 19
+  away_points: 17
+  start: 2011-12-11 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week14_KC_at_WAS:
+  status: 'COMPLETE'
+  week: :week_14
+  home_team: :team_WAS
+  away_team: :team_KC
+  home_points: 10
+  away_points: 45
+  start: 2011-12-11 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week6_NYG_at_CHI:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_CHI
+  away_team: :team_NYG
+  home_points: 27
+  away_points: 21
+  start: 2011-10-14 00:25:00 UTC
+  tiebreak: false
+
+game_2011_week6_CIN_at_BUF:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_BUF
+  away_team: :team_CIN
+  home_points: 24
+  away_points: 27
+  start: 2011-10-16 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week6_GB_at_BAL:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_BAL
+  away_team: :team_GB
+  home_points: 17
+  away_points: 19
+  start: 2011-10-16 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week6_DET_at_CLE:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_CLE
+  away_team: :team_DET
+  home_points: 17
+  away_points: 31
+  start: 2011-10-16 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week6_ARI_at_SF:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_SF
+  away_team: :team_ARI
+  home_points: 32
+  away_points: 20
+  start: 2011-10-16 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week6_STL_at_HOU:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_HOU
+  away_team: :team_STL
+  home_points: 13
+  away_points: 38
+  start: 2011-10-16 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week6_OAK_at_KC:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_KC
+  away_team: :team_OAK
+  home_points: 24
+  away_points: 7
+  start: 2011-10-16 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week6_JAC_at_DEN:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_DEN
+  away_team: :team_JAC
+  home_points: 35
+  away_points: 19
+  start: 2011-10-16 20:05:00 UTC
+  tiebreak: false
+
+game_2011_week6_TEN_at_SEA:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_SEA
+  away_team: :team_TEN
+  home_points: 20
+  away_points: 13
+  start: 2011-10-16 20:05:00 UTC
+  tiebreak: false
+
+game_2011_week6_NO_at_NE:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_NE
+  away_team: :team_NO
+  home_points: 30
+  away_points: 27
+  start: 2011-10-16 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week6_WAS_at_DAL:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_DAL
+  away_team: :team_WAS
+  home_points: 31
+  away_points: 16
+  start: 2011-10-17 00:30:00 UTC
+  tiebreak: false
+
+game_2011_week6_CAR_at_MIN:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_MIN
+  away_team: :team_CAR
+  home_points: 10
+  away_points: 35
+  start: 2011-10-16 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week6_PIT_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_NYJ
+  away_team: :team_PIT
+  home_points: 6
+  away_points: 19
+  start: 2011-10-16 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week6_PHI_at_TB:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_TB
+  away_team: :team_PHI
+  home_points: 20
+  away_points: 31
+  start: 2011-10-16 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week6_IND_at_SD:
+  status: 'COMPLETE'
+  week: :week_6
+  home_team: :team_SD
+  away_team: :team_IND
+  home_points: 19
+  away_points: 9
+  start: 2011-10-18 00:40:00 UTC
+  tiebreak: true
+
+game_2011_week15_BAL_at_DET:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_DET
+  away_team: :team_BAL
+  home_points: 16
+  away_points: 18
+  start: 2011-12-20 01:40:00 UTC
+  tiebreak: true
+
+game_2011_week15_BUF_at_JAC:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_JAC
+  away_team: :team_BUF
+  home_points: 20
+  away_points: 27
+  start: 2011-12-18 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week15_SD_at_DEN:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_DEN
+  away_team: :team_SD
+  home_points: 20
+  away_points: 27
+  start: 2011-12-16 01:25:00 UTC
+  tiebreak: false
+
+game_2011_week15_PHI_at_MIN:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_MIN
+  away_team: :team_PHI
+  home_points: 48
+  away_points: 30
+  start: 2011-12-18 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week15_GB_at_DAL:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_DAL
+  away_team: :team_GB
+  home_points: 36
+  away_points: 37
+  start: 2011-12-18 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week15_NE_at_MIA:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_MIA
+  away_team: :team_NE
+  home_points: 24
+  away_points: 20
+  start: 2011-12-18 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week15_SF_at_TB:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_TB
+  away_team: :team_SF
+  home_points: 14
+  away_points: 33
+  start: 2011-12-18 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week15_NYJ_at_CAR:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_CAR
+  away_team: :team_NYJ
+  home_points: 30
+  away_points: 20
+  start: 2011-12-18 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week15_HOU_at_IND:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_IND
+  away_team: :team_HOU
+  home_points: 25
+  away_points: 3
+  start: 2011-12-18 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week15_SEA_at_NYG:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_NYG
+  away_team: :team_SEA
+  home_points: 0
+  away_points: 23
+  start: 2011-12-18 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week15_WAS_at_ATL:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_ATL
+  away_team: :team_WAS
+  home_points: 27
+  away_points: 26
+  start: 2011-12-18 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week15_ARI_at_TEN:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_TEN
+  away_team: :team_ARI
+  home_points: 34
+  away_points: 37
+  start: 2011-12-18 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week15_CHI_at_CLE:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_CLE
+  away_team: :team_CHI
+  home_points: 31
+  away_points: 38
+  start: 2011-12-18 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week15_KC_at_OAK:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_OAK
+  away_team: :team_KC
+  home_points: 31
+  away_points: 56
+  start: 2011-12-18 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week15_NO_at_STL:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_STL
+  away_team: :team_NO
+  home_points: 27
+  away_points: 16
+  start: 2011-12-18 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week15_CIN_at_PIT:
+  status: 'COMPLETE'
+  week: :week_15
+  home_team: :team_PIT
+  away_team: :team_CIN
+  home_points: 30
+  away_points: 20
+  start: 2011-12-19 01:30:00 UTC
+  tiebreak: false
+
+game_2011_week7_SF_at_TEN:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_TEN
+  away_team: :team_SF
+  home_points: 17
+  away_points: 31
+  start: 2011-10-23 20:05:00 UTC
+  tiebreak: false
+
+game_2011_week7_SEA_at_ARI:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_ARI
+  away_team: :team_SEA
+  home_points: 22
+  away_points: 34
+  start: 2011-10-21 00:25:00 UTC
+  tiebreak: false
+
+game_2011_week7_TB_at_ATL:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_ATL
+  away_team: :team_TB
+  home_points: 31
+  away_points: 23
+  start: 2011-10-23 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week7_CIN_at_DET:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_DET
+  away_team: :team_CIN
+  home_points: 24
+  away_points: 27
+  start: 2011-10-23 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week7_SD_at_JAC:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_JAC
+  away_team: :team_SD
+  home_points: 6
+  away_points: 24
+  start: 2011-10-23 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week7_BUF_at_MIA:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_MIA
+  away_team: :team_BUF
+  home_points: 21
+  away_points: 23
+  start: 2011-10-23 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week7_HOU_at_KC:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_KC
+  away_team: :team_HOU
+  home_points: 17
+  away_points: 16
+  start: 2011-10-23 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week7_BAL_at_PIT:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_PIT
+  away_team: :team_BAL
+  home_points: 19
+  away_points: 16
+  start: 2011-10-23 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week7_CLE_at_GB:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_GB
+  away_team: :team_CLE
+  home_points: 31
+  away_points: 13
+  start: 2011-10-23 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week7_DEN_at_IND:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_IND
+  away_team: :team_DEN
+  home_points: 39
+  away_points: 33
+  start: 2011-10-24 00:30:00 UTC
+  tiebreak: false
+
+game_2011_week7_STL_at_CAR:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_CAR
+  away_team: :team_STL
+  home_points: 30
+  away_points: 15
+  start: 2011-10-23 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week7_NE_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_NYJ
+  away_team: :team_NE
+  home_points: 30
+  away_points: 27
+  start: 2011-10-23 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week7_DAL_at_PHI:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_PHI
+  away_team: :team_DAL
+  home_points: 3
+  away_points: 17
+  start: 2011-10-23 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week7_CHI_at_WAS:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_WAS
+  away_team: :team_CHI
+  home_points: 45
+  away_points: 41
+  start: 2011-10-23 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week7_MIN_at_NYG:
+  status: 'COMPLETE'
+  week: :week_7
+  home_team: :team_NYG
+  away_team: :team_MIN
+  home_points: 23
+  away_points: 7
+  start: 2011-10-25 00:40:00 UTC
+  tiebreak: true
+
+game_2011_week16_ATL_at_SF:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_SF
+  away_team: :team_ATL
+  home_points: 34
+  away_points: 24
+  start: 2011-12-27 01:40:00 UTC
+  tiebreak: true
+
+game_2011_week16_DEN_at_HOU:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_HOU
+  away_team: :team_DEN
+  home_points: 13
+  away_points: 37
+  start: 2011-12-25 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week16_CHI_at_PHI:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_PHI
+  away_team: :team_CHI
+  home_points: 54
+  away_points: 11
+  start: 2011-12-25 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week16_MIA_at_BUF:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_BUF
+  away_team: :team_MIA
+  home_points: 19
+  away_points: 0
+  start: 2011-12-25 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week16_OAK_at_SD:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_SD
+  away_team: :team_OAK
+  home_points: 26
+  away_points: 13
+  start: 2011-12-25 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week16_NO_at_CAR:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_CAR
+  away_team: :team_NO
+  home_points: 17
+  away_points: 13
+  start: 2011-12-25 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week16_NE_at_BAL:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_BAL
+  away_team: :team_NE
+  home_points: 7
+  away_points: 41
+  start: 2011-12-26 01:30:00 UTC
+  tiebreak: false
+
+game_2011_week16_NYG_at_DET:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_DET
+  away_team: :team_NYG
+  home_points: 20
+  away_points: 23
+  start: 2011-12-25 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week16_IND_at_KC:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_KC
+  away_team: :team_IND
+  home_points: 7
+  away_points: 23
+  start: 2011-12-25 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week16_TEN_at_JAC:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_JAC
+  away_team: :team_TEN
+  home_points: 16
+  away_points: 20
+  start: 2011-12-25 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week16_PIT_at_GB:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_GB
+  away_team: :team_PIT
+  home_points: 31
+  away_points: 38
+  start: 2011-12-25 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week16_ARI_at_SEA:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_SEA
+  away_team: :team_ARI
+  home_points: 10
+  away_points: 17
+  start: 2011-12-25 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week16_MIN_at_CIN:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_CIN
+  away_team: :team_MIN
+  home_points: 42
+  away_points: 14
+  start: 2011-12-25 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week16_TB_at_STL:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_STL
+  away_team: :team_TB
+  home_points: 23
+  away_points: 13
+  start: 2011-12-25 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week16_CLE_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_NYJ
+  away_team: :team_CLE
+  home_points: 24
+  away_points: 13
+  start: 2011-12-25 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week16_DAL_at_WAS:
+  status: 'COMPLETE'
+  week: :week_16
+  home_team: :team_WAS
+  away_team: :team_DAL
+  home_points: 23
+  away_points: 24
+  start: 2011-12-25 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_GB_at_CHI:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_CHI
+  away_team: :team_GB
+  home_points: 28
+  away_points: 33
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_HOU_at_TEN:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_TEN
+  away_team: :team_HOU
+  home_points: 16
+  away_points: 10
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_CAR_at_ATL:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_ATL
+  away_team: :team_CAR
+  home_points: 20
+  away_points: 21
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_DET_at_MIN:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_MIN
+  away_team: :team_DET
+  home_points: 14
+  away_points: 13
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_CLE_at_PIT:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_PIT
+  away_team: :team_CLE
+  home_points: 20
+  away_points: 7
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_NYJ_at_MIA:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_MIA
+  away_team: :team_NYJ
+  home_points: 7
+  away_points: 20
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_BAL_at_CIN:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_CIN
+  away_team: :team_BAL
+  home_points: 34
+  away_points: 17
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_WAS_at_NYG:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_NYG
+  away_team: :team_WAS
+  home_points: 20
+  away_points: 6
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_SF_at_ARI:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_ARI
+  away_team: :team_SF
+  home_points: 20
+  away_points: 23
+  start: 2012-01-01 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week17_BUF_at_NE:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_NE
+  away_team: :team_BUF
+  home_points: 34
+  away_points: 20
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_DEN_at_OAK:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_OAK
+  away_team: :team_DEN
+  home_points: 14
+  away_points: 34
+  start: 2012-01-01 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week17_KC_at_SD:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_SD
+  away_team: :team_KC
+  home_points: 27
+  away_points: 24
+  start: 2012-01-01 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week17_STL_at_SEA:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_SEA
+  away_team: :team_STL
+  home_points: 27
+  away_points: 9
+  start: 2012-01-01 21:25:00 UTC
+  tiebreak: true
+
+game_2011_week17_TB_at_NO:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_NO
+  away_team: :team_TB
+  home_points: 42
+  away_points: 17
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_JAC_at_IND:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_IND
+  away_team: :team_JAC
+  home_points: 30
+  away_points: 10
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week17_PHI_at_DAL:
+  status: 'COMPLETE'
+  week: :week_17
+  home_team: :team_DAL
+  away_team: :team_PHI
+  home_points: 22
+  away_points: 24
+  start: 2012-01-01 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week8_CAR_at_TB:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_TB
+  away_team: :team_CAR
+  home_points: 13
+  away_points: 31
+  start: 2011-10-28 00:25:00 UTC
+  tiebreak: false
+
+game_2011_week8_PIT_at_OAK:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_OAK
+  away_team: :team_PIT
+  home_points: 21
+  away_points: 18
+  start: 2011-10-30 20:05:00 UTC
+  tiebreak: false
+
+game_2011_week8_CLE_at_KC:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_KC
+  away_team: :team_CLE
+  home_points: 23
+  away_points: 17
+  start: 2011-10-30 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week8_NYJ_at_CIN:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_CIN
+  away_team: :team_NYJ
+  home_points: 49
+  away_points: 9
+  start: 2011-10-30 20:05:00 UTC
+  tiebreak: false
+
+game_2011_week8_MIA_at_NE:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_NE
+  away_team: :team_MIA
+  home_points: 27
+  away_points: 17
+  start: 2011-10-30 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week8_WAS_at_DEN:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_DEN
+  away_team: :team_WAS
+  home_points: 45
+  away_points: 21
+  start: 2011-10-30 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week8_SF_at_JAC:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_JAC
+  away_team: :team_SF
+  home_points: 10
+  away_points: 42
+  start: 2011-10-30 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week8_BUF_at_NO:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_NO
+  away_team: :team_BUF
+  home_points: 35
+  away_points: 17
+  start: 2011-10-30 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week8_NYG_at_PHI:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_PHI
+  away_team: :team_NYG
+  home_points: 7
+  away_points: 15
+  start: 2011-10-30 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week8_DAL_at_DET:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_DET
+  away_team: :team_DAL
+  home_points: 31
+  away_points: 30
+  start: 2011-10-30 17:00:00 UTC
+  tiebreak: false
+
+game_2011_week8_ATL_at_ARI:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_ARI
+  away_team: :team_ATL
+  home_points: 27
+  away_points: 13
+  start: 2011-10-30 20:25:00 UTC
+  tiebreak: false
+
+game_2011_week8_GB_at_MIN:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_MIN
+  away_team: :team_GB
+  home_points: 31
+  away_points: 44
+  start: 2011-10-31 00:30:00 UTC
+  tiebreak: false
+
+game_2011_week8_SEA_at_STL:
+  status: 'COMPLETE'
+  week: :week_8
+  home_team: :team_STL
+  away_team: :team_SEA
+  home_points: 9
+  away_points: 14
+  start: 2011-11-01 00:40:00 UTC
+  tiebreak: true
+
+game_2011_week9_ATL_at_CAR:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_CAR
+  away_team: :team_ATL
+  home_points: 34
+  away_points: 10
+  start: 2011-11-06 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week9_CIN_at_MIA:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_MIA
+  away_team: :team_CIN
+  home_points: 22
+  away_points: 20
+  start: 2011-11-04 00:25:00 UTC
+  tiebreak: false
+
+game_2011_week9_PHI_at_OAK:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_OAK
+  away_team: :team_PHI
+  home_points: 20
+  away_points: 49
+  start: 2011-11-06 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week9_KC_at_BUF:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_BUF
+  away_team: :team_KC
+  home_points: 13
+  away_points: 23
+  start: 2011-11-06 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week9_MIN_at_DAL:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_DAL
+  away_team: :team_MIN
+  home_points: 27
+  away_points: 23
+  start: 2011-11-06 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week9_NO_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_NYJ
+  away_team: :team_NO
+  home_points: 26
+  away_points: 20
+  start: 2011-11-06 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week9_TEN_at_STL:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_STL
+  away_team: :team_TEN
+  home_points: 21
+  away_points: 28
+  start: 2011-11-06 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week9_BAL_at_CLE:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_CLE
+  away_team: :team_BAL
+  home_points: 24
+  away_points: 18
+  start: 2011-11-06 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week9_SD_at_WAS:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_WAS
+  away_team: :team_SD
+  home_points: 30
+  away_points: 24
+  start: 2011-11-06 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week9_TB_at_SEA:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_SEA
+  away_team: :team_TB
+  home_points: 27
+  away_points: 24
+  start: 2011-11-06 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week9_IND_at_HOU:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_HOU
+  away_team: :team_IND
+  home_points: 24
+  away_points: 27
+  start: 2011-11-07 01:30:00 UTC
+  tiebreak: false
+
+game_2011_week9_CHI_at_GB:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_GB
+  away_team: :team_CHI
+  home_points: 20
+  away_points: 27
+  start: 2011-11-08 01:40:00 UTC
+  tiebreak: true
+
+game_2011_week9_PIT_at_NE:
+  status: 'COMPLETE'
+  week: :week_9
+  home_team: :team_NE
+  away_team: :team_PIT
+  home_points: 55
+  away_points: 31
+  start: 2011-11-06 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week10_DET_at_CHI:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_CHI
+  away_team: :team_DET
+  home_points: 19
+  away_points: 21
+  start: 2011-11-13 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week10_MIA_at_TB:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_TB
+  away_team: :team_MIA
+  home_points: 22
+  away_points: 19
+  start: 2011-11-15 01:40:00 UTC
+  tiebreak: true
+
+game_2011_week10_WAS_at_MIN:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_MIN
+  away_team: :team_WAS
+  home_points: 34
+  away_points: 27
+  start: 2011-11-11 01:25:00 UTC
+  tiebreak: false
+
+game_2011_week10_PHI_at_GB:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_GB
+  away_team: :team_PHI
+  home_points: 13
+  away_points: 27
+  start: 2011-11-13 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week10_STL_at_IND:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_IND
+  away_team: :team_STL
+  home_points: 8
+  away_points: 38
+  start: 2011-11-13 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week10_BUF_at_PIT:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_PIT
+  away_team: :team_BUF
+  home_points: 23
+  away_points: 10
+  start: 2011-11-13 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week10_OAK_at_NYG:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_NYG
+  away_team: :team_OAK
+  home_points: 24
+  away_points: 20
+  start: 2011-11-13 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week10_JAC_at_TEN:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_TEN
+  away_team: :team_JAC
+  home_points: 27
+  away_points: 29
+  start: 2011-11-13 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week10_DEN_at_SD:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_SD
+  away_team: :team_DEN
+  home_points: 20
+  away_points: 28
+  start: 2011-11-13 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week10_SEA_at_ATL:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_ATL
+  away_team: :team_SEA
+  home_points: 10
+  away_points: 33
+  start: 2011-11-13 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week10_HOU_at_ARI:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_ARI
+  away_team: :team_HOU
+  home_points: 27
+  away_points: 24
+  start: 2011-11-13 21:25:00 UTC
+  tiebreak: false
+
+game_2011_week10_CAR_at_SF:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_SF
+  away_team: :team_CAR
+  home_points: 9
+  away_points: 10
+  start: 2011-11-13 21:05:00 UTC
+  tiebreak: false
+
+game_2011_week10_CIN_at_BAL:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_BAL
+  away_team: :team_CIN
+  home_points: 20
+  away_points: 17
+  start: 2011-11-13 18:00:00 UTC
+  tiebreak: false
+
+game_2011_week10_DAL_at_NO:
+  status: 'COMPLETE'
+  week: :week_10
+  home_team: :team_NO
+  away_team: :team_DAL
+  home_points: 49
+  away_points: 17
+  start: 2011-11-14 01:30:00 UTC
+  tiebreak: false
+
+game_2012_week11_IND_at_TEN:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_TEN
+  away_team: :team_IND
+  home_points: 27
+  away_points: 30
+  start: 2012-11-16 01:25:00 UTC
+  tiebreak: false
+
+game_2012_week11_KC_at_DEN:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_DEN
+  away_team: :team_KC
+  home_points: 27
+  away_points: 17
+  start: 2012-11-18 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week11_BAL_at_CHI:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_CHI
+  away_team: :team_BAL
+  home_points: 23
+  away_points: 20
+  start: 2012-11-18 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week11_NE_at_CAR:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_CAR
+  away_team: :team_NE
+  home_points: 24
+  away_points: 20
+  start: 2012-11-20 01:40:00 UTC
+  tiebreak: true
+
+game_2012_week11_NYJ_at_BUF:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_BUF
+  away_team: :team_NYJ
+  home_points: 37
+  away_points: 14
+  start: 2012-11-18 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week11_CLE_at_CIN:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_CIN
+  away_team: :team_CLE
+  home_points: 41
+  away_points: 20
+  start: 2012-11-18 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week11_OAK_at_HOU:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_HOU
+  away_team: :team_OAK
+  home_points: 23
+  away_points: 28
+  start: 2012-11-18 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week11_ARI_at_JAC:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_JAC
+  away_team: :team_ARI
+  home_points: 14
+  away_points: 27
+  start: 2012-11-18 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week11_WAS_at_PHI:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_PHI
+  away_team: :team_WAS
+  home_points: 24
+  away_points: 16
+  start: 2012-11-18 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week11_DET_at_PIT:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_PIT
+  away_team: :team_DET
+  home_points: 37
+  away_points: 27
+  start: 2012-11-18 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week11_ATL_at_TB:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_TB
+  away_team: :team_ATL
+  home_points: 41
+  away_points: 28
+  start: 2012-11-18 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week11_MIN_at_SEA:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_SEA
+  away_team: :team_MIN
+  home_points: 41
+  away_points: 20
+  start: 2012-11-18 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week11_SF_at_NO:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_NO
+  away_team: :team_SF
+  home_points: 23
+  away_points: 20
+  start: 2012-11-18 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week11_SD_at_MIA:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_MIA
+  away_team: :team_SD
+  home_points: 20
+  away_points: 16
+  start: 2012-11-18 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week11_GB_at_NYG:
+  status: 'NOT_STARTED'
+  week: :week_28
+  home_team: :team_NYG
+  away_team: :team_GB
+  home_points: 27
+  away_points: 13
+  start: 2012-11-19 01:30:00 UTC
+  tiebreak: false
+
+game_2012_week2_PIT_at_CIN:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_CIN
+  away_team: :team_PIT
+  home_points: 20
+  away_points: 10
+  start: 2012-09-18 00:40:00 UTC
+  tiebreak: true
+
+game_2012_week2_NYJ_at_NE:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_NE
+  away_team: :team_NYJ
+  home_points: 13
+  away_points: 10
+  start: 2012-09-14 00:25:00 UTC
+  tiebreak: false
+
+game_2012_week2_CLE_at_BAL:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_BAL
+  away_team: :team_CLE
+  home_points: 14
+  away_points: 6
+  start: 2012-09-16 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week2_STL_at_ATL:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_ATL
+  away_team: :team_STL
+  home_points: 31
+  away_points: 24
+  start: 2012-09-16 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week2_SF_at_SEA:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_SEA
+  away_team: :team_SF
+  home_points: 29
+  away_points: 3
+  start: 2012-09-17 00:30:00 UTC
+  tiebreak: false
+
+game_2012_week2_NO_at_TB:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_TB
+  away_team: :team_NO
+  home_points: 14
+  away_points: 16
+  start: 2012-09-16 20:05:00 UTC
+  tiebreak: false
+
+game_2012_week2_DET_at_ARI:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_ARI
+  away_team: :team_DET
+  home_points: 25
+  away_points: 21
+  start: 2012-09-16 20:05:00 UTC
+  tiebreak: false
+
+game_2012_week2_DEN_at_NYG:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_NYG
+  away_team: :team_DEN
+  home_points: 23
+  away_points: 41
+  start: 2012-09-16 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week2_JAC_at_OAK:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_OAK
+  away_team: :team_JAC
+  home_points: 19
+  away_points: 9
+  start: 2012-09-16 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week2_CAR_at_BUF:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_BUF
+  away_team: :team_CAR
+  home_points: 24
+  away_points: 23
+  start: 2012-09-16 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week2_MIN_at_CHI:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_CHI
+  away_team: :team_MIN
+  home_points: 31
+  away_points: 30
+  start: 2012-09-16 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week2_WAS_at_GB:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_GB
+  away_team: :team_WAS
+  home_points: 38
+  away_points: 20
+  start: 2012-09-16 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week2_MIA_at_IND:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_IND
+  away_team: :team_MIA
+  home_points: 20
+  away_points: 24
+  start: 2012-09-16 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week2_DAL_at_KC:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_KC
+  away_team: :team_DAL
+  home_points: 17
+  away_points: 16
+  start: 2012-09-16 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week2_SD_at_PHI:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_PHI
+  away_team: :team_SD
+  home_points: 30
+  away_points: 33
+  start: 2012-09-16 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week2_TEN_at_HOU:
+  status: 'COMPLETE'
+  week: :week_19
+  home_team: :team_HOU
+  away_team: :team_TEN
+  home_points: 30
+  away_points: 24
+  start: 2012-09-16 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week3_SD_at_TEN:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_TEN
+  away_team: :team_SD
+  home_points: 20
+  away_points: 17
+  start: 2012-09-23 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week3_KC_at_PHI:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_PHI
+  away_team: :team_KC
+  home_points: 16
+  away_points: 26
+  start: 2012-09-21 00:25:00 UTC
+  tiebreak: false
+
+game_2012_week3_ARI_at_NO:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_NO
+  away_team: :team_ARI
+  home_points: 31
+  away_points: 7
+  start: 2012-09-23 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week3_IND_at_SF:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_SF
+  away_team: :team_IND
+  home_points: 7
+  away_points: 27
+  start: 2012-09-23 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week3_HOU_at_BAL:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_BAL
+  away_team: :team_HOU
+  home_points: 30
+  away_points: 9
+  start: 2012-09-23 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week3_NYG_at_CAR:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_CAR
+  away_team: :team_NYG
+  home_points: 38
+  away_points: 0
+  start: 2012-09-23 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week3_JAC_at_SEA:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_SEA
+  away_team: :team_JAC
+  home_points: 45
+  away_points: 17
+  start: 2012-09-23 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week3_STL_at_DAL:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_DAL
+  away_team: :team_STL
+  home_points: 31
+  away_points: 7
+  start: 2012-09-23 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week3_TB_at_NE:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_NE
+  away_team: :team_TB
+  home_points: 23
+  away_points: 3
+  start: 2012-09-23 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week3_ATL_at_MIA:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_MIA
+  away_team: :team_ATL
+  home_points: 27
+  away_points: 23
+  start: 2012-09-23 20:05:00 UTC
+  tiebreak: false
+
+game_2012_week3_GB_at_CIN:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_CIN
+  away_team: :team_GB
+  home_points: 34
+  away_points: 30
+  start: 2012-09-23 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week3_BUF_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_NYJ
+  away_team: :team_BUF
+  home_points: 27
+  away_points: 20
+  start: 2012-09-23 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week3_CLE_at_MIN:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_MIN
+  away_team: :team_CLE
+  home_points: 27
+  away_points: 31
+  start: 2012-09-23 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week3_OAK_at_DEN:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_DEN
+  away_team: :team_OAK
+  home_points: 37
+  away_points: 21
+  start: 2012-09-25 00:40:00 UTC
+  tiebreak: true
+
+game_2012_week3_DET_at_WAS:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_WAS
+  away_team: :team_DET
+  home_points: 20
+  away_points: 27
+  start: 2012-09-23 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week3_CHI_at_PIT:
+  status: 'COMPLETE'
+  week: :week_20
+  home_team: :team_PIT
+  away_team: :team_CHI
+  home_points: 23
+  away_points: 40
+  start: 2012-09-24 00:30:00 UTC
+  tiebreak: false
+
+game_2012_week1_BAL_at_DEN:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_DEN
+  away_team: :team_BAL
+  home_points: 49
+  away_points: 27
+  start: 2012-09-07 00:30:00 UTC
+  tiebreak: false
+
+game_2012_week1_MIA_at_CLE:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_CLE
+  away_team: :team_MIA
+  home_points: 10
+  away_points: 23
+  start: 2012-09-09 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week1_ATL_at_NO:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_NO
+  away_team: :team_ATL
+  home_points: 23
+  away_points: 17
+  start: 2012-09-09 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week1_MIN_at_DET:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_DET
+  away_team: :team_MIN
+  home_points: 34
+  away_points: 24
+  start: 2012-09-09 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week1_KC_at_JAC:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_JAC
+  away_team: :team_KC
+  home_points: 2
+  away_points: 28
+  start: 2012-09-09 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week1_GB_at_SF:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_SF
+  away_team: :team_GB
+  home_points: 34
+  away_points: 28
+  start: 2012-09-09 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week1_CIN_at_CHI:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_CHI
+  away_team: :team_CIN
+  home_points: 24
+  away_points: 21
+  start: 2012-09-09 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week1_TEN_at_PIT:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_PIT
+  away_team: :team_TEN
+  home_points: 9
+  away_points: 16
+  start: 2012-09-09 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week1_OAK_at_IND:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_IND
+  away_team: :team_OAK
+  home_points: 21
+  away_points: 17
+  start: 2012-09-09 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week1_NE_at_BUF:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_BUF
+  away_team: :team_NE
+  home_points: 21
+  away_points: 23
+  start: 2012-09-09 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week1_SEA_at_CAR:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_CAR
+  away_team: :team_SEA
+  home_points: 7
+  away_points: 12
+  start: 2012-09-09 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week1_NYG_at_DAL:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_DAL
+  away_team: :team_NYG
+  home_points: 36
+  away_points: 31
+  start: 2012-09-10 00:30:00 UTC
+  tiebreak: false
+
+game_2012_week1_ARI_at_STL:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_STL
+  away_team: :team_ARI
+  home_points: 27
+  away_points: 24
+  start: 2012-09-09 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week1_PHI_at_WAS:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_WAS
+  away_team: :team_PHI
+  home_points: 27
+  away_points: 33
+  start: 2012-09-10 23:10:00 UTC
+  tiebreak: false
+
+game_2012_week1_TB_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_NYJ
+  away_team: :team_TB
+  home_points: 18
+  away_points: 17
+  start: 2012-09-09 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week1_HOU_at_SD:
+  status: 'COMPLETE'
+  week: :week_18
+  home_team: :team_SD
+  away_team: :team_HOU
+  home_points: 28
+  away_points: 31
+  start: 2012-09-11 02:20:00 UTC
+  tiebreak: true
+
+game_2012_week12_NYJ_at_BAL:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_BAL
+  away_team: :team_NYJ
+  home_points: 19
+  away_points: 3
+  start: 2012-11-25 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week12_NO_at_ATL:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_ATL
+  away_team: :team_NO
+  home_points: 13
+  away_points: 17
+  start: 2012-11-23 01:25:00 UTC
+  tiebreak: false
+
+game_2012_week12_PIT_at_CLE:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_CLE
+  away_team: :team_PIT
+  home_points: 11
+  away_points: 27
+  start: 2012-11-25 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week12_MIN_at_GB:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_GB
+  away_team: :team_MIN
+  home_points: 26
+  away_points: 26
+  start: 2012-11-25 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week12_DAL_at_NYG:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_NYG
+  away_team: :team_DAL
+  home_points: 21
+  away_points: 24
+  start: 2012-11-25 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week12_DEN_at_NE:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_NE
+  away_team: :team_DEN
+  home_points: 34
+  away_points: 31
+  start: 2012-11-26 01:30:00 UTC
+  tiebreak: false
+
+game_2012_week12_SD_at_KC:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_KC
+  away_team: :team_SD
+  home_points: 38
+  away_points: 41
+  start: 2012-11-25 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week12_JAC_at_HOU:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_HOU
+  away_team: :team_JAC
+  home_points: 6
+  away_points: 13
+  start: 2012-11-25 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week12_TB_at_DET:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_DET
+  away_team: :team_TB
+  home_points: 21
+  away_points: 24
+  start: 2012-11-25 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week12_CAR_at_MIA:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_MIA
+  away_team: :team_CAR
+  home_points: 16
+  away_points: 20
+  start: 2012-11-25 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week12_CHI_at_STL:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_STL
+  away_team: :team_CHI
+  home_points: 42
+  away_points: 21
+  start: 2012-11-25 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week12_IND_at_ARI:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_ARI
+  away_team: :team_IND
+  home_points: 40
+  away_points: 11
+  start: 2012-11-25 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week12_TEN_at_OAK:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_OAK
+  away_team: :team_TEN
+  home_points: 19
+  away_points: 23
+  start: 2012-11-25 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week12_SF_at_WAS:
+  status: 'NOT_STARTED'
+  week: :week_29
+  home_team: :team_WAS
+  away_team: :team_SF
+  home_points: 6
+  away_points: 27
+  start: 2012-11-27 01:40:00 UTC
+  tiebreak: true
+
+game_2012_week4_SF_at_STL:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_STL
+  away_team: :team_SF
+  home_points: 11
+  away_points: 35
+  start: 2012-09-28 00:25:00 UTC
+  tiebreak: false
+
+game_2012_week4_MIA_at_NO:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_NO
+  away_team: :team_MIA
+  home_points: 38
+  away_points: 17
+  start: 2012-10-02 00:40:00 UTC
+  tiebreak: true
+
+game_2012_week4_NYJ_at_TEN:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_TEN
+  away_team: :team_NYJ
+  home_points: 38
+  away_points: 13
+  start: 2012-09-30 20:05:00 UTC
+  tiebreak: false
+
+game_2012_week4_CIN_at_CLE:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_CLE
+  away_team: :team_CIN
+  home_points: 17
+  away_points: 6
+  start: 2012-09-30 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week4_CHI_at_DET:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_DET
+  away_team: :team_CHI
+  home_points: 40
+  away_points: 32
+  start: 2012-09-30 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week4_SEA_at_HOU:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_HOU
+  away_team: :team_SEA
+  home_points: 20
+  away_points: 23
+  start: 2012-09-30 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week4_IND_at_JAC:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_JAC
+  away_team: :team_IND
+  home_points: 3
+  away_points: 37
+  start: 2012-09-30 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week4_NYG_at_KC:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_KC
+  away_team: :team_NYG
+  home_points: 31
+  away_points: 7
+  start: 2012-09-30 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week4_PIT_at_MIN:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_MIN
+  away_team: :team_PIT
+  home_points: 34
+  away_points: 27
+  start: 2012-09-30 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week4_ARI_at_TB:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_TB
+  away_team: :team_ARI
+  home_points: 10
+  away_points: 13
+  start: 2012-09-30 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week4_DAL_at_SD:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_SD
+  away_team: :team_DAL
+  home_points: 30
+  away_points: 21
+  start: 2012-09-30 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week4_PHI_at_DEN:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_DEN
+  away_team: :team_PHI
+  home_points: 52
+  away_points: 20
+  start: 2012-09-30 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week4_NE_at_ATL:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_ATL
+  away_team: :team_NE
+  home_points: 23
+  away_points: 30
+  start: 2012-10-01 00:30:00 UTC
+  tiebreak: false
+
+game_2012_week4_BAL_at_BUF:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_BUF
+  away_team: :team_BAL
+  home_points: 23
+  away_points: 20
+  start: 2012-09-30 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week4_WAS_at_OAK:
+  status: 'COMPLETE'
+  week: :week_21
+  home_team: :team_OAK
+  away_team: :team_WAS
+  home_points: 14
+  away_points: 24
+  start: 2012-09-30 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week13_OAK_at_DAL:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_DAL
+  away_team: :team_OAK
+  home_points: 31
+  away_points: 24
+  start: 2012-11-29 21:30:00 UTC
+  tiebreak: false
+
+game_2012_week13_GB_at_DET:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_DET
+  away_team: :team_GB
+  home_points: 40
+  away_points: 10
+  start: 2012-11-29 17:30:00 UTC
+  tiebreak: false
+
+game_2012_week13_TEN_at_IND:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_IND
+  away_team: :team_TEN
+  home_points: 22
+  away_points: 14
+  start: 2012-12-02 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week13_PIT_at_BAL:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_BAL
+  away_team: :team_PIT
+  home_points: 22
+  away_points: 20
+  start: 2012-11-30 01:30:00 UTC
+  tiebreak: false
+
+game_2012_week13_TB_at_CAR:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_CAR
+  away_team: :team_TB
+  home_points: 27
+  away_points: 6
+  start: 2012-12-02 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week13_ARI_at_PHI:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_PHI
+  away_team: :team_ARI
+  home_points: 24
+  away_points: 21
+  start: 2012-12-02 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week13_NE_at_HOU:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_HOU
+  away_team: :team_NE
+  home_points: 31
+  away_points: 34
+  start: 2012-12-02 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week13_JAC_at_CLE:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_CLE
+  away_team: :team_JAC
+  home_points: 28
+  away_points: 32
+  start: 2012-12-02 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week13_ATL_at_BUF:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_BUF
+  away_team: :team_ATL
+  home_points: 31
+  away_points: 34
+  start: 2012-12-02 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week13_STL_at_SF:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_SF
+  away_team: :team_STL
+  home_points: 23
+  away_points: 13
+  start: 2012-12-02 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week13_MIA_at_NYJ:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_NYJ
+  away_team: :team_MIA
+  home_points: 3
+  away_points: 23
+  start: 2012-12-02 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week13_CIN_at_SD:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_SD
+  away_team: :team_CIN
+  home_points: 10
+  away_points: 17
+  start: 2012-12-02 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week13_DEN_at_KC:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_KC
+  away_team: :team_DEN
+  home_points: 28
+  away_points: 35
+  start: 2012-12-02 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week13_NYG_at_WAS:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_WAS
+  away_team: :team_NYG
+  home_points: 17
+  away_points: 24
+  start: 2012-12-03 01:30:00 UTC
+  tiebreak: false
+
+game_2012_week13_CHI_at_MIN:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_MIN
+  away_team: :team_CHI
+  home_points: 23
+  away_points: 20
+  start: 2012-12-02 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week13_NO_at_SEA:
+  status: 'NOT_STARTED'
+  week: :week_30
+  home_team: :team_SEA
+  away_team: :team_NO
+  home_points: 34
+  away_points: 7
+  start: 2012-12-04 01:40:00 UTC
+  tiebreak: true
+
+game_2012_week5_NO_at_CHI:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_CHI
+  away_team: :team_NO
+  home_points: 18
+  away_points: 26
+  start: 2012-10-07 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week5_BUF_at_CLE:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_CLE
+  away_team: :team_BUF
+  home_points: 37
+  away_points: 24
+  start: 2012-10-05 00:25:00 UTC
+  tiebreak: false
+
+game_2012_week5_DET_at_GB:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_GB
+  away_team: :team_DET
+  home_points: 22
+  away_points: 9
+  start: 2012-10-07 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week5_SEA_at_IND:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_IND
+  away_team: :team_SEA
+  home_points: 34
+  away_points: 28
+  start: 2012-10-07 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week5_SD_at_OAK:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_OAK
+  away_team: :team_SD
+  home_points: 27
+  away_points: 17
+  start: 2012-10-07 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week5_HOU_at_SF:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_SF
+  away_team: :team_HOU
+  home_points: 34
+  away_points: 3
+  start: 2012-10-08 00:30:00 UTC
+  tiebreak: false
+
+game_2012_week5_BAL_at_MIA:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_MIA
+  away_team: :team_BAL
+  home_points: 23
+  away_points: 26
+  start: 2012-10-07 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week5_NYJ_at_ATL:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_ATL
+  away_team: :team_NYJ
+  home_points: 28
+  away_points: 30
+  start: 2012-10-09 00:40:00 UTC
+  tiebreak: true
+
+game_2012_week5_NE_at_CIN:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_CIN
+  away_team: :team_NE
+  home_points: 13
+  away_points: 6
+  start: 2012-10-07 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week5_PHI_at_NYG:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_NYG
+  away_team: :team_PHI
+  home_points: 21
+  away_points: 36
+  start: 2012-10-07 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week5_JAC_at_STL:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_STL
+  away_team: :team_JAC
+  home_points: 34
+  away_points: 20
+  start: 2012-10-07 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week5_KC_at_TEN:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_TEN
+  away_team: :team_KC
+  home_points: 17
+  away_points: 26
+  start: 2012-10-07 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week5_CAR_at_ARI:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_ARI
+  away_team: :team_CAR
+  home_points: 22
+  away_points: 6
+  start: 2012-10-07 20:05:00 UTC
+  tiebreak: false
+
+game_2012_week5_DEN_at_DAL:
+  status: 'COMPLETE'
+  week: :week_22
+  home_team: :team_DAL
+  away_team: :team_DEN
+  home_points: 48
+  away_points: 51
+  start: 2012-10-07 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week14_DAL_at_CHI:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_CHI
+  away_team: :team_DAL
+  home_points: 45
+  away_points: 28
+  start: 2012-12-11 01:40:00 UTC
+  tiebreak: true
+
+game_2012_week14_HOU_at_JAC:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_JAC
+  away_team: :team_HOU
+  home_points: 27
+  away_points: 20
+  start: 2012-12-07 01:25:00 UTC
+  tiebreak: false
+
+game_2012_week14_DET_at_PHI:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_PHI
+  away_team: :team_DET
+  home_points: 34
+  away_points: 20
+  start: 2012-12-09 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week14_CLE_at_NE:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_NE
+  away_team: :team_CLE
+  home_points: 27
+  away_points: 26
+  start: 2012-12-09 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week14_ATL_at_GB:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_GB
+  away_team: :team_ATL
+  home_points: 22
+  away_points: 21
+  start: 2012-12-10 01:30:00 UTC
+  tiebreak: false
+
+game_2012_week14_BUF_at_TB:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_TB
+  away_team: :team_BUF
+  home_points: 27
+  away_points: 6
+  start: 2012-12-09 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week14_OAK_at_NYJ:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_NYJ
+  away_team: :team_OAK
+  home_points: 37
+  away_points: 27
+  start: 2012-12-09 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week14_MIA_at_PIT:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_PIT
+  away_team: :team_MIA
+  home_points: 28
+  away_points: 34
+  start: 2012-12-09 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week14_CAR_at_NO:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_NO
+  away_team: :team_CAR
+  home_points: 31
+  away_points: 13
+  start: 2012-12-09 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week14_IND_at_CIN:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_CIN
+  away_team: :team_IND
+  home_points: 42
+  away_points: 28
+  start: 2012-12-09 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week14_TEN_at_DEN:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_DEN
+  away_team: :team_TEN
+  home_points: 51
+  away_points: 28
+  start: 2012-12-09 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week14_STL_at_ARI:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_ARI
+  away_team: :team_STL
+  home_points: 30
+  away_points: 10
+  start: 2012-12-09 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week14_MIN_at_BAL:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_BAL
+  away_team: :team_MIN
+  home_points: 29
+  away_points: 26
+  start: 2012-12-09 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week14_NYG_at_SD:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_SD
+  away_team: :team_NYG
+  home_points: 37
+  away_points: 14
+  start: 2012-12-09 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week14_SEA_at_SF:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_SF
+  away_team: :team_SEA
+  home_points: 19
+  away_points: 17
+  start: 2012-12-09 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week14_KC_at_WAS:
+  status: 'NOT_STARTED'
+  week: :week_31
+  home_team: :team_WAS
+  away_team: :team_KC
+  home_points: 10
+  away_points: 45
+  start: 2012-12-09 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week6_NYG_at_CHI:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_CHI
+  away_team: :team_NYG
+  home_points: 27
+  away_points: 21
+  start: 2012-10-12 00:25:00 UTC
+  tiebreak: false
+
+game_2012_week6_CIN_at_BUF:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_BUF
+  away_team: :team_CIN
+  home_points: 24
+  away_points: 27
+  start: 2012-10-14 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week6_GB_at_BAL:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_BAL
+  away_team: :team_GB
+  home_points: 17
+  away_points: 19
+  start: 2012-10-14 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week6_DET_at_CLE:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_CLE
+  away_team: :team_DET
+  home_points: 17
+  away_points: 31
+  start: 2012-10-14 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week6_ARI_at_SF:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_SF
+  away_team: :team_ARI
+  home_points: 32
+  away_points: 20
+  start: 2012-10-14 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week6_STL_at_HOU:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_HOU
+  away_team: :team_STL
+  home_points: 13
+  away_points: 38
+  start: 2012-10-14 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week6_OAK_at_KC:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_KC
+  away_team: :team_OAK
+  home_points: 24
+  away_points: 7
+  start: 2012-10-14 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week6_JAC_at_DEN:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_DEN
+  away_team: :team_JAC
+  home_points: 35
+  away_points: 19
+  start: 2012-10-14 20:05:00 UTC
+  tiebreak: false
+
+game_2012_week6_TEN_at_SEA:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_SEA
+  away_team: :team_TEN
+  home_points: 20
+  away_points: 13
+  start: 2012-10-14 20:05:00 UTC
+  tiebreak: false
+
+game_2012_week6_NO_at_NE:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_NE
+  away_team: :team_NO
+  home_points: 30
+  away_points: 27
+  start: 2012-10-14 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week6_WAS_at_DAL:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_DAL
+  away_team: :team_WAS
+  home_points: 31
+  away_points: 16
+  start: 2012-10-15 00:30:00 UTC
+  tiebreak: false
+
+game_2012_week6_CAR_at_MIN:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_MIN
+  away_team: :team_CAR
+  home_points: 10
+  away_points: 35
+  start: 2012-10-14 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week6_PIT_at_NYJ:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_NYJ
+  away_team: :team_PIT
+  home_points: 6
+  away_points: 19
+  start: 2012-10-14 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week6_PHI_at_TB:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_TB
+  away_team: :team_PHI
+  home_points: 20
+  away_points: 31
+  start: 2012-10-14 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week6_IND_at_SD:
+  status: 'COMPLETE'
+  week: :week_23
+  home_team: :team_SD
+  away_team: :team_IND
+  home_points: 19
+  away_points: 9
+  start: 2012-10-16 00:40:00 UTC
+  tiebreak: true
+
+game_2012_week15_BAL_at_DET:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_DET
+  away_team: :team_BAL
+  home_points: 16
+  away_points: 18
+  start: 2012-12-18 01:40:00 UTC
+  tiebreak: true
+
+game_2012_week15_BUF_at_JAC:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_JAC
+  away_team: :team_BUF
+  home_points: 20
+  away_points: 27
+  start: 2012-12-16 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week15_SD_at_DEN:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_DEN
+  away_team: :team_SD
+  home_points: 20
+  away_points: 27
+  start: 2012-12-14 01:25:00 UTC
+  tiebreak: false
+
+game_2012_week15_PHI_at_MIN:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_MIN
+  away_team: :team_PHI
+  home_points: 48
+  away_points: 30
+  start: 2012-12-16 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week15_GB_at_DAL:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_DAL
+  away_team: :team_GB
+  home_points: 36
+  away_points: 37
+  start: 2012-12-16 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week15_NE_at_MIA:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_MIA
+  away_team: :team_NE
+  home_points: 24
+  away_points: 20
+  start: 2012-12-16 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week15_SF_at_TB:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_TB
+  away_team: :team_SF
+  home_points: 14
+  away_points: 33
+  start: 2012-12-16 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week15_NYJ_at_CAR:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_CAR
+  away_team: :team_NYJ
+  home_points: 30
+  away_points: 20
+  start: 2012-12-16 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week15_HOU_at_IND:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_IND
+  away_team: :team_HOU
+  home_points: 25
+  away_points: 3
+  start: 2012-12-16 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week15_SEA_at_NYG:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_NYG
+  away_team: :team_SEA
+  home_points: 0
+  away_points: 23
+  start: 2012-12-16 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week15_WAS_at_ATL:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_ATL
+  away_team: :team_WAS
+  home_points: 27
+  away_points: 26
+  start: 2012-12-16 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week15_ARI_at_TEN:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_TEN
+  away_team: :team_ARI
+  home_points: 34
+  away_points: 37
+  start: 2012-12-16 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week15_CHI_at_CLE:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_CLE
+  away_team: :team_CHI
+  home_points: 31
+  away_points: 38
+  start: 2012-12-16 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week15_KC_at_OAK:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_OAK
+  away_team: :team_KC
+  home_points: 31
+  away_points: 56
+  start: 2012-12-16 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week15_NO_at_STL:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_STL
+  away_team: :team_NO
+  home_points: 27
+  away_points: 16
+  start: 2012-12-16 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week15_CIN_at_PIT:
+  status: 'NOT_STARTED'
+  week: :week_32
+  home_team: :team_PIT
+  away_team: :team_CIN
+  home_points: 30
+  away_points: 20
+  start: 2012-12-17 01:30:00 UTC
+  tiebreak: false
+
+game_2012_week7_SF_at_TEN:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_TEN
+  away_team: :team_SF
+  home_points: 17
+  away_points: 31
+  start: 2012-10-21 20:05:00 UTC
+  tiebreak: false
+
+game_2012_week7_SEA_at_ARI:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_ARI
+  away_team: :team_SEA
+  home_points: 22
+  away_points: 34
+  start: 2012-10-19 00:25:00 UTC
+  tiebreak: false
+
+game_2012_week7_TB_at_ATL:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_ATL
+  away_team: :team_TB
+  home_points: 31
+  away_points: 23
+  start: 2012-10-21 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week7_CIN_at_DET:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_DET
+  away_team: :team_CIN
+  home_points: 24
+  away_points: 27
+  start: 2012-10-21 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week7_SD_at_JAC:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_JAC
+  away_team: :team_SD
+  home_points: 6
+  away_points: 24
+  start: 2012-10-21 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week7_BUF_at_MIA:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_MIA
+  away_team: :team_BUF
+  home_points: 21
+  away_points: 23
+  start: 2012-10-21 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week7_HOU_at_KC:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_KC
+  away_team: :team_HOU
+  home_points: 17
+  away_points: 16
+  start: 2012-10-21 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week7_BAL_at_PIT:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_PIT
+  away_team: :team_BAL
+  home_points: 19
+  away_points: 16
+  start: 2012-10-21 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week7_CLE_at_GB:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_GB
+  away_team: :team_CLE
+  home_points: 31
+  away_points: 13
+  start: 2012-10-21 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week7_DEN_at_IND:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_IND
+  away_team: :team_DEN
+  home_points: 39
+  away_points: 33
+  start: 2012-10-22 00:30:00 UTC
+  tiebreak: false
+
+game_2012_week7_STL_at_CAR:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_CAR
+  away_team: :team_STL
+  home_points: 30
+  away_points: 15
+  start: 2012-10-21 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week7_NE_at_NYJ:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_NYJ
+  away_team: :team_NE
+  home_points: 30
+  away_points: 27
+  start: 2012-10-21 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week7_DAL_at_PHI:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_PHI
+  away_team: :team_DAL
+  home_points: 3
+  away_points: 17
+  start: 2012-10-21 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week7_CHI_at_WAS:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_WAS
+  away_team: :team_CHI
+  home_points: 45
+  away_points: 41
+  start: 2012-10-21 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week7_MIN_at_NYG:
+  status: 'NOT_STARTED'
+  week: :week_24
+  home_team: :team_NYG
+  away_team: :team_MIN
+  home_points: 23
+  away_points: 7
+  start: 2012-10-23 00:40:00 UTC
+  tiebreak: true
+
+game_2012_week16_ATL_at_SF:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_SF
+  away_team: :team_ATL
+  home_points: 34
+  away_points: 24
+  start: 2012-12-25 01:40:00 UTC
+  tiebreak: true
+
+game_2012_week16_DEN_at_HOU:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_HOU
+  away_team: :team_DEN
+  home_points: 13
+  away_points: 37
+  start: 2012-12-23 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week16_CHI_at_PHI:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_PHI
+  away_team: :team_CHI
+  home_points: 54
+  away_points: 11
+  start: 2012-12-23 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week16_MIA_at_BUF:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_BUF
+  away_team: :team_MIA
+  home_points: 19
+  away_points: 0
+  start: 2012-12-23 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week16_OAK_at_SD:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_SD
+  away_team: :team_OAK
+  home_points: 26
+  away_points: 13
+  start: 2012-12-23 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week16_NO_at_CAR:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_CAR
+  away_team: :team_NO
+  home_points: 17
+  away_points: 13
+  start: 2012-12-23 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week16_NE_at_BAL:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_BAL
+  away_team: :team_NE
+  home_points: 7
+  away_points: 41
+  start: 2012-12-24 01:30:00 UTC
+  tiebreak: false
+
+game_2012_week16_NYG_at_DET:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_DET
+  away_team: :team_NYG
+  home_points: 20
+  away_points: 23
+  start: 2012-12-23 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week16_IND_at_KC:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_KC
+  away_team: :team_IND
+  home_points: 7
+  away_points: 23
+  start: 2012-12-23 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week16_TEN_at_JAC:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_JAC
+  away_team: :team_TEN
+  home_points: 16
+  away_points: 20
+  start: 2012-12-23 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week16_PIT_at_GB:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_GB
+  away_team: :team_PIT
+  home_points: 31
+  away_points: 38
+  start: 2012-12-23 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week16_ARI_at_SEA:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_SEA
+  away_team: :team_ARI
+  home_points: 10
+  away_points: 17
+  start: 2012-12-23 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week16_MIN_at_CIN:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_CIN
+  away_team: :team_MIN
+  home_points: 42
+  away_points: 14
+  start: 2012-12-23 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week16_TB_at_STL:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_STL
+  away_team: :team_TB
+  home_points: 23
+  away_points: 13
+  start: 2012-12-23 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week16_CLE_at_NYJ:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_NYJ
+  away_team: :team_CLE
+  home_points: 24
+  away_points: 13
+  start: 2012-12-23 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week16_DAL_at_WAS:
+  status: 'NOT_STARTED'
+  week: :week_33
+  home_team: :team_WAS
+  away_team: :team_DAL
+  home_points: 23
+  away_points: 24
+  start: 2012-12-23 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_GB_at_CHI:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_CHI
+  away_team: :team_GB
+  home_points: 28
+  away_points: 33
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_HOU_at_TEN:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_TEN
+  away_team: :team_HOU
+  home_points: 16
+  away_points: 10
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_CAR_at_ATL:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_ATL
+  away_team: :team_CAR
+  home_points: 20
+  away_points: 21
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_DET_at_MIN:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_MIN
+  away_team: :team_DET
+  home_points: 14
+  away_points: 13
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_CLE_at_PIT:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_PIT
+  away_team: :team_CLE
+  home_points: 20
+  away_points: 7
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_NYJ_at_MIA:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_MIA
+  away_team: :team_NYJ
+  home_points: 7
+  away_points: 20
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_BAL_at_CIN:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_CIN
+  away_team: :team_BAL
+  home_points: 34
+  away_points: 17
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_WAS_at_NYG:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_NYG
+  away_team: :team_WAS
+  home_points: 20
+  away_points: 6
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_SF_at_ARI:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_ARI
+  away_team: :team_SF
+  home_points: 20
+  away_points: 23
+  start: 2012-12-30 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week17_BUF_at_NE:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_NE
+  away_team: :team_BUF
+  home_points: 34
+  away_points: 20
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_DEN_at_OAK:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_OAK
+  away_team: :team_DEN
+  home_points: 14
+  away_points: 34
+  start: 2012-12-30 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week17_KC_at_SD:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_SD
+  away_team: :team_KC
+  home_points: 27
+  away_points: 24
+  start: 2012-12-30 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week17_STL_at_SEA:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_SEA
+  away_team: :team_STL
+  home_points: 27
+  away_points: 9
+  start: 2012-12-30 21:25:00 UTC
+  tiebreak: true
+
+game_2012_week17_TB_at_NO:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_NO
+  away_team: :team_TB
+  home_points: 42
+  away_points: 17
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_JAC_at_IND:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_IND
+  away_team: :team_JAC
+  home_points: 30
+  away_points: 10
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week17_PHI_at_DAL:
+  status: 'NOT_STARTED'
+  week: :week_34
+  home_team: :team_DAL
+  away_team: :team_PHI
+  home_points: 22
+  away_points: 24
+  start: 2012-12-30 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week8_CAR_at_TB:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_TB
+  away_team: :team_CAR
+  home_points: 13
+  away_points: 31
+  start: 2012-10-26 00:25:00 UTC
+  tiebreak: false
+
+game_2012_week8_PIT_at_OAK:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_OAK
+  away_team: :team_PIT
+  home_points: 21
+  away_points: 18
+  start: 2012-10-28 20:05:00 UTC
+  tiebreak: false
+
+game_2012_week8_CLE_at_KC:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_KC
+  away_team: :team_CLE
+  home_points: 23
+  away_points: 17
+  start: 2012-10-28 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week8_NYJ_at_CIN:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_CIN
+  away_team: :team_NYJ
+  home_points: 49
+  away_points: 9
+  start: 2012-10-28 20:05:00 UTC
+  tiebreak: false
+
+game_2012_week8_MIA_at_NE:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_NE
+  away_team: :team_MIA
+  home_points: 27
+  away_points: 17
+  start: 2012-10-28 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week8_WAS_at_DEN:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_DEN
+  away_team: :team_WAS
+  home_points: 45
+  away_points: 21
+  start: 2012-10-28 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week8_SF_at_JAC:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_JAC
+  away_team: :team_SF
+  home_points: 10
+  away_points: 42
+  start: 2012-10-28 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week8_BUF_at_NO:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_NO
+  away_team: :team_BUF
+  home_points: 35
+  away_points: 17
+  start: 2012-10-28 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week8_NYG_at_PHI:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_PHI
+  away_team: :team_NYG
+  home_points: 7
+  away_points: 15
+  start: 2012-10-28 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week8_DAL_at_DET:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_DET
+  away_team: :team_DAL
+  home_points: 31
+  away_points: 30
+  start: 2012-10-28 17:00:00 UTC
+  tiebreak: false
+
+game_2012_week8_ATL_at_ARI:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_ARI
+  away_team: :team_ATL
+  home_points: 27
+  away_points: 13
+  start: 2012-10-28 20:25:00 UTC
+  tiebreak: false
+
+game_2012_week8_GB_at_MIN:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_MIN
+  away_team: :team_GB
+  home_points: 31
+  away_points: 44
+  start: 2012-10-29 00:30:00 UTC
+  tiebreak: false
+
+game_2012_week8_SEA_at_STL:
+  status: 'NOT_STARTED'
+  week: :week_25
+  home_team: :team_STL
+  away_team: :team_SEA
+  home_points: 9
+  away_points: 14
+  start: 2012-10-30 00:40:00 UTC
+  tiebreak: true
+
+game_2012_week9_ATL_at_CAR:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_CAR
+  away_team: :team_ATL
+  home_points: 34
+  away_points: 10
+  start: 2012-11-04 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week9_CIN_at_MIA:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_MIA
+  away_team: :team_CIN
+  home_points: 22
+  away_points: 20
+  start: 2012-11-02 00:25:00 UTC
+  tiebreak: false
+
+game_2012_week9_PHI_at_OAK:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_OAK
+  away_team: :team_PHI
+  home_points: 20
+  away_points: 49
+  start: 2012-11-04 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week9_KC_at_BUF:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_BUF
+  away_team: :team_KC
+  home_points: 13
+  away_points: 23
+  start: 2012-11-04 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week9_MIN_at_DAL:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_DAL
+  away_team: :team_MIN
+  home_points: 27
+  away_points: 23
+  start: 2012-11-04 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week9_NO_at_NYJ:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_NYJ
+  away_team: :team_NO
+  home_points: 26
+  away_points: 20
+  start: 2012-11-04 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week9_TEN_at_STL:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_STL
+  away_team: :team_TEN
+  home_points: 21
+  away_points: 28
+  start: 2012-11-04 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week9_BAL_at_CLE:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_CLE
+  away_team: :team_BAL
+  home_points: 24
+  away_points: 18
+  start: 2012-11-04 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week9_SD_at_WAS:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_WAS
+  away_team: :team_SD
+  home_points: 30
+  away_points: 24
+  start: 2012-11-04 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week9_TB_at_SEA:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_SEA
+  away_team: :team_TB
+  home_points: 27
+  away_points: 24
+  start: 2012-11-04 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week9_IND_at_HOU:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_HOU
+  away_team: :team_IND
+  home_points: 24
+  away_points: 27
+  start: 2012-11-05 01:30:00 UTC
+  tiebreak: false
+
+game_2012_week9_CHI_at_GB:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_GB
+  away_team: :team_CHI
+  home_points: 20
+  away_points: 27
+  start: 2012-11-06 01:40:00 UTC
+  tiebreak: true
+
+game_2012_week9_PIT_at_NE:
+  status: 'NOT_STARTED'
+  week: :week_26
+  home_team: :team_NE
+  away_team: :team_PIT
+  home_points: 55
+  away_points: 31
+  start: 2012-11-04 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week10_DET_at_CHI:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_CHI
+  away_team: :team_DET
+  home_points: 19
+  away_points: 21
+  start: 2012-11-11 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week10_MIA_at_TB:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_TB
+  away_team: :team_MIA
+  home_points: 22
+  away_points: 19
+  start: 2012-11-13 01:40:00 UTC
+  tiebreak: true
+
+game_2012_week10_WAS_at_MIN:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_MIN
+  away_team: :team_WAS
+  home_points: 34
+  away_points: 27
+  start: 2012-11-09 01:25:00 UTC
+  tiebreak: false
+
+game_2012_week10_PHI_at_GB:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_GB
+  away_team: :team_PHI
+  home_points: 13
+  away_points: 27
+  start: 2012-11-11 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week10_STL_at_IND:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_IND
+  away_team: :team_STL
+  home_points: 8
+  away_points: 38
+  start: 2012-11-11 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week10_BUF_at_PIT:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_PIT
+  away_team: :team_BUF
+  home_points: 23
+  away_points: 10
+  start: 2012-11-11 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week10_OAK_at_NYG:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_NYG
+  away_team: :team_OAK
+  home_points: 24
+  away_points: 20
+  start: 2012-11-11 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week10_JAC_at_TEN:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_TEN
+  away_team: :team_JAC
+  home_points: 27
+  away_points: 29
+  start: 2012-11-11 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week10_DEN_at_SD:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_SD
+  away_team: :team_DEN
+  home_points: 20
+  away_points: 28
+  start: 2012-11-11 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week10_SEA_at_ATL:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_ATL
+  away_team: :team_SEA
+  home_points: 10
+  away_points: 33
+  start: 2012-11-11 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week10_HOU_at_ARI:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_ARI
+  away_team: :team_HOU
+  home_points: 27
+  away_points: 24
+  start: 2012-11-11 21:25:00 UTC
+  tiebreak: false
+
+game_2012_week10_CAR_at_SF:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_SF
+  away_team: :team_CAR
+  home_points: 9
+  away_points: 10
+  start: 2012-11-11 21:05:00 UTC
+  tiebreak: false
+
+game_2012_week10_CIN_at_BAL:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_BAL
+  away_team: :team_CIN
+  home_points: 20
+  away_points: 17
+  start: 2012-11-11 18:00:00 UTC
+  tiebreak: false
+
+game_2012_week10_DAL_at_NO:
+  status: 'NOT_STARTED'
+  week: :week_27
+  home_team: :team_NO
+  away_team: :team_DAL
+  home_points: 49
+  away_points: 17
+  start: 2012-11-12 01:30:00 UTC
+  tiebreak: false
+
