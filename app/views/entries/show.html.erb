@@ -9,14 +9,7 @@
 	<div class="span12">
 		<div class="row-fluid">
 			<div class="span2">
-<!-- 				<ul>
-					<% @week.season.weeks.sort_by { |a| a.week_num }.each do |w| %>
-						<li>
-				      		<%= link_to "Week #{w.week_num}",   week_path(w) %>
-						</li>
-					<% end %>
-				</ul>
- -->				<ul>
+				<ul class="entry_weeks_list">
 					<% @entries.each do |e| %>
 						<li>
 				      		<%= link_to "Entry for week: #{e.week.week_num}",  user_entry_path(current_user,e) %>
@@ -27,12 +20,11 @@
 			<div class="span10 entrylist">
 				<div class="row">
 					<div class="span7 offset2"
-					    <ul>
+					    <ul class="picklist">
 					      	<% action = false %>
 					      	<% @picks.each do |pick| %>
 					      		<% if pick.pick != 'NONE' %>
-						      		<li>
-							      		<%= pick.points %> on
+						      		<li class="pickline"><%= pick.points %> on
 							      		<%= pick.pick == 'HOME'? pick.game.home_team.display_name : pick.game.away_team.display_name %>
 							      		to beat 
 							      		<%= pick.pick == 'HOME'? pick.game.away_team.display_name : pick.game.home_team.display_name %>

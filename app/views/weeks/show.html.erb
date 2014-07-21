@@ -2,15 +2,15 @@
 <% provide(:year, "#{@week.season.year}") %>
 <div class="row">
   <div class="span2">
-   <ul>
+   <ul class="week_week_list">
       <% @week.season.weeks.sort_by { |a| a.week_num }.each do |w| %>
         <li>
               <%= link_to "Week #{w.week_num}",   week_path(w) %>
         </li>
       <% end %>
     </ul>
-    <ul>
   </div> 
+    <ul>
   <div class="span6 offset1">
     <% if @games.any? %>
       <h3>Week <%= @week.week_num %> Games (<%= @games.count %>)</h3>
@@ -19,6 +19,7 @@
       </ol>
     <% end %>
   </div>
+  </ul>
 </div>
 <div class="row">
   <div class="span6 offset4">
@@ -28,8 +29,8 @@
     <% if @user.admin %>
       <%= link_to "Entries Summary", entry_list_week_path, class: "btn btn-primary" %>
     <% end %>
-        <p>
+        <p/>
     <%= link_to "FOY", foy_season_path(@week.season) %>
-    <p><%= link_to "Season", season_path(@week.season) %>
+    <p><%= link_to "Season", season_path(@week.season) %></p>
   </div>
 </div>

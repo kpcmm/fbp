@@ -25,13 +25,19 @@ test "login and browse site" do
     assert_select "ul.weeks" do
     	assert_select "li", 17
     end
-    # assert_select "script", 200
 
-    # assert_equal 'Welcome david!', flash[:notice]
- 
-    # https!(false)
-    # get "/posts/all"
-    # assert_response :success
-    # assert assigns(:products)
+    get "weeks/#{weeks(:week_5).id}"
+    assert_select "title", "FBP HQ | 2011 week 5"
+    assert_select "ol.games" do
+    	assert_select "li", 14
+    end
+
+    get "users/#{users(:user_101).id}/entries/#{entries(:entry_2011_week4_tgb).id}"
+    assert_select "title", "FBP HQ | Valid Entry"
+    assert_select "ul.entry_weeks_list li a", 17
+    assert_select "div.span7 ul.picklist li", /1 on\s+Tennessee/
+    assert_select "div.span7 ul.picklist li", {text: /^1 on/, count: 1}
+
+
   end
 end
