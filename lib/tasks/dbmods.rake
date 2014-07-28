@@ -9,7 +9,9 @@ namespace :dbmods do
 end
 
 def do_pick_details
+  count = 0
   Entry.all.each do |e|
+    count = count + 1
     detail = {}
     e.picks.each do |p|
       g = p.game
@@ -21,10 +23,11 @@ def do_pick_details
       detail[p.points] = t.code
     end
     d = JSON.generate detail
-    puts d
+    puts "count: #{count} details: #{d[0,20]}..."
     e.details =  d
-    e,create_picks
+    e.create_picks
     e.save
+
   end
 end
 
