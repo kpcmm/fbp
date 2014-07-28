@@ -21,8 +21,9 @@ def do_pick_details
       detail[p.points] = t.code
     end
     d = JSON.generate detail
-    #puts d
+    puts d
     e.details =  d
+    e,create_picks
     e.save
   end
 end
