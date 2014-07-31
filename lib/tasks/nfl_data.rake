@@ -25,9 +25,9 @@ def cleanup the_season
   if season
     season.weeks.each do |w|
       w.entries.each do |e|
-        e.picks.each do |p|
-          p.destroy
-        end
+        # e.picks.each do |p|
+        #   p.destroy
+        # end
         e.destroy
       end
       w.games.each do |g|
@@ -123,6 +123,7 @@ end
 
 def make_games_and_teams the_season
   season = Season.find_by_year(the_season)
+  Time.zone = 'Eastern Time (US & Canada)'
   if !season
     season = Season.create(year: the_season)
   end

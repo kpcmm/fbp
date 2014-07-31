@@ -8,6 +8,7 @@ namespace :dbmods do
   end
 end
 
+# does not work since Pick model was disassociated from Entry
 def do_pick_details
   count = 0
   Entry.all.each do |e|
