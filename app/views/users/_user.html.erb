@@ -1,9 +1,34 @@
-<li>
-  <%= gravatar_for user, size: 52 %>
-  <%= link_to user.nickname, user %>
-  <% if current_user.admin? && !current_user?(user) %>
-     <%= link_to "Settings", edit_user_path(user) %>
-    | <%= link_to "delete", user, method: :delete,
-                                  data: {  confirm: "You sure?" } %>
+<%
+	row_colors = ["cornsilk", "gainsboro"]
+	row_color =  row_colors[user_counter%2]
+%>
+<%	if user_counter == 0 %>
+	<tr>
+		<th>nickname</th>
+		<th>FOY</th>
+	 	<% if current_user.admin? %>
+			<th>id</th>
+			<th>email</th>
+			<th>name</th>
+			<th>admin</th>
+			<th>edit</th>
+			<th>delete</th>
+		<% end %>
+	</tr>
+<% end %>
+
+
+<tr class="user_row" style="background: <%= row_color %>">
+<!--   <%= gravatar_for user, size: 52 %>
+ --> 
+  <td><%= link_to user.nickname, user %></td>
+  <td><%= (user.foy)? raw("&#x2713;"): " " %></td>
+  <% if current_user.admin? %>
+	<td><%= user.id %></td>
+	<td><%= user.email %></td>
+  	<td><%= user.name %></td>
+  	<td><%= (user.admin)? raw("&#x2713;"): " " %></td>
+    <td><%= link_to "Settings", edit_user_path(user) %></td>
+    <td><%= link_to "delete", user, method: :delete, data: {  confirm: "You sure?" } %></td>
   <% end %>
-</li>
+</tr>

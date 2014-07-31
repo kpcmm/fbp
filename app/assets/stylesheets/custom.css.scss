@@ -207,6 +207,19 @@ input {
   }
 }
 
+/* this does centering */
+#user_table{
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.user_row{
+  td {
+    padding: 0 10px;
+  }
+}
+
 /* microposts */
 
 .microposts {

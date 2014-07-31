@@ -3,8 +3,10 @@
 
 <%= will_paginate %>
 
-<ul class="users">
-	<%= render @users %>
-</ul>
+<div id="user_table">
+	<table>
+		<%= render @users.sort {|a,b| a.name <=> b.name} %>
+	</table>
+</div>
 
 <%= will_paginate %>
