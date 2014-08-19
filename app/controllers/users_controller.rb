@@ -16,7 +16,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(params[:user])
+    @user = User.new(user_params)
     @reg = Reg.find_by_nickname(@user.name.downcase)
     if @reg
       if @user.save
@@ -43,7 +43,7 @@ class UsersController < ApplicationController
   end
 
   def update
-    if @user.update_attributes(params[:user])
+    if @user.update_attributes(user_params)
       flash[:success] = "Profile updated"
       sign_in @user
       redirect_to @user
@@ -65,4 +65,9 @@ class UsersController < ApplicationController
         redirect_to(root_path)
       end
     end
+
+    def user_params
+      params.require(:user).permit(:name, :email, :password, :password_confirmation)
+    end
+
 end
