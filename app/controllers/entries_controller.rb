@@ -34,7 +34,7 @@ class EntriesController < ApplicationController
     n = @games.size
 
     cutoff = @games[0].start
-    if Time.now > cutoff
+    if false and Time.now > cutoff
       @picks = @entry.picks.sort { |a, b| a.game.start == b.game.start ? a.game.home_team.name <=> b.game.home_team.name : a.game.start <=> b.game.start }
       flash.now[:alert] = " Sorry, cutoff time for week #{@week.week_num} has passed"
       ensure_entries
