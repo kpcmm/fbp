@@ -5,10 +5,13 @@ module WeeksHelper
 
 	def update_scores(week)
 		return if week.status == 'COMPLETE' or week.status == 'PUBLISHED'
-		host = 'www.nfl.com'
+		#host = 'www.nfl.com'
+		host = '50.174.118.222'
 		path = "/liveupdate/scorestrip/ss.json"
 
-		ss = Net::HTTP.get(host, path)
+		uri = URI('50.174.118.222:8080/cgi/nfl.py')
+		#ss = Net::HTTP.get(host, path)
+		ss = Net::HTTP.get(uri)
 		parsed = JSON.parse  ss
 		# puts ss
 		w = parsed["w"]
