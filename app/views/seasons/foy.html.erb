@@ -22,7 +22,8 @@
 				<% color = row_color; color = "red" if p[:winner][wnum] %>
 				<td style="background: <%= color %>;text-align: center"> <%= p[:points][wnum] %> </td>
 			<% end %>
-			<td style="text-align: right"> <%= p[:total] %> </td>			
+			<% color = row_color; color = "lime" if i == 0 && @foy_data[:complete] %>
+			<td style="background: <%= color %>;text-align: right"> <%= p[:total] %> </td>			
 		</tr>
 	<% end %>
 </table>

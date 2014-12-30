@@ -7,7 +7,9 @@ class Season < ActiveRecord::Base
   def get_foy_data
 
   	players = {}
+    complete = true
     weeks.each do |w|
+      complete = false unless w.status == 'PUBLISHED'
     	next unless w.status == 'PUBLISHED'
     	w.entries.each do |e|
     		next unless e.user.foy
@@ -30,6 +32,8 @@ class Season < ActiveRecord::Base
   	foy_data = {}
   	foy_data[:players] = pa
   	foy_data[:max_week] = weeks.count
+    foy_data[:complete] = complete
+
     foy_data
   end
 end
