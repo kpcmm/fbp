@@ -9,7 +9,8 @@ module WeeksHelper
 		host = '50.174.118.222'
 		path = "/liveupdate/scorestrip/ss.json"
 
-		uri = URI('http://50.174.118.222:8000/cgi/nfl.py')
+		#uri = URI('http://50.174.118.222:8000/cgi/nfl.py')
+		uri = URI('http://www.nfl.com/liveupdate/scorestrip/ss.json')
 		#ss = Net::HTTP.get(host, path)
 		ss = Net::HTTP.get(uri)
 		parsed = JSON.parse  ss
