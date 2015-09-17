@@ -1,4 +1,6 @@
 class SeasonsController < ApplicationController
+  before_filter :signed_in_user
+
 	def index
 		@seasons = Season.all
 	end

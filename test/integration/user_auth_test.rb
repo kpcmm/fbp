@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class UserFlowsTest < ActionDispatch::IntegrationTest
-test "login and out not as admin" do
+  test "login and out not as admin" do
 	get "/"
 	assert_select "h1", 1, "Should be exactly one <h1> section"
 	assert_select "title", {:text => "FBP HQ"}, "title should be FBP HQ"
@@ -23,5 +23,23 @@ test "login and out not as admin" do
     get_via_redirect "/users"
     assert_select "title", "FBP HQ"
     assert_select "div div.alert", "Not authorized to view users"
+
+    get "/seasons"
+    assert_select "title", "FBP HQ | All Seasons"
+    #assert_select "body>div>h1", "Sign in"
+    assert_response :success
   end
+
+  test "check user cannot access seasons unless signed in" do
+    get "/seasons"
+    #assert_select "title", "FBP HQ"
+    #assert_select "body>div>h1", "Sign in"
+    assert_response :redirect
+
+    get_via_redirect "/seasons"
+    #assert_select "title", "FBP HQ"
+    assert_select "h1", "Sign in"
+  end
+
 end
+
