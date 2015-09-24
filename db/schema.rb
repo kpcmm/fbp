@@ -98,19 +98,6 @@ ActiveRecord::Schema.define(version: 20150925122211) do
 
   add_index "seasons", ["year"], name: "index_seasons_on_year", unique: true, using: :btree
 
-  create_table "seasons_users", id: false, force: true do |t|
-    t.integer  "user_id"
-    t.integer  "season_id"
-    t.boolean  "foy"
-    t.integer  "weeks_won"
-    t.boolean  "paid"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "seasons_users", ["season_id"], name: "index_seasons_users_on_season_id", using: :btree
-  add_index "seasons_users", ["user_id"], name: "index_seasons_users_on_user_id", using: :btree
-
   create_table "teams", force: true do |t|
     t.string   "name"
     t.string   "nickname"
