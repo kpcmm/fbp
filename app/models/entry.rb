@@ -65,6 +65,8 @@ class Entry < ActiveRecord::Base
   end
 
   def get_points
+    return points if points
+    logger.info "getting points for entry, user: #{user.name}, week: #{week.week_num}, points: #{points}}"
   	points = 0
   	picks.each do |p|
   		g = p.game
@@ -81,6 +83,7 @@ class Entry < ActiveRecord::Base
   		end
   	end
 
+    save
   	points
   end
 end

@@ -21,6 +21,8 @@ class User < ActiveRecord::Base
                                    dependent:   :destroy
   has_many :followers, through: :reverse_relationships, source: :follower
   has_many :entries, dependent: :destroy
+  has_many :agreements
+  has_many :seasons, through: :agreements
 
   #before_save { |user| user.email = email.downcase }
   before_save { |u| u.nickname = u.name.dup; u.name.downcase! }

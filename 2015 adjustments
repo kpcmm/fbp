@@ -1,0 +1,17 @@
+not playing
+110 | raider           | t
+106 | valcro           | t
+118 | tazdivil         | t
+129 | coliam           | t
+132 | 494ever          | 
+
+no foy
+125 | stuckinthemiddle | t
+105 | moneyballin      | t
+123 | mightymice       | t
+114 | limey            | t
+
+add to foy
+133 | mungojerry       | 
+
+update users set fo= false where id in (110,106,118,129,132,125,105,123,114);

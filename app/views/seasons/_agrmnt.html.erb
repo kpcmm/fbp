@@ -1,0 +1,23 @@
+<%
+	row_colors = ["cornsilk", "gainsboro"]
+	row_color =  row_colors[i%2]
+%>
+<%	if i == 0 %>
+	<tr>
+		<th style="width:23%">name</th>
+		<th style="width:10%">playing</th>
+		<th style="width:10%">paid</th>
+		<th style="width:10%">foy</th>
+		<th style="width:37%">email</th>
+		<th style="width:10%">settings</th>
+	</tr>
+<% end %>
+
+<tr class="user_row" style="background: <%= row_color %>">
+  <td><%=  person[:name] %></td>
+  <td><%= check_box_tag "people[#{person[:id]}][playing]", 'y', person[:agreement] %></td>
+  <td><%= check_box_tag "people[#{person[:id]}][paid]", 'y', person[:paid] %></td>
+  <td><%= check_box_tag "people[#{person[:id]}][foy]", 'y', person[:foy] %></td>
+  <td><%= person[:email] %></td>
+  <td><%= link_to "Settings", edit_user_path(person[:id]) %></td>
+</tr>

@@ -1,0 +1,16 @@
+<h1>Agreements for <%= @season.year%> season</h1>
+
+
+	<div class="span9 offset1" style="background: khaki; border-radius: 15px">
+	<div class="span6 offset1" style="background: khaki">
+	  <%= form_tag("/seasons/#{@season.id}/update_agreements", action: "update_agreements", method: "put") do%>
+
+		<table style="table-layout:fixed, width: 100%">
+			<% @people.each_with_index do |person, i| %>
+	      		<%= render partial: "agrmnt", locals: {person: person, i: i} %>
+	        <% end %>
+		</table>
+        <%= submit_tag("Save", class: "btn btn-large btn-primary") %>
+	  <% end %>
+	</div>
+	</div>

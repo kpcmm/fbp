@@ -13,3 +13,10 @@
     <% end %>
   </div>
 </div>
+<% if @user.admin %>
+  <hr>
+   <div class="span8 offset2">
+      <%= link_to "This Season's Players", agreements_season_path(@season), class: "btn btn-primary" %>
+   </div>
+<% end %>
+

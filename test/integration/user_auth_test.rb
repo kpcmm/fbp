@@ -32,12 +32,9 @@ class UserFlowsTest < ActionDispatch::IntegrationTest
 
   test "check user cannot access seasons unless signed in" do
     get "/seasons"
-    #assert_select "title", "FBP HQ"
-    #assert_select "body>div>h1", "Sign in"
     assert_response :redirect
 
     get_via_redirect "/seasons"
-    #assert_select "title", "FBP HQ"
     assert_select "h1", "Sign in"
   end
 

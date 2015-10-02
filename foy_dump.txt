@@ -1,0 +1,33 @@
+ id  |       name       | foy 
+-----+------------------+-----
+ 107 | theenglander     | t
+ 128 | fbpguru          | 
+ 114 | limey            | t
+ 101 | tgb              | t
+ 106 | valcro           | t
+ 108 | shadylady        | t
+ 110 | raider           | t
+ 111 | emfightingsaints | t
+ 113 | diamondgirl      | t
+ 115 | the machine      | t
+ 116 | rharry           | t
+ 119 | paw              | t
+ 123 | mightymice       | t
+ 124 | local522         | t
+ 125 | stuckinthemiddle | t
+ 127 | fatty            | t
+ 109 | lifesavers       | t
+ 102 | goingfortwo      | t
+ 120 | bigdog           | t
+ 105 | moneyballin      | t
+ 103 | fbp_ceo          | t
+ 104 | fbpking          | t
+ 112 | fbpprincess      | t
+ 129 | coliam           | t
+ 122 | utahkev          | t
+ 118 | tazdivil         | t
+ 117 | dirtymartini     | t
+ 132 | 494ever          | 
+ 126 | l3lowuaway       | t
+ 121 | treeguru         | t
+ 133 | mungojerry       | 

@@ -10,6 +10,8 @@ Fbp::Application.routes.draw do
   resources :seasons do
     member do
       get 'foy'
+      get 'agreements'
+      put 'update_agreements'
     end
   end
   
