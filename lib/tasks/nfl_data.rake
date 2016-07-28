@@ -89,7 +89,7 @@ def get_data the_season
     week[:games] = []
     schedule[:weeks].append week
     Net::HTTP.get(host, path).lines do |line|
-      nflraw.write line
+      #nflraw.write line
       if line =~ /^<!-- ([A-Za-z]+): (.+) -->/
         data = Regexp.last_match
         tag = data[1]
@@ -111,6 +111,7 @@ def get_data the_season
 end
 
 def ensure_team(params)
+  #puts "ensure_team city: #{params[:city]}, code: #{params[:code]}, name: #{params[:name]}"
   display_name = params[:city]
   display_name = 'N.Y. Giants' if params[:code] == 'NYG'
   display_name = 'N.Y. Jets' if params[:code] == 'NYJ'
@@ -131,14 +132,23 @@ def make_games_and_teams the_season
   total_games = 0;
   last_date = nil
   pdata = JSON.load nfljson
+  tb_game = nil
   pdata["weeks"].each do |w|
+    puts ""
+    puts "============================== week #{w["week"]} ==================================="
     week = Week.find_by_season_id_and_week_num(season.id, w["week"])
     if !week
       week = season.weeks.create(week_num: w["week"], status: "NOT_STARTED")
     end
     games = w["games"]
     total_games += games.size
+    max_date_time = Time.zone.parse("2011 January 01 1:01 AM")
     games.each do |g|
+      hteam = g["homeAbbr"]
+      ateam = g["awayAbbr"]
+      hname = g["homeName"]
+      aname = g["awayName"]
+      puts "home team #{hteam} #{hname}, away team #{ateam} #{aname}"
       ensure_team({code: g["homeAbbr"], city: g["homeCityName"], name: g["homeName"]})
       ensure_team({code: g["awayAbbr"], city: g["awayCityName"], name: g["awayName"]})
 
@@ -152,11 +162,25 @@ def make_games_and_teams the_season
       g["formattedTime"] =~ /(\d+:\d+ [AP]M)/
       data = Regexp.last_match
       game_time = data[1]
-      game_date_time = Time.zone.parse("#{season.year} #{current_date} #{game_time}")
+      adj = 0
+      if month_ == "January"
+        adj = 1
+      end
+      gdt = "#{season.year + adj} #{current_date} #{game_time}"
+      #puts ("gdt: #{gdt}")
+      game_date_time = Time.zone.parse(gdt)
 
       home_team = Team.find_by_code(g["homeAbbr"])
       away_team = Team.find_by_code(g["awayAbbr"])
-      week.games.create!(home_team_id: home_team.id, away_team_id: away_team.id, status: 'NOT_STARTED', start: game_date_time, tiebreak: false)
+      new_game = week.games.create!(home_team_id: home_team.id, away_team_id: away_team.id, status: 'NOT_STARTED', start: game_date_time, tiebreak: false)
+      if game_date_time >= max_date_time
+        max_date_time = game_date_time
+        tb_game = new_game
+      end
+    end
+    if tb_game
+      tb_game.tiebreak = true
+      tb_game.save
     end
   end
 end

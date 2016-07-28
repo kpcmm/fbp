@@ -1,0 +1,2650 @@
+{
+  "season": "2016",
+  "weeks": [
+    {
+      "week": 1,
+      "games": [
+        {
+          "formattedDate": "Thursday, September 08",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "CAR",
+          "homeAbbr": "DEN",
+          "awayName": "Panthers",
+          "homeName": "Broncos",
+          "awayCityName": "Carolina",
+          "homeCityName": "Denver"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TB",
+          "homeAbbr": "ATL",
+          "awayName": "Buccaneers",
+          "homeName": "Falcons",
+          "awayCityName": "Tampa Bay",
+          "homeCityName": "Atlanta"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "MIN",
+          "homeAbbr": "TEN",
+          "awayName": "Vikings",
+          "homeName": "Titans",
+          "awayCityName": "Minnesota",
+          "homeCityName": "Tennessee"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CLE",
+          "homeAbbr": "PHI",
+          "awayName": "Browns",
+          "homeName": "Eagles",
+          "awayCityName": "Cleveland",
+          "homeCityName": "Philadelphia"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CIN",
+          "homeAbbr": "NYJ",
+          "awayName": "Bengals",
+          "homeName": "Jets",
+          "awayCityName": "Cincinnati",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "OAK",
+          "homeAbbr": "NO",
+          "awayName": "Raiders",
+          "homeName": "Saints",
+          "awayCityName": "Oakland",
+          "homeCityName": "New Orleans"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "SD",
+          "homeAbbr": "KC",
+          "awayName": "Chargers",
+          "homeName": "Chiefs",
+          "awayCityName": "San Diego",
+          "homeCityName": "Kansas City"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BUF",
+          "homeAbbr": "BAL",
+          "awayName": "Bills",
+          "homeName": "Ravens",
+          "awayCityName": "Buffalo",
+          "homeCityName": "Baltimore"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CHI",
+          "homeAbbr": "HOU",
+          "awayName": "Bears",
+          "homeName": "Texans",
+          "awayCityName": "Chicago",
+          "homeCityName": "Houston"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "GB",
+          "homeAbbr": "JAX",
+          "awayName": "Packers",
+          "homeName": "Jaguars",
+          "awayCityName": "Green Bay",
+          "homeCityName": "Jacksonville"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "MIA",
+          "homeAbbr": "SEA",
+          "awayName": "Dolphins",
+          "homeName": "Seahawks",
+          "awayCityName": "Miami",
+          "homeCityName": "Seattle"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "NYG",
+          "homeAbbr": "DAL",
+          "awayName": "Giants",
+          "homeName": "Cowboys",
+          "awayCityName": "New York",
+          "homeCityName": "Dallas"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "DET",
+          "homeAbbr": "IND",
+          "awayName": "Lions",
+          "homeName": "Colts",
+          "awayCityName": "Detroit",
+          "homeCityName": "Indianapolis"
+        },
+        {
+          "formattedDate": "Sunday, September 11",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "NE",
+          "homeAbbr": "ARI",
+          "awayName": "Patriots",
+          "homeName": "Cardinals",
+          "awayCityName": "New England",
+          "homeCityName": "Arizona"
+        },
+        {
+          "formattedDate": "Monday, September 12",
+          "formattedTime": "7:10 PM ",
+          "awayAbbr": "PIT",
+          "homeAbbr": "WAS",
+          "awayName": "Steelers",
+          "homeName": "Redskins",
+          "awayCityName": "Pittsburgh",
+          "homeCityName": "Washington"
+        },
+        {
+          "formattedDate": "Monday, September 12",
+          "formattedTime": "10:20 PM ",
+          "awayAbbr": "LA",
+          "homeAbbr": "SF",
+          "awayName": "Rams",
+          "homeName": "49ers",
+          "awayCityName": "Los Angeles",
+          "homeCityName": "San Francisco"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "games": [
+        {
+          "formattedDate": "Thursday, September 15",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "NYJ",
+          "homeAbbr": "BUF",
+          "awayName": "Jets",
+          "homeName": "Bills",
+          "awayCityName": "New York",
+          "homeCityName": "Buffalo"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "SF",
+          "homeAbbr": "CAR",
+          "awayName": "49ers",
+          "homeName": "Panthers",
+          "awayCityName": "San Francisco",
+          "homeCityName": "Carolina"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DAL",
+          "homeAbbr": "WAS",
+          "awayName": "Cowboys",
+          "homeName": "Redskins",
+          "awayCityName": "Dallas",
+          "homeCityName": "Washington"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CIN",
+          "homeAbbr": "PIT",
+          "awayName": "Bengals",
+          "homeName": "Steelers",
+          "awayCityName": "Cincinnati",
+          "homeCityName": "Pittsburgh"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NO",
+          "homeAbbr": "NYG",
+          "awayName": "Saints",
+          "homeName": "Giants",
+          "awayCityName": "New Orleans",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "MIA",
+          "homeAbbr": "NE",
+          "awayName": "Dolphins",
+          "homeName": "Patriots",
+          "awayCityName": "Miami",
+          "homeCityName": "New England"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "KC",
+          "homeAbbr": "HOU",
+          "awayName": "Chiefs",
+          "homeName": "Texans",
+          "awayCityName": "Kansas City",
+          "homeCityName": "Houston"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TEN",
+          "homeAbbr": "DET",
+          "awayName": "Titans",
+          "homeName": "Lions",
+          "awayCityName": "Tennessee",
+          "homeCityName": "Detroit"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BAL",
+          "homeAbbr": "CLE",
+          "awayName": "Ravens",
+          "homeName": "Browns",
+          "awayCityName": "Baltimore",
+          "homeCityName": "Cleveland"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "SEA",
+          "homeAbbr": "LA",
+          "awayName": "Seahawks",
+          "homeName": "Rams",
+          "awayCityName": "Seattle",
+          "homeCityName": "Los Angeles"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "TB",
+          "homeAbbr": "ARI",
+          "awayName": "Buccaneers",
+          "homeName": "Cardinals",
+          "awayCityName": "Tampa Bay",
+          "homeCityName": "Arizona"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "JAX",
+          "homeAbbr": "SD",
+          "awayName": "Jaguars",
+          "homeName": "Chargers",
+          "awayCityName": "Jacksonville",
+          "homeCityName": "San Diego"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "ATL",
+          "homeAbbr": "OAK",
+          "awayName": "Falcons",
+          "homeName": "Raiders",
+          "awayCityName": "Atlanta",
+          "homeCityName": "Oakland"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "IND",
+          "homeAbbr": "DEN",
+          "awayName": "Colts",
+          "homeName": "Broncos",
+          "awayCityName": "Indianapolis",
+          "homeCityName": "Denver"
+        },
+        {
+          "formattedDate": "Sunday, September 18",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "GB",
+          "homeAbbr": "MIN",
+          "awayName": "Packers",
+          "homeName": "Vikings",
+          "awayCityName": "Green Bay",
+          "homeCityName": "Minnesota"
+        },
+        {
+          "formattedDate": "Monday, September 19",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "PHI",
+          "homeAbbr": "CHI",
+          "awayName": "Eagles",
+          "homeName": "Bears",
+          "awayCityName": "Philadelphia",
+          "homeCityName": "Chicago"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "games": [
+        {
+          "formattedDate": "Thursday, September 22",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "HOU",
+          "homeAbbr": "NE",
+          "awayName": "Texans",
+          "homeName": "Patriots",
+          "awayCityName": "Houston",
+          "homeCityName": "New England"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "ARI",
+          "homeAbbr": "BUF",
+          "awayName": "Cardinals",
+          "homeName": "Bills",
+          "awayCityName": "Arizona",
+          "homeCityName": "Buffalo"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "OAK",
+          "homeAbbr": "TEN",
+          "awayName": "Raiders",
+          "homeName": "Titans",
+          "awayCityName": "Oakland",
+          "homeCityName": "Tennessee"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "WAS",
+          "homeAbbr": "NYG",
+          "awayName": "Redskins",
+          "homeName": "Giants",
+          "awayCityName": "Washington",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CLE",
+          "homeAbbr": "MIA",
+          "awayName": "Browns",
+          "homeName": "Dolphins",
+          "awayCityName": "Cleveland",
+          "homeCityName": "Miami"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BAL",
+          "homeAbbr": "JAX",
+          "awayName": "Ravens",
+          "homeName": "Jaguars",
+          "awayCityName": "Baltimore",
+          "homeCityName": "Jacksonville"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DET",
+          "homeAbbr": "GB",
+          "awayName": "Lions",
+          "homeName": "Packers",
+          "awayCityName": "Detroit",
+          "homeCityName": "Green Bay"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DEN",
+          "homeAbbr": "CIN",
+          "awayName": "Broncos",
+          "homeName": "Bengals",
+          "awayCityName": "Denver",
+          "homeCityName": "Cincinnati"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "MIN",
+          "homeAbbr": "CAR",
+          "awayName": "Vikings",
+          "homeName": "Panthers",
+          "awayCityName": "Minnesota",
+          "homeCityName": "Carolina"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "LA",
+          "homeAbbr": "TB",
+          "awayName": "Rams",
+          "homeName": "Buccaneers",
+          "awayCityName": "Los Angeles",
+          "homeCityName": "Tampa Bay"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "SF",
+          "homeAbbr": "SEA",
+          "awayName": "49ers",
+          "homeName": "Seahawks",
+          "awayCityName": "San Francisco",
+          "homeCityName": "Seattle"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "NYJ",
+          "homeAbbr": "KC",
+          "awayName": "Jets",
+          "homeName": "Chiefs",
+          "awayCityName": "New York",
+          "homeCityName": "Kansas City"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "SD",
+          "homeAbbr": "IND",
+          "awayName": "Chargers",
+          "homeName": "Colts",
+          "awayCityName": "San Diego",
+          "homeCityName": "Indianapolis"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "PIT",
+          "homeAbbr": "PHI",
+          "awayName": "Steelers",
+          "homeName": "Eagles",
+          "awayCityName": "Pittsburgh",
+          "homeCityName": "Philadelphia"
+        },
+        {
+          "formattedDate": "Sunday, September 25",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "CHI",
+          "homeAbbr": "DAL",
+          "awayName": "Bears",
+          "homeName": "Cowboys",
+          "awayCityName": "Chicago",
+          "homeCityName": "Dallas"
+        },
+        {
+          "formattedDate": "Monday, September 26",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "ATL",
+          "homeAbbr": "NO",
+          "awayName": "Falcons",
+          "homeName": "Saints",
+          "awayCityName": "Atlanta",
+          "homeCityName": "New Orleans"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "games": [
+        {
+          "formattedDate": "Thursday, September 29",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "MIA",
+          "homeAbbr": "CIN",
+          "awayName": "Dolphins",
+          "homeName": "Bengals",
+          "awayCityName": "Miami",
+          "homeCityName": "Cincinnati"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "9:30 AM ",
+          "awayAbbr": "IND",
+          "homeAbbr": "JAX",
+          "awayName": "Colts",
+          "homeName": "Jaguars",
+          "awayCityName": "Indianapolis",
+          "homeCityName": "Jacksonville"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TEN",
+          "homeAbbr": "HOU",
+          "awayName": "Titans",
+          "homeName": "Texans",
+          "awayCityName": "Tennessee",
+          "homeCityName": "Houston"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CLE",
+          "homeAbbr": "WAS",
+          "awayName": "Browns",
+          "homeName": "Redskins",
+          "awayCityName": "Cleveland",
+          "homeCityName": "Washington"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "SEA",
+          "homeAbbr": "NYJ",
+          "awayName": "Seahawks",
+          "homeName": "Jets",
+          "awayCityName": "Seattle",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BUF",
+          "homeAbbr": "NE",
+          "awayName": "Bills",
+          "homeName": "Patriots",
+          "awayCityName": "Buffalo",
+          "homeCityName": "New England"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CAR",
+          "homeAbbr": "ATL",
+          "awayName": "Panthers",
+          "homeName": "Falcons",
+          "awayCityName": "Carolina",
+          "homeCityName": "Atlanta"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "OAK",
+          "homeAbbr": "BAL",
+          "awayName": "Raiders",
+          "homeName": "Ravens",
+          "awayCityName": "Oakland",
+          "homeCityName": "Baltimore"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DET",
+          "homeAbbr": "CHI",
+          "awayName": "Lions",
+          "homeName": "Bears",
+          "awayCityName": "Detroit",
+          "homeCityName": "Chicago"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "DEN",
+          "homeAbbr": "TB",
+          "awayName": "Broncos",
+          "homeName": "Buccaneers",
+          "awayCityName": "Denver",
+          "homeCityName": "Tampa Bay"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "LA",
+          "homeAbbr": "ARI",
+          "awayName": "Rams",
+          "homeName": "Cardinals",
+          "awayCityName": "Los Angeles",
+          "homeCityName": "Arizona"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "NO",
+          "homeAbbr": "SD",
+          "awayName": "Saints",
+          "homeName": "Chargers",
+          "awayCityName": "New Orleans",
+          "homeCityName": "San Diego"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "DAL",
+          "homeAbbr": "SF",
+          "awayName": "Cowboys",
+          "homeName": "49ers",
+          "awayCityName": "Dallas",
+          "homeCityName": "San Francisco"
+        },
+        {
+          "formattedDate": "Sunday, October 02",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "KC",
+          "homeAbbr": "PIT",
+          "awayName": "Chiefs",
+          "homeName": "Steelers",
+          "awayCityName": "Kansas City",
+          "homeCityName": "Pittsburgh"
+        },
+        {
+          "formattedDate": "Monday, October 03",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "NYG",
+          "homeAbbr": "MIN",
+          "awayName": "Giants",
+          "homeName": "Vikings",
+          "awayCityName": "New York",
+          "homeCityName": "Minnesota"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "games": [
+        {
+          "formattedDate": "Thursday, October 06",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "ARI",
+          "homeAbbr": "SF",
+          "awayName": "Cardinals",
+          "homeName": "49ers",
+          "awayCityName": "Arizona",
+          "homeCityName": "San Francisco"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NE",
+          "homeAbbr": "CLE",
+          "awayName": "Patriots",
+          "homeName": "Browns",
+          "awayCityName": "New England",
+          "homeCityName": "Cleveland"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "PHI",
+          "homeAbbr": "DET",
+          "awayName": "Eagles",
+          "homeName": "Lions",
+          "awayCityName": "Philadelphia",
+          "homeCityName": "Detroit"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CHI",
+          "homeAbbr": "IND",
+          "awayName": "Bears",
+          "homeName": "Colts",
+          "awayCityName": "Chicago",
+          "homeCityName": "Indianapolis"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TEN",
+          "homeAbbr": "MIA",
+          "awayName": "Titans",
+          "homeName": "Dolphins",
+          "awayCityName": "Tennessee",
+          "homeCityName": "Miami"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "WAS",
+          "homeAbbr": "BAL",
+          "awayName": "Redskins",
+          "homeName": "Ravens",
+          "awayCityName": "Washington",
+          "homeCityName": "Baltimore"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "HOU",
+          "homeAbbr": "MIN",
+          "awayName": "Texans",
+          "homeName": "Vikings",
+          "awayCityName": "Houston",
+          "homeCityName": "Minnesota"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NYJ",
+          "homeAbbr": "PIT",
+          "awayName": "Jets",
+          "homeName": "Steelers",
+          "awayCityName": "New York",
+          "homeCityName": "Pittsburgh"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "ATL",
+          "homeAbbr": "DEN",
+          "awayName": "Falcons",
+          "homeName": "Broncos",
+          "awayCityName": "Atlanta",
+          "homeCityName": "Denver"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "CIN",
+          "homeAbbr": "DAL",
+          "awayName": "Bengals",
+          "homeName": "Cowboys",
+          "awayCityName": "Cincinnati",
+          "homeCityName": "Dallas"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "BUF",
+          "homeAbbr": "LA",
+          "awayName": "Bills",
+          "homeName": "Rams",
+          "awayCityName": "Buffalo",
+          "homeCityName": "Los Angeles"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "SD",
+          "homeAbbr": "OAK",
+          "awayName": "Chargers",
+          "homeName": "Raiders",
+          "awayCityName": "San Diego",
+          "homeCityName": "Oakland"
+        },
+        {
+          "formattedDate": "Sunday, October 09",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "NYG",
+          "homeAbbr": "GB",
+          "awayName": "Giants",
+          "homeName": "Packers",
+          "awayCityName": "New York",
+          "homeCityName": "Green Bay"
+        },
+        {
+          "formattedDate": "Monday, October 10",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "TB",
+          "homeAbbr": "CAR",
+          "awayName": "Buccaneers",
+          "homeName": "Panthers",
+          "awayCityName": "Tampa Bay",
+          "homeCityName": "Carolina"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "games": [
+        {
+          "formattedDate": "Thursday, October 13",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "DEN",
+          "homeAbbr": "SD",
+          "awayName": "Broncos",
+          "homeName": "Chargers",
+          "awayCityName": "Denver",
+          "homeCityName": "San Diego"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "SF",
+          "homeAbbr": "BUF",
+          "awayName": "49ers",
+          "homeName": "Bills",
+          "awayCityName": "San Francisco",
+          "homeCityName": "Buffalo"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "PHI",
+          "homeAbbr": "WAS",
+          "awayName": "Eagles",
+          "homeName": "Redskins",
+          "awayCityName": "Philadelphia",
+          "homeCityName": "Washington"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CLE",
+          "homeAbbr": "TEN",
+          "awayName": "Browns",
+          "homeName": "Titans",
+          "awayCityName": "Cleveland",
+          "homeCityName": "Tennessee"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BAL",
+          "homeAbbr": "NYG",
+          "awayName": "Ravens",
+          "homeName": "Giants",
+          "awayCityName": "Baltimore",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CAR",
+          "homeAbbr": "NO",
+          "awayName": "Panthers",
+          "homeName": "Saints",
+          "awayCityName": "Carolina",
+          "homeCityName": "New Orleans"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "JAX",
+          "homeAbbr": "CHI",
+          "awayName": "Jaguars",
+          "homeName": "Bears",
+          "awayCityName": "Jacksonville",
+          "homeCityName": "Chicago"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "LA",
+          "homeAbbr": "DET",
+          "awayName": "Rams",
+          "homeName": "Lions",
+          "awayCityName": "Los Angeles",
+          "homeCityName": "Detroit"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "PIT",
+          "homeAbbr": "MIA",
+          "awayName": "Steelers",
+          "homeName": "Dolphins",
+          "awayCityName": "Pittsburgh",
+          "homeCityName": "Miami"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CIN",
+          "homeAbbr": "NE",
+          "awayName": "Bengals",
+          "homeName": "Patriots",
+          "awayCityName": "Cincinnati",
+          "homeCityName": "New England"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "KC",
+          "homeAbbr": "OAK",
+          "awayName": "Chiefs",
+          "homeName": "Raiders",
+          "awayCityName": "Kansas City",
+          "homeCityName": "Oakland"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "ATL",
+          "homeAbbr": "SEA",
+          "awayName": "Falcons",
+          "homeName": "Seahawks",
+          "awayCityName": "Atlanta",
+          "homeCityName": "Seattle"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "DAL",
+          "homeAbbr": "GB",
+          "awayName": "Cowboys",
+          "homeName": "Packers",
+          "awayCityName": "Dallas",
+          "homeCityName": "Green Bay"
+        },
+        {
+          "formattedDate": "Sunday, October 16",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "IND",
+          "homeAbbr": "HOU",
+          "awayName": "Colts",
+          "homeName": "Texans",
+          "awayCityName": "Indianapolis",
+          "homeCityName": "Houston"
+        },
+        {
+          "formattedDate": "Monday, October 17",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "NYJ",
+          "homeAbbr": "ARI",
+          "awayName": "Jets",
+          "homeName": "Cardinals",
+          "awayCityName": "New York",
+          "homeCityName": "Arizona"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "games": [
+        {
+          "formattedDate": "Thursday, October 20",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "CHI",
+          "homeAbbr": "GB",
+          "awayName": "Bears",
+          "homeName": "Packers",
+          "awayCityName": "Chicago",
+          "homeCityName": "Green Bay"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "9:30 AM ",
+          "awayAbbr": "NYG",
+          "homeAbbr": "LA",
+          "awayName": "Giants",
+          "homeName": "Rams",
+          "awayCityName": "New York",
+          "homeCityName": "Los Angeles"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NO",
+          "homeAbbr": "KC",
+          "awayName": "Saints",
+          "homeName": "Chiefs",
+          "awayCityName": "New Orleans",
+          "homeCityName": "Kansas City"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "IND",
+          "homeAbbr": "TEN",
+          "awayName": "Colts",
+          "homeName": "Titans",
+          "awayCityName": "Indianapolis",
+          "homeCityName": "Tennessee"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "MIN",
+          "homeAbbr": "PHI",
+          "awayName": "Vikings",
+          "homeName": "Eagles",
+          "awayCityName": "Minnesota",
+          "homeCityName": "Philadelphia"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CLE",
+          "homeAbbr": "CIN",
+          "awayName": "Browns",
+          "homeName": "Bengals",
+          "awayCityName": "Cleveland",
+          "homeCityName": "Cincinnati"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "WAS",
+          "homeAbbr": "DET",
+          "awayName": "Redskins",
+          "homeName": "Lions",
+          "awayCityName": "Washington",
+          "homeCityName": "Detroit"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "OAK",
+          "homeAbbr": "JAX",
+          "awayName": "Raiders",
+          "homeName": "Jaguars",
+          "awayCityName": "Oakland",
+          "homeCityName": "Jacksonville"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BUF",
+          "homeAbbr": "MIA",
+          "awayName": "Bills",
+          "homeName": "Dolphins",
+          "awayCityName": "Buffalo",
+          "homeCityName": "Miami"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BAL",
+          "homeAbbr": "NYJ",
+          "awayName": "Ravens",
+          "homeName": "Jets",
+          "awayCityName": "Baltimore",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "TB",
+          "homeAbbr": "SF",
+          "awayName": "Buccaneers",
+          "homeName": "49ers",
+          "awayCityName": "Tampa Bay",
+          "homeCityName": "San Francisco"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "SD",
+          "homeAbbr": "ATL",
+          "awayName": "Chargers",
+          "homeName": "Falcons",
+          "awayCityName": "San Diego",
+          "homeCityName": "Atlanta"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "NE",
+          "homeAbbr": "PIT",
+          "awayName": "Patriots",
+          "homeName": "Steelers",
+          "awayCityName": "New England",
+          "homeCityName": "Pittsburgh"
+        },
+        {
+          "formattedDate": "Sunday, October 23",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "SEA",
+          "homeAbbr": "ARI",
+          "awayName": "Seahawks",
+          "homeName": "Cardinals",
+          "awayCityName": "Seattle",
+          "homeCityName": "Arizona"
+        },
+        {
+          "formattedDate": "Monday, October 24",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "HOU",
+          "homeAbbr": "DEN",
+          "awayName": "Texans",
+          "homeName": "Broncos",
+          "awayCityName": "Houston",
+          "homeCityName": "Denver"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "games": [
+        {
+          "formattedDate": "Thursday, October 27",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "JAX",
+          "homeAbbr": "TEN",
+          "awayName": "Jaguars",
+          "homeName": "Titans",
+          "awayCityName": "Jacksonville",
+          "homeCityName": "Tennessee"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "9:30 AM ",
+          "awayAbbr": "WAS",
+          "homeAbbr": "CIN",
+          "awayName": "Redskins",
+          "homeName": "Bengals",
+          "awayCityName": "Washington",
+          "homeCityName": "Cincinnati"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "KC",
+          "homeAbbr": "IND",
+          "awayName": "Chiefs",
+          "homeName": "Colts",
+          "awayCityName": "Kansas City",
+          "homeCityName": "Indianapolis"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "OAK",
+          "homeAbbr": "TB",
+          "awayName": "Raiders",
+          "homeName": "Buccaneers",
+          "awayCityName": "Oakland",
+          "homeCityName": "Tampa Bay"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "SEA",
+          "homeAbbr": "NO",
+          "awayName": "Seahawks",
+          "homeName": "Saints",
+          "awayCityName": "Seattle",
+          "homeCityName": "New Orleans"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DET",
+          "homeAbbr": "HOU",
+          "awayName": "Lions",
+          "homeName": "Texans",
+          "awayCityName": "Detroit",
+          "homeCityName": "Houston"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NYJ",
+          "homeAbbr": "CLE",
+          "awayName": "Jets",
+          "homeName": "Browns",
+          "awayCityName": "New York",
+          "homeCityName": "Cleveland"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "GB",
+          "homeAbbr": "ATL",
+          "awayName": "Packers",
+          "homeName": "Falcons",
+          "awayCityName": "Green Bay",
+          "homeCityName": "Atlanta"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NE",
+          "homeAbbr": "BUF",
+          "awayName": "Patriots",
+          "homeName": "Bills",
+          "awayCityName": "New England",
+          "homeCityName": "Buffalo"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "SD",
+          "homeAbbr": "DEN",
+          "awayName": "Chargers",
+          "homeName": "Broncos",
+          "awayCityName": "San Diego",
+          "homeCityName": "Denver"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "ARI",
+          "homeAbbr": "CAR",
+          "awayName": "Cardinals",
+          "homeName": "Panthers",
+          "awayCityName": "Arizona",
+          "homeCityName": "Carolina"
+        },
+        {
+          "formattedDate": "Sunday, October 30",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "PHI",
+          "homeAbbr": "DAL",
+          "awayName": "Eagles",
+          "homeName": "Cowboys",
+          "awayCityName": "Philadelphia",
+          "homeCityName": "Dallas"
+        },
+        {
+          "formattedDate": "Monday, October 31",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "MIN",
+          "homeAbbr": "CHI",
+          "awayName": "Vikings",
+          "homeName": "Bears",
+          "awayCityName": "Minnesota",
+          "homeCityName": "Chicago"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "games": [
+        {
+          "formattedDate": "Thursday, November 03",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "ATL",
+          "homeAbbr": "TB",
+          "awayName": "Falcons",
+          "homeName": "Buccaneers",
+          "awayCityName": "Atlanta",
+          "homeCityName": "Tampa Bay"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DET",
+          "homeAbbr": "MIN",
+          "awayName": "Lions",
+          "homeName": "Vikings",
+          "awayCityName": "Detroit",
+          "homeCityName": "Minnesota"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "PHI",
+          "homeAbbr": "NYG",
+          "awayName": "Eagles",
+          "homeName": "Giants",
+          "awayCityName": "Philadelphia",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NYJ",
+          "homeAbbr": "MIA",
+          "awayName": "Jets",
+          "homeName": "Dolphins",
+          "awayCityName": "New York",
+          "homeCityName": "Miami"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "JAX",
+          "homeAbbr": "KC",
+          "awayName": "Jaguars",
+          "homeName": "Chiefs",
+          "awayCityName": "Jacksonville",
+          "homeCityName": "Kansas City"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DAL",
+          "homeAbbr": "CLE",
+          "awayName": "Cowboys",
+          "homeName": "Browns",
+          "awayCityName": "Dallas",
+          "homeCityName": "Cleveland"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "PIT",
+          "homeAbbr": "BAL",
+          "awayName": "Steelers",
+          "homeName": "Ravens",
+          "awayCityName": "Pittsburgh",
+          "homeCityName": "Baltimore"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "NO",
+          "homeAbbr": "SF",
+          "awayName": "Saints",
+          "homeName": "49ers",
+          "awayCityName": "New Orleans",
+          "homeCityName": "San Francisco"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "CAR",
+          "homeAbbr": "LA",
+          "awayName": "Panthers",
+          "homeName": "Rams",
+          "awayCityName": "Carolina",
+          "homeCityName": "Los Angeles"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "IND",
+          "homeAbbr": "GB",
+          "awayName": "Colts",
+          "homeName": "Packers",
+          "awayCityName": "Indianapolis",
+          "homeCityName": "Green Bay"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "TEN",
+          "homeAbbr": "SD",
+          "awayName": "Titans",
+          "homeName": "Chargers",
+          "awayCityName": "Tennessee",
+          "homeCityName": "San Diego"
+        },
+        {
+          "formattedDate": "Sunday, November 06",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "DEN",
+          "homeAbbr": "OAK",
+          "awayName": "Broncos",
+          "homeName": "Raiders",
+          "awayCityName": "Denver",
+          "homeCityName": "Oakland"
+        },
+        {
+          "formattedDate": "Monday, November 07",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "BUF",
+          "homeAbbr": "SEA",
+          "awayName": "Bills",
+          "homeName": "Seahawks",
+          "awayCityName": "Buffalo",
+          "homeCityName": "Seattle"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "games": [
+        {
+          "formattedDate": "Thursday, November 10",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "CLE",
+          "homeAbbr": "BAL",
+          "awayName": "Browns",
+          "homeName": "Ravens",
+          "awayCityName": "Cleveland",
+          "homeCityName": "Baltimore"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "HOU",
+          "homeAbbr": "JAX",
+          "awayName": "Texans",
+          "homeName": "Jaguars",
+          "awayCityName": "Houston",
+          "homeCityName": "Jacksonville"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DEN",
+          "homeAbbr": "NO",
+          "awayName": "Broncos",
+          "homeName": "Saints",
+          "awayCityName": "Denver",
+          "homeCityName": "New Orleans"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "LA",
+          "homeAbbr": "NYJ",
+          "awayName": "Rams",
+          "homeName": "Jets",
+          "awayCityName": "Los Angeles",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "ATL",
+          "homeAbbr": "PHI",
+          "awayName": "Falcons",
+          "homeName": "Eagles",
+          "awayCityName": "Atlanta",
+          "homeCityName": "Philadelphia"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "KC",
+          "homeAbbr": "CAR",
+          "awayName": "Chiefs",
+          "homeName": "Panthers",
+          "awayCityName": "Kansas City",
+          "homeCityName": "Carolina"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CHI",
+          "homeAbbr": "TB",
+          "awayName": "Bears",
+          "homeName": "Buccaneers",
+          "awayCityName": "Chicago",
+          "homeCityName": "Tampa Bay"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "MIN",
+          "homeAbbr": "WAS",
+          "awayName": "Vikings",
+          "homeName": "Redskins",
+          "awayCityName": "Minnesota",
+          "homeCityName": "Washington"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "GB",
+          "homeAbbr": "TEN",
+          "awayName": "Packers",
+          "homeName": "Titans",
+          "awayCityName": "Green Bay",
+          "homeCityName": "Tennessee"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "MIA",
+          "homeAbbr": "SD",
+          "awayName": "Dolphins",
+          "homeName": "Chargers",
+          "awayCityName": "Miami",
+          "homeCityName": "San Diego"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "SF",
+          "homeAbbr": "ARI",
+          "awayName": "49ers",
+          "homeName": "Cardinals",
+          "awayCityName": "San Francisco",
+          "homeCityName": "Arizona"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "DAL",
+          "homeAbbr": "PIT",
+          "awayName": "Cowboys",
+          "homeName": "Steelers",
+          "awayCityName": "Dallas",
+          "homeCityName": "Pittsburgh"
+        },
+        {
+          "formattedDate": "Sunday, November 13",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "SEA",
+          "homeAbbr": "NE",
+          "awayName": "Seahawks",
+          "homeName": "Patriots",
+          "awayCityName": "Seattle",
+          "homeCityName": "New England"
+        },
+        {
+          "formattedDate": "Monday, November 14",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "CIN",
+          "homeAbbr": "NYG",
+          "awayName": "Bengals",
+          "homeName": "Giants",
+          "awayCityName": "Cincinnati",
+          "homeCityName": "New York"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "games": [
+        {
+          "formattedDate": "Thursday, November 17",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "NO",
+          "homeAbbr": "CAR",
+          "awayName": "Saints",
+          "homeName": "Panthers",
+          "awayCityName": "New Orleans",
+          "homeCityName": "Carolina"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "PIT",
+          "homeAbbr": "CLE",
+          "awayName": "Steelers",
+          "homeName": "Browns",
+          "awayCityName": "Pittsburgh",
+          "homeCityName": "Cleveland"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BAL",
+          "homeAbbr": "DAL",
+          "awayName": "Ravens",
+          "homeName": "Cowboys",
+          "awayCityName": "Baltimore",
+          "homeCityName": "Dallas"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "JAX",
+          "homeAbbr": "DET",
+          "awayName": "Jaguars",
+          "homeName": "Lions",
+          "awayCityName": "Jacksonville",
+          "homeCityName": "Detroit"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TEN",
+          "homeAbbr": "IND",
+          "awayName": "Titans",
+          "homeName": "Colts",
+          "awayCityName": "Tennessee",
+          "homeCityName": "Indianapolis"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BUF",
+          "homeAbbr": "CIN",
+          "awayName": "Bills",
+          "homeName": "Bengals",
+          "awayCityName": "Buffalo",
+          "homeCityName": "Cincinnati"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TB",
+          "homeAbbr": "KC",
+          "awayName": "Buccaneers",
+          "homeName": "Chiefs",
+          "awayCityName": "Tampa Bay",
+          "homeCityName": "Kansas City"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CHI",
+          "homeAbbr": "NYG",
+          "awayName": "Bears",
+          "homeName": "Giants",
+          "awayCityName": "Chicago",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "ARI",
+          "homeAbbr": "MIN",
+          "awayName": "Cardinals",
+          "homeName": "Vikings",
+          "awayCityName": "Arizona",
+          "homeCityName": "Minnesota"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "MIA",
+          "homeAbbr": "LA",
+          "awayName": "Dolphins",
+          "homeName": "Rams",
+          "awayCityName": "Miami",
+          "homeCityName": "Los Angeles"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "NE",
+          "homeAbbr": "SF",
+          "awayName": "Patriots",
+          "homeName": "49ers",
+          "awayCityName": "New England",
+          "homeCityName": "San Francisco"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "PHI",
+          "homeAbbr": "SEA",
+          "awayName": "Eagles",
+          "homeName": "Seahawks",
+          "awayCityName": "Philadelphia",
+          "homeCityName": "Seattle"
+        },
+        {
+          "formattedDate": "Sunday, November 20",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "GB",
+          "homeAbbr": "WAS",
+          "awayName": "Packers",
+          "homeName": "Redskins",
+          "awayCityName": "Green Bay",
+          "homeCityName": "Washington"
+        },
+        {
+          "formattedDate": "Monday, November 21",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "HOU",
+          "homeAbbr": "OAK",
+          "awayName": "Texans",
+          "homeName": "Raiders",
+          "awayCityName": "Houston",
+          "homeCityName": "Oakland"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "games": [
+        {
+          "formattedDate": "Thursday, November 24",
+          "formattedTime": "12:30 PM ",
+          "awayAbbr": "MIN",
+          "homeAbbr": "DET",
+          "awayName": "Vikings",
+          "homeName": "Lions",
+          "awayCityName": "Minnesota",
+          "homeCityName": "Detroit"
+        },
+        {
+          "formattedDate": "Thursday, November 24",
+          "formattedTime": "4:30 PM ",
+          "awayAbbr": "WAS",
+          "homeAbbr": "DAL",
+          "awayName": "Redskins",
+          "homeName": "Cowboys",
+          "awayCityName": "Washington",
+          "homeCityName": "Dallas"
+        },
+        {
+          "formattedDate": "Thursday, November 24",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "PIT",
+          "homeAbbr": "IND",
+          "awayName": "Steelers",
+          "homeName": "Colts",
+          "awayCityName": "Pittsburgh",
+          "homeCityName": "Indianapolis"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TEN",
+          "homeAbbr": "CHI",
+          "awayName": "Titans",
+          "homeName": "Bears",
+          "awayCityName": "Tennessee",
+          "homeCityName": "Chicago"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "JAX",
+          "homeAbbr": "BUF",
+          "awayName": "Jaguars",
+          "homeName": "Bills",
+          "awayCityName": "Jacksonville",
+          "homeCityName": "Buffalo"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CIN",
+          "homeAbbr": "BAL",
+          "awayName": "Bengals",
+          "homeName": "Ravens",
+          "awayCityName": "Cincinnati",
+          "homeCityName": "Baltimore"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "ARI",
+          "homeAbbr": "ATL",
+          "awayName": "Cardinals",
+          "homeName": "Falcons",
+          "awayCityName": "Arizona",
+          "homeCityName": "Atlanta"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NYG",
+          "homeAbbr": "CLE",
+          "awayName": "Giants",
+          "homeName": "Browns",
+          "awayCityName": "New York",
+          "homeCityName": "Cleveland"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "LA",
+          "homeAbbr": "NO",
+          "awayName": "Rams",
+          "homeName": "Saints",
+          "awayCityName": "Los Angeles",
+          "homeCityName": "New Orleans"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "SF",
+          "homeAbbr": "MIA",
+          "awayName": "49ers",
+          "homeName": "Dolphins",
+          "awayCityName": "San Francisco",
+          "homeCityName": "Miami"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "SD",
+          "homeAbbr": "HOU",
+          "awayName": "Chargers",
+          "homeName": "Texans",
+          "awayCityName": "San Diego",
+          "homeCityName": "Houston"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "SEA",
+          "homeAbbr": "TB",
+          "awayName": "Seahawks",
+          "homeName": "Buccaneers",
+          "awayCityName": "Seattle",
+          "homeCityName": "Tampa Bay"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "CAR",
+          "homeAbbr": "OAK",
+          "awayName": "Panthers",
+          "homeName": "Raiders",
+          "awayCityName": "Carolina",
+          "homeCityName": "Oakland"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "KC",
+          "homeAbbr": "DEN",
+          "awayName": "Chiefs",
+          "homeName": "Broncos",
+          "awayCityName": "Kansas City",
+          "homeCityName": "Denver"
+        },
+        {
+          "formattedDate": "Sunday, November 27",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "NE",
+          "homeAbbr": "NYJ",
+          "awayName": "Patriots",
+          "homeName": "Jets",
+          "awayCityName": "New England",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Monday, November 28",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "GB",
+          "homeAbbr": "PHI",
+          "awayName": "Packers",
+          "homeName": "Eagles",
+          "awayCityName": "Green Bay",
+          "homeCityName": "Philadelphia"
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "games": [
+        {
+          "formattedDate": "Thursday, December 01",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "DAL",
+          "homeAbbr": "MIN",
+          "awayName": "Cowboys",
+          "homeName": "Vikings",
+          "awayCityName": "Dallas",
+          "homeCityName": "Minnesota"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "KC",
+          "homeAbbr": "ATL",
+          "awayName": "Chiefs",
+          "homeName": "Falcons",
+          "awayCityName": "Kansas City",
+          "homeCityName": "Atlanta"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DET",
+          "homeAbbr": "NO",
+          "awayName": "Lions",
+          "homeName": "Saints",
+          "awayCityName": "Detroit",
+          "homeCityName": "New Orleans"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "LA",
+          "homeAbbr": "NE",
+          "awayName": "Rams",
+          "homeName": "Patriots",
+          "awayCityName": "Los Angeles",
+          "homeCityName": "New England"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DEN",
+          "homeAbbr": "JAX",
+          "awayName": "Broncos",
+          "homeName": "Jaguars",
+          "awayCityName": "Denver",
+          "homeCityName": "Jacksonville"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "HOU",
+          "homeAbbr": "GB",
+          "awayName": "Texans",
+          "homeName": "Packers",
+          "awayCityName": "Houston",
+          "homeCityName": "Green Bay"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "PHI",
+          "homeAbbr": "CIN",
+          "awayName": "Eagles",
+          "homeName": "Bengals",
+          "awayCityName": "Philadelphia",
+          "homeCityName": "Cincinnati"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "MIA",
+          "homeAbbr": "BAL",
+          "awayName": "Dolphins",
+          "homeName": "Ravens",
+          "awayCityName": "Miami",
+          "homeCityName": "Baltimore"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "SF",
+          "homeAbbr": "CHI",
+          "awayName": "49ers",
+          "homeName": "Bears",
+          "awayCityName": "San Francisco",
+          "homeCityName": "Chicago"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "BUF",
+          "homeAbbr": "OAK",
+          "awayName": "Bills",
+          "homeName": "Raiders",
+          "awayCityName": "Buffalo",
+          "homeCityName": "Oakland"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "NYG",
+          "homeAbbr": "PIT",
+          "awayName": "Giants",
+          "homeName": "Steelers",
+          "awayCityName": "New York",
+          "homeCityName": "Pittsburgh"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "WAS",
+          "homeAbbr": "ARI",
+          "awayName": "Redskins",
+          "homeName": "Cardinals",
+          "awayCityName": "Washington",
+          "homeCityName": "Arizona"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "TB",
+          "homeAbbr": "SD",
+          "awayName": "Buccaneers",
+          "homeName": "Chargers",
+          "awayCityName": "Tampa Bay",
+          "homeCityName": "San Diego"
+        },
+        {
+          "formattedDate": "Sunday, December 04",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "CAR",
+          "homeAbbr": "SEA",
+          "awayName": "Panthers",
+          "homeName": "Seahawks",
+          "awayCityName": "Carolina",
+          "homeCityName": "Seattle"
+        },
+        {
+          "formattedDate": "Monday, December 05",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "IND",
+          "homeAbbr": "NYJ",
+          "awayName": "Colts",
+          "homeName": "Jets",
+          "awayCityName": "Indianapolis",
+          "homeCityName": "New York"
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "games": [
+        {
+          "formattedDate": "Thursday, December 08",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "OAK",
+          "homeAbbr": "KC",
+          "awayName": "Raiders",
+          "homeName": "Chiefs",
+          "awayCityName": "Oakland",
+          "homeCityName": "Kansas City"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "PIT",
+          "homeAbbr": "BUF",
+          "awayName": "Steelers",
+          "homeName": "Bills",
+          "awayCityName": "Pittsburgh",
+          "homeCityName": "Buffalo"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DEN",
+          "homeAbbr": "TEN",
+          "awayName": "Broncos",
+          "homeName": "Titans",
+          "awayCityName": "Denver",
+          "homeCityName": "Tennessee"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NO",
+          "homeAbbr": "TB",
+          "awayName": "Saints",
+          "homeName": "Buccaneers",
+          "awayCityName": "New Orleans",
+          "homeCityName": "Tampa Bay"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "WAS",
+          "homeAbbr": "PHI",
+          "awayName": "Redskins",
+          "homeName": "Eagles",
+          "awayCityName": "Washington",
+          "homeCityName": "Philadelphia"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "ARI",
+          "homeAbbr": "MIA",
+          "awayName": "Cardinals",
+          "homeName": "Dolphins",
+          "awayCityName": "Arizona",
+          "homeCityName": "Miami"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "SD",
+          "homeAbbr": "CAR",
+          "awayName": "Chargers",
+          "homeName": "Panthers",
+          "awayCityName": "San Diego",
+          "homeCityName": "Carolina"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CIN",
+          "homeAbbr": "CLE",
+          "awayName": "Bengals",
+          "homeName": "Browns",
+          "awayCityName": "Cincinnati",
+          "homeCityName": "Cleveland"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CHI",
+          "homeAbbr": "DET",
+          "awayName": "Bears",
+          "homeName": "Lions",
+          "awayCityName": "Chicago",
+          "homeCityName": "Detroit"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "HOU",
+          "homeAbbr": "IND",
+          "awayName": "Texans",
+          "homeName": "Colts",
+          "awayCityName": "Houston",
+          "homeCityName": "Indianapolis"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "MIN",
+          "homeAbbr": "JAX",
+          "awayName": "Vikings",
+          "homeName": "Jaguars",
+          "awayCityName": "Minnesota",
+          "homeCityName": "Jacksonville"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "NYJ",
+          "homeAbbr": "SF",
+          "awayName": "Jets",
+          "homeName": "49ers",
+          "awayCityName": "New York",
+          "homeCityName": "San Francisco"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "ATL",
+          "homeAbbr": "LA",
+          "awayName": "Falcons",
+          "homeName": "Rams",
+          "awayCityName": "Atlanta",
+          "homeCityName": "Los Angeles"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "SEA",
+          "homeAbbr": "GB",
+          "awayName": "Seahawks",
+          "homeName": "Packers",
+          "awayCityName": "Seattle",
+          "homeCityName": "Green Bay"
+        },
+        {
+          "formattedDate": "Sunday, December 11",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "DAL",
+          "homeAbbr": "NYG",
+          "awayName": "Cowboys",
+          "homeName": "Giants",
+          "awayCityName": "Dallas",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Monday, December 12",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "BAL",
+          "homeAbbr": "NE",
+          "awayName": "Ravens",
+          "homeName": "Patriots",
+          "awayCityName": "Baltimore",
+          "homeCityName": "New England"
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "games": [
+        {
+          "formattedDate": "Thursday, December 15",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "LA",
+          "homeAbbr": "SEA",
+          "awayName": "Rams",
+          "homeName": "Seahawks",
+          "awayCityName": "Los Angeles",
+          "homeCityName": "Seattle"
+        },
+        {
+          "formattedDate": "Saturday, December 17",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "MIA",
+          "homeAbbr": "NYJ",
+          "awayName": "Dolphins",
+          "homeName": "Jets",
+          "awayCityName": "Miami",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "GB",
+          "homeAbbr": "CHI",
+          "awayName": "Packers",
+          "homeName": "Bears",
+          "awayCityName": "Green Bay",
+          "homeCityName": "Chicago"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TB",
+          "homeAbbr": "DAL",
+          "awayName": "Buccaneers",
+          "homeName": "Cowboys",
+          "awayCityName": "Tampa Bay",
+          "homeCityName": "Dallas"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "JAX",
+          "homeAbbr": "HOU",
+          "awayName": "Jaguars",
+          "homeName": "Texans",
+          "awayCityName": "Jacksonville",
+          "homeCityName": "Houston"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CLE",
+          "homeAbbr": "BUF",
+          "awayName": "Browns",
+          "homeName": "Bills",
+          "awayCityName": "Cleveland",
+          "homeCityName": "Buffalo"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "PHI",
+          "homeAbbr": "BAL",
+          "awayName": "Eagles",
+          "homeName": "Ravens",
+          "awayCityName": "Philadelphia",
+          "homeCityName": "Baltimore"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TEN",
+          "homeAbbr": "KC",
+          "awayName": "Titans",
+          "homeName": "Chiefs",
+          "awayCityName": "Tennessee",
+          "homeCityName": "Kansas City"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DET",
+          "homeAbbr": "NYG",
+          "awayName": "Lions",
+          "homeName": "Giants",
+          "awayCityName": "Detroit",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "IND",
+          "homeAbbr": "MIN",
+          "awayName": "Colts",
+          "homeName": "Vikings",
+          "awayCityName": "Indianapolis",
+          "homeCityName": "Minnesota"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "NO",
+          "homeAbbr": "ARI",
+          "awayName": "Saints",
+          "homeName": "Cardinals",
+          "awayCityName": "New Orleans",
+          "homeCityName": "Arizona"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "SF",
+          "homeAbbr": "ATL",
+          "awayName": "49ers",
+          "homeName": "Falcons",
+          "awayCityName": "San Francisco",
+          "homeCityName": "Atlanta"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "NE",
+          "homeAbbr": "DEN",
+          "awayName": "Patriots",
+          "homeName": "Broncos",
+          "awayCityName": "New England",
+          "homeCityName": "Denver"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "OAK",
+          "homeAbbr": "SD",
+          "awayName": "Raiders",
+          "homeName": "Chargers",
+          "awayCityName": "Oakland",
+          "homeCityName": "San Diego"
+        },
+        {
+          "formattedDate": "Sunday, December 18",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "PIT",
+          "homeAbbr": "CIN",
+          "awayName": "Steelers",
+          "homeName": "Bengals",
+          "awayCityName": "Pittsburgh",
+          "homeCityName": "Cincinnati"
+        },
+        {
+          "formattedDate": "Monday, December 19",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "CAR",
+          "homeAbbr": "WAS",
+          "awayName": "Panthers",
+          "homeName": "Redskins",
+          "awayCityName": "Carolina",
+          "homeCityName": "Washington"
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "games": [
+        {
+          "formattedDate": "Thursday, December 22",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "NYG",
+          "homeAbbr": "PHI",
+          "awayName": "Giants",
+          "homeName": "Eagles",
+          "awayCityName": "New York",
+          "homeCityName": "Philadelphia"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "MIA",
+          "homeAbbr": "BUF",
+          "awayName": "Dolphins",
+          "homeName": "Bills",
+          "awayCityName": "Miami",
+          "homeCityName": "Buffalo"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TB",
+          "homeAbbr": "NO",
+          "awayName": "Buccaneers",
+          "homeName": "Saints",
+          "awayCityName": "Tampa Bay",
+          "homeCityName": "New Orleans"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NYJ",
+          "homeAbbr": "NE",
+          "awayName": "Jets",
+          "homeName": "Patriots",
+          "awayCityName": "New York",
+          "homeCityName": "New England"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "TEN",
+          "homeAbbr": "JAX",
+          "awayName": "Titans",
+          "homeName": "Jaguars",
+          "awayCityName": "Tennessee",
+          "homeCityName": "Jacksonville"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "MIN",
+          "homeAbbr": "GB",
+          "awayName": "Vikings",
+          "homeName": "Packers",
+          "awayCityName": "Minnesota",
+          "homeCityName": "Green Bay"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "SD",
+          "homeAbbr": "CLE",
+          "awayName": "Chargers",
+          "homeName": "Browns",
+          "awayCityName": "San Diego",
+          "homeCityName": "Cleveland"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "WAS",
+          "homeAbbr": "CHI",
+          "awayName": "Redskins",
+          "homeName": "Bears",
+          "awayCityName": "Washington",
+          "homeCityName": "Chicago"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "ATL",
+          "homeAbbr": "CAR",
+          "awayName": "Falcons",
+          "homeName": "Panthers",
+          "awayCityName": "Atlanta",
+          "homeCityName": "Carolina"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "4:05 PM ",
+          "awayAbbr": "IND",
+          "homeAbbr": "OAK",
+          "awayName": "Colts",
+          "homeName": "Raiders",
+          "awayCityName": "Indianapolis",
+          "homeCityName": "Oakland"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "ARI",
+          "homeAbbr": "SEA",
+          "awayName": "Cardinals",
+          "homeName": "Seahawks",
+          "awayCityName": "Arizona",
+          "homeCityName": "Seattle"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "SF",
+          "homeAbbr": "LA",
+          "awayName": "49ers",
+          "homeName": "Rams",
+          "awayCityName": "San Francisco",
+          "homeCityName": "Los Angeles"
+        },
+        {
+          "formattedDate": "Saturday, December 24",
+          "formattedTime": "8:25 PM ",
+          "awayAbbr": "CIN",
+          "homeAbbr": "HOU",
+          "awayName": "Bengals",
+          "homeName": "Texans",
+          "awayCityName": "Cincinnati",
+          "homeCityName": "Houston"
+        },
+        {
+          "formattedDate": "Sunday, December 25",
+          "formattedTime": "4:30 PM ",
+          "awayAbbr": "BAL",
+          "homeAbbr": "PIT",
+          "awayName": "Ravens",
+          "homeName": "Steelers",
+          "awayCityName": "Baltimore",
+          "homeCityName": "Pittsburgh"
+        },
+        {
+          "formattedDate": "Sunday, December 25",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "DEN",
+          "homeAbbr": "KC",
+          "awayName": "Broncos",
+          "homeName": "Chiefs",
+          "awayCityName": "Denver",
+          "homeCityName": "Kansas City"
+        },
+        {
+          "formattedDate": "Monday, December 26",
+          "formattedTime": "8:30 PM ",
+          "awayAbbr": "DET",
+          "homeAbbr": "DAL",
+          "awayName": "Lions",
+          "homeName": "Cowboys",
+          "awayCityName": "Detroit",
+          "homeCityName": "Dallas"
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "games": [
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NO",
+          "homeAbbr": "ATL",
+          "awayName": "Saints",
+          "homeName": "Falcons",
+          "awayCityName": "New Orleans",
+          "homeCityName": "Atlanta"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BAL",
+          "homeAbbr": "CIN",
+          "awayName": "Ravens",
+          "homeName": "Bengals",
+          "awayCityName": "Baltimore",
+          "homeCityName": "Cincinnati"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NYG",
+          "homeAbbr": "WAS",
+          "awayName": "Giants",
+          "homeName": "Redskins",
+          "awayCityName": "New York",
+          "homeCityName": "Washington"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "HOU",
+          "homeAbbr": "TEN",
+          "awayName": "Texans",
+          "homeName": "Titans",
+          "awayCityName": "Houston",
+          "homeCityName": "Tennessee"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CAR",
+          "homeAbbr": "TB",
+          "awayName": "Panthers",
+          "homeName": "Buccaneers",
+          "awayCityName": "Carolina",
+          "homeCityName": "Tampa Bay"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "GB",
+          "homeAbbr": "DET",
+          "awayName": "Packers",
+          "homeName": "Lions",
+          "awayCityName": "Green Bay",
+          "homeCityName": "Detroit"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "JAX",
+          "homeAbbr": "IND",
+          "awayName": "Jaguars",
+          "homeName": "Colts",
+          "awayCityName": "Jacksonville",
+          "homeCityName": "Indianapolis"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "NE",
+          "homeAbbr": "MIA",
+          "awayName": "Patriots",
+          "homeName": "Dolphins",
+          "awayCityName": "New England",
+          "homeCityName": "Miami"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CHI",
+          "homeAbbr": "MIN",
+          "awayName": "Bears",
+          "homeName": "Vikings",
+          "awayCityName": "Chicago",
+          "homeCityName": "Minnesota"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "BUF",
+          "homeAbbr": "NYJ",
+          "awayName": "Bills",
+          "homeName": "Jets",
+          "awayCityName": "Buffalo",
+          "homeCityName": "New York"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "DAL",
+          "homeAbbr": "PHI",
+          "awayName": "Cowboys",
+          "homeName": "Eagles",
+          "awayCityName": "Dallas",
+          "homeCityName": "Philadelphia"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "1:00 PM ",
+          "awayAbbr": "CLE",
+          "homeAbbr": "PIT",
+          "awayName": "Browns",
+          "homeName": "Steelers",
+          "awayCityName": "Cleveland",
+          "homeCityName": "Pittsburgh"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "ARI",
+          "homeAbbr": "LA",
+          "awayName": "Cardinals",
+          "homeName": "Rams",
+          "awayCityName": "Arizona",
+          "homeCityName": "Los Angeles"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "OAK",
+          "homeAbbr": "DEN",
+          "awayName": "Raiders",
+          "homeName": "Broncos",
+          "awayCityName": "Oakland",
+          "homeCityName": "Denver"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "KC",
+          "homeAbbr": "SD",
+          "awayName": "Chiefs",
+          "homeName": "Chargers",
+          "awayCityName": "Kansas City",
+          "homeCityName": "San Diego"
+        },
+        {
+          "formattedDate": "Sunday, January 01",
+          "formattedTime": "4:25 PM ",
+          "awayAbbr": "SEA",
+          "homeAbbr": "SF",
+          "awayName": "Seahawks",
+          "homeName": "49ers",
+          "awayCityName": "Seattle",
+          "homeCityName": "San Francisco"
+        }
+      ]
+    }
+  ]
+}
